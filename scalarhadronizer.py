@@ -1,4 +1,3 @@
-# %%
 from particle import Particle 
 import numpy as np 
 import xml.etree.ElementTree as ET
@@ -8,11 +7,15 @@ from bs4 import BeautifulSoup
 from collections import Counter
 import networkx as nx 
 import textwrap
+import logging
 
 class ScalarHadronizer:
     def __init__(self,path_to_decayXML='DECAY.XML'):
         self.all_decaysXML=self.read_decayXML(path_to_decayXML)
         self.set_stable=[111]
+
+        logging.basicConfig(filename='logfile.log', level=logging.INFO, filemode='w', format='%(asctime)s - %(levelname)s - %(message)s')
+
 
     def read_decayXML(self,path_to_decayXML):
         with open(path_to_decayXML, 'r') as f:
@@ -28,6 +31,7 @@ class ScalarHadronizer:
                 pdgid=Particle.from_evtgen_name(p['name']).pdgid
                 all_decaysXML[pdgid]=p
             except:
+                logging.info(f'Invalid particle {p["name"]} in DECAY.XML')
                 None
         return all_decaysXML
 
@@ -44,14 +48,20 @@ class ScalarHadronizer:
             for channel in channels:
                 branching_ratio=float(channel['br'])
                 if branching_ratio>0.01: 
-                    daughters=tuple([int(Particle.from_evtgen_name(x).pdgid) for x in channel['daughters'].split()])
+                    try:
+                        daughters=tuple([int(Particle.from_evtgen_name(x).pdgid) for x in channel['daughters'].split()])
+                    except:
+                        branching_ratios={}
+                        d=channel['daughters']
+                        logging.info(f'Invalid decay into {d} for particle {Particle.from_pdgid(pdgid)},{pdgid}')
+                        break
                     branching_ratios[daughters]=branching_ratio
                     total_br+=branching_ratio
             branching_ratios={d:b/total_br for d,b in branching_ratios.items()}
         return branching_ratios
     
     def check_meson_combinations(self,m1,m2,m):
-        mesons_to_exclude=[130,310]
+        mesons_to_exclude=[130,310]                                                                         #exclude KL and KS
 
         valid=True
         if m1.mass+m2.mass > m: valid=False                                                                 #check mass
@@ -85,11 +95,12 @@ class ScalarHadronizer:
         meson_pairs={k:v/new_total_weight for k,v in meson_pairs.items()}
         return meson_pairs
 
-    def initialWeight(self,m1,m2,scalar_mass,spin_supression_par=1,up_weight=1,down_weight=1,strange_weight=1e-5,charm_weight=1,bottom_weight=1):
+    def initialWeight(self,m1,m2,scalar_mass,OAM_supression_par=1,up_weight=1,down_weight=0.5,strange_weight=1e-5,charm_weight=1e-10,bottom_weight=1e-10):
         p_restframe=np.sqrt((scalar_mass**2-(m1.mass+m2.mass)**2)*(scalar_mass**2-(m1.mass-m2.mass)**2))/2/scalar_mass
 
         #spin multiplicity
-        if m1.J==m2.J: spin_factor=(2*m1.J+1)*spin_supression_par
+        if m1.J==1 and m2.J==1: spin_factor=9-OAM_supression_par*6 #9 for OAM_supression_par=0 and 3 for OAM_supression_par=1
+        #this is probably not correct yet
         else: spin_factor=(2*m1.J+1)*(2*m2.J+1)
 
         #quark weights
@@ -100,6 +111,7 @@ class ScalarHadronizer:
         if m1.pdgid.has_charm: quark_weight*=charm_weight
         if m1.pdgid.has_bottom: quark_weight*=bottom_weight
 
+        #isospin weight
         if m1.I==0.5 and m2.I==0.5: isospin_factor=0.5
         if m1.I==1 and m2.I==1: isospin_factor=0.33
         else: isospin_factor=1
@@ -200,6 +212,12 @@ class ScalarHadronizer:
                 vid+=Particle.from_pdgid(x[0]).latex_name
             return vid+'$'
 
+    def print_initial_states(self,scalar_mass):
+        initial_states=self.make_initialMesonPairs(scalar_mass)
+        print('The following initial states were generated:')
+        for k,v in initial_states.items():
+            print(k,v)
+
     def plot_from_initial_state(self,decay_graph,state):
         descendants=nx.descendants(decay_graph,state)
         subgraph = decay_graph.subgraph(descendants.union({state}))
@@ -258,6 +276,7 @@ class ScalarHadronizer:
         plt.show()
 
     def plot_hist(self,decay_graph,scalar_mass,n=10):
+        import matplotlib.pyplot as plt 
         fig, ax=plt.subplots()
         final_states=self.get_most_common_final_states(decay_graph)
         labels=list(final_states.keys())[:n]
@@ -266,41 +285,10 @@ class ScalarHadronizer:
         x_axis=range(n)
         ax.set_xticks(x_axis, [textwrap.fill(label, 10,break_long_words=False) for label in latex_ids], rotation = 20, fontsize=8, horizontalalignment="center")
         ax.bar(x_axis,values)
-        #ax.text(x_axis[-2],hist[0], 'mh='+str(scalar_mass)+'MeV\n', horizontalalignment='center',verticalalignment='top')
+        ax.text(x_axis[-2],values[0], 'm='+str(scalar_mass*1e-3)+'GeV\n', horizontalalignment='center',verticalalignment='top')
         fig.tight_layout()
+        plt.title(f'Branching ratios of {n} most common final states')
         plt.show()
-
-SH=ScalarHadronizer()
-decay_graph=SH.simulateDecay(2000)
-SH.plot_hist(decay_graph,2000)
-SH.plot_from_final_state(decay_graph,(-211,-211,111,111,211,211))
-#SH.plot_from_initial_state(decay_graph,(-213,213))
-#init_pairs=SH.make_initialMesonPairs(2000)
-# %%
-SH.get_final_states(decay_graph)
-SH.plot_from_final_state(decay_graph,(-211,111,111,211))
-
-# %%
-SH.check_meson_combinations(Particle.from_pdgid(-213),Particle.from_pdgid(213),2000)
-(-213,213) in SH.make_initialMesonPairs(2000).keys()
-# %%
-pi=Particle.findall('pi+')[0]
-print(pi)
-print(pi.pdgid)
-print(pi.invert()==pi)
-print(pi.invert().pdgid)
-print(pi.pdgid.has_up)
-print(pi.pdgid.has_down)
-print(pi.pdgid.has_strange)
-print(pi.quarks)
-import particle.pdgid
-#print(particle.pdgid.has_up(111))
-# %%
-
-
-
-
-# %%
 
 def brs_consistency_check(hadronizer,decay_graph,scalar_mass):
     for node in decay_graph.nodes:
@@ -328,21 +316,3 @@ def weight_consistency_check(hadronizer,decay_graph,scalar_mass):
 def total_brs_consistency_check(hadronizer,decay_graph):
     final_states=hadronizer.get_final_states(decay_graph)
     assert abs(np.sum(list(final_states.values()))-1)<1e-5
-
-SH=ScalarHadronizer()
-mass=4000
-decay_graph=SH.simulateDecay(mass)
-brs_consistency_check(SH,decay_graph,mass)
-weight_consistency_check(SH,decay_graph,mass)
-total_brs_consistency_check(SH,decay_graph)
-
-# %%
-%load_ext line_profiler
-SH=ScalarHadronizer()
-mass=3000
-%lprun -f SH.buildWeights SH.simulateDecay(mass)
-
-# %%
-
-
-
