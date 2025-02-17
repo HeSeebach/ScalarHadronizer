@@ -9,25 +9,30 @@ from collections import Counter
 import networkx as nx 
 import textwrap
 import logging
+from decay_widths import gg_NNLO,ssbar_NNLO
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(filename='log.log', level=logging.INFO, filemode='w', format='%(asctime)s - %(levelname)s - %(message)s')
 
+
 class ScalarHadronizer:
-    def __init__(self,scalar_mass,OAM_supression_par=1,up_weight=1,down_weight=1,strange_weight=1,charm_weight=0,bottom_weight=0,path_to_decayXML='DECAY.XML'):
+    def __init__(self,scalar_mass,spin_suppression=1,up_weight=1,down_weight=1,strange_weight=1,charm_weight=0,bottom_weight=0,gg_fac=1,ss_fac=1,supression_mode='spin',path_to_decayXML='DECAY.XML'):
         self.all_decaysXML=self.read_decayXML(path_to_decayXML)
         self.set_stable=[111]
 
         self.scalar_mass=scalar_mass
-        self.OAM_supression_par=OAM_supression_par
+        self.spin_suppression=spin_suppression
         self.up_weight=up_weight
         self.down_weight=down_weight
         self.strange_weight=strange_weight
         self.charm_weight=charm_weight
         self.bottom_weight=bottom_weight
+        self.gg_fac=gg_fac
+        self.ss_fac=ss_fac
 
         self.neutral_light_meson_quark_content=self.neutral_light_meson_mixing()
 
+        self.supression_mode=supression_mode
 
 
     def read_decayXML(self,path_to_decayXML):
@@ -60,13 +65,15 @@ class ScalarHadronizer:
                                  223: [0.5*np.sin(eta_mix)**2,0.5*np.sin(eta_mix)**2,np.cos(eta_mix)**2,0,0]}       #omega
         return neutral_light_mesons
 
-    def set_parameters(self,OAM_supression_par,up_weight,down_weight,strange_weight,charm_weight,bottom_weight):
-        self.OAM_supression_par=OAM_supression_par
+    def set_parameters(self,spin_suppression,up_weight,down_weight,strange_weight,charm_weight,bottom_weight,gg_fac,ss_fac):
+        self.spin_suppression=spin_suppression
         self.up_weight=up_weight
         self.down_weight=down_weight
         self.strange_weight=strange_weight
         self.charm_weight=charm_weight
         self.bottom_weight=bottom_weight
+        self.gg_fac=gg_fac
+        self.ss_fac=ss_fac
 
     def single_particle_decays(self,pdgid: int):
         branching_ratios={}
@@ -102,51 +109,44 @@ class ScalarHadronizer:
     def are_antiparticles(self,p1,p2):
         return int(p1.pdgid)==-int(p2.pdgid)
 
+    def check_meson_combinations(self, m1, m2, m):
+        mesons_to_exclude = [130, 310, 9000221, 9000321, -9000321, 9000311, -9000311]  # exclude KL and KS and some others
 
-    def check_meson_combinations(self,m1,m2,m):
-        mesons_to_exclude=[130,310,9000221,9000321,-9000321,9000311,-9000311]                                                                         #exclude KL and KS
+        # Check mass and exclusion list
+        if m1.mass + m2.mass > m or m1.pdgid in mesons_to_exclude or m2.pdgid in mesons_to_exclude: return False
 
-        valid=True
-        if m1.mass+m2.mass > m: valid=False                                                                 #check mass
-        if (not self.is_neutral(m1) or not self.is_neutral(m2)) and not self.are_antiparticles(m1,m2): valid=False                            #check if particle-antiparticle pair
-        if self.is_neutral(m1) and self.is_neutral(m2):        
-            if m1.C!=m2.C: valid=False                                                                      #check charge conjugation eigenvalue
-            if m1.J==0 and m2.J==0 and m1.P!=m2.P: valid=False
-            if ((m1.J==1 and m2.J==0) or (m1.J==0 and m2.J==1)) and m1.P!=(-1)*m2.P: valid=False            #parity must be opposite for l=1
-            if ((m1.J==2 and m2.J==0) or (m1.J==0 and m2.J==2)) and m1.P!=m2.P: valid=False                 #parity must be same for l=2
-        #if ((m1.pdgid.has_up and not m2.pdgid.has_up) or (m1.pdgid.has_down and not m2.pdgid.has_down) or
-        #    (m1.pdgid.has_strange and not m2.pdgid.has_strange) or (m1.pdgid.has_charm and not m2.pdgid.has_charm) or 
-        #    (m1.pdgid.has_bottom and not m2.pdgid.has_bottom)): valid=False
-        if m1.I!=m2.I: valid=False                                                                          #isospin conservation
-        if m1.pdgid in mesons_to_exclude or m2.pdgid in mesons_to_exclude: valid=False
-        return valid
-    def check_meson_combinations2(self,m1,m2,m):
-        mesons_to_exclude=[130,310,9000221,9000321,-9000321,9000311,-9000311]                                                                         #exclude KL and KS
+        # Check C conservation for particle - antiparticle
+        if (not self.is_neutral(m1) or not self.is_neutral(m2)) and not self.are_antiparticles(m1, m2): return False
 
-        valid=True
-        if m1.mass+m2.mass > m: valid=False                                                                 #check mass
-        if (m1.invert()!=m1 or m2.invert()!=m2) and m1.invert()!=m2: valid=False                            #check if particle-antiparticle pair
-        if m1.invert()==m1 and m2.invert()==m2:        
-            if m1.C!=m2.C: valid=False                                                                      #check charge conjugation eigenvalue
-            if m1.J==0 and m2.J==0 and m1.P!=m2.P: valid=False
-            if ((m1.J==1 and m2.J==0) or (m1.J==0 and m2.J==1)) and m1.P!=(-1)*m2.P: valid=False            #parity must be opposite for l=1
-            if ((m1.J==2 and m2.J==0) or (m1.J==0 and m2.J==2)) and m1.P!=m2.P: valid=False                 #parity must be same for l=2
-        #if ((m1.pdgid.has_up and not m2.pdgid.has_up) or (m1.pdgid.has_down and not m2.pdgid.has_down) or
-        #    (m1.pdgid.has_strange and not m2.pdgid.has_strange) or (m1.pdgid.has_charm and not m2.pdgid.has_charm) or 
-        #    (m1.pdgid.has_bottom and not m2.pdgid.has_bottom)): valid=False
-        if m1.I!=m2.I: valid=False                                                                          #isospin conservation
-        if m1.pdgid in mesons_to_exclude or m2.pdgid in mesons_to_exclude: valid=False
-        return valid
+        # Check C and P for neutral mesons
+        if self.is_neutral(m1) and self.is_neutral(m2):
+                if m1.C!=m2.C: return False                                                                      #check charge conjugation eigenvalue
+                if m1.J==0 and m2.J==0 and m1.P!=m2.P: return False
+                if ((m1.J==1 and m2.J==0) or (m1.J==0 and m2.J==1)) and m1.P!=(-1)*m2.P: return False            #parity must be opposite for l=1
+                if ((m1.J==2 and m2.J==0) or (m1.J==0 and m2.J==2)) and m1.P!=m2.P: return False                 #parity must be same for l=2
 
-    def make_initialMesonPairs(self,exclude_below_threshold=True):
-        mesons_below_threshold=Particle.findall(lambda p: p.mass<self.scalar_mass and p.pdgid.is_meson==True)
+        # Check isospin conservation
+        if m1.I != m2.I: return False
+        return True
+
+    def make_initialMesonPairs(self,list_of_mesons_below_threshold=None,exclude_below_threshold=True,up_weight=None,down_weight=None,strange_weight=None,charm_weight=None,bottom_weight=None,spin_suppression=None,gg_fac=None,ss_fac=None):
+        if up_weight is None: up_weight=self.up_weight
+        if down_weight is None: down_weight=self.down_weight
+        if strange_weight is None: strange_weight=self.strange_weight
+        if charm_weight is None: charm_weight=self.charm_weight
+        if bottom_weight is None: bottom_weight=self.bottom_weight
+        if spin_suppression is None: spin_suppression=self.spin_suppression
+        if gg_fac is None: gg_fac=self.gg_fac
+        if ss_fac is None: ss_fac=self.ss_fac
+
+        if list_of_mesons_below_threshold is None: mesons_below_threshold=Particle.findall(lambda p: p.mass<self.scalar_mass and p.pdgid.is_meson==True)
         if not mesons_below_threshold: print('No possible decay products. Maybe mass is too small? (should be in MeV)')
         meson_pairs={}
         total_weight=0
         for i,m1 in enumerate(mesons_below_threshold):
             for m2 in mesons_below_threshold[i:]:
                 if self.check_meson_combinations(m1,m2,self.scalar_mass):
-                    weight=self.initialWeight(m1,m2,self.up_weight,self.down_weight,self.strange_weight,self.charm_weight,self.bottom_weight,self.OAM_supression_par)
+                    weight=self.initialWeight(m1,m2,up_weight,down_weight,strange_weight,charm_weight,bottom_weight,spin_suppression,gg_fac,ss_fac)
                     if m1.pdgid<m2.pdgid: meson_pairs[(int(m1.pdgid),int(m2.pdgid))]=weight
                     else: meson_pairs[(int(m2.pdgid),int(m1.pdgid))]=weight
                     total_weight+=weight
@@ -158,26 +158,26 @@ class ScalarHadronizer:
             meson_pairs={k:v/total_weight for k,v in meson_pairs.items()}
         return meson_pairs
 
-    def initialWeight(self,m1,m2,up_weight,down_weight,strange_weight,charm_weight,bottom_weight,OAM_supression_par):
+    def initialWeight(self,m1,m2,up_weight,down_weight,strange_weight,charm_weight,bottom_weight,spin_suppression,gg_fac,ss_fac):
         p_restframe=np.sqrt((self.scalar_mass**2-(m1.mass+m2.mass)**2)*(self.scalar_mass**2-(m1.mass-m2.mass)**2))/2/self.scalar_mass
 
         #spin multiplicity
-        spin_factor=(2*m1.J+1)*(2*m2.J+1)
-        if not (m1.J==0 and m2.J==0): spin_factor*=OAM_supression_par
-        #if not (m1.J==0 and m2.J==0): spin_factor=OAM_supression_par
-        #else: spin_factor=1
+        if self.supression_mode=='spin':
+            spin_factor=(2*m1.J+1)*(2*m2.J+1)
+            if not (m1.J==0 and m2.J==0): spin_factor*=spin_suppression
+        if self.supression_mode=='OAM':
+            if m1.J==m2.J: spin_factor=(2*m1.J+1)+spin_suppression*((2*m1.J+1)*(2*m2.J+1)-(2*m1.J+1))
+            else: spin_factor=(2*m1.J+1)*(2*m2.J+1)*spin_suppression
 
         #quark weights
-        if m1.invert()==m1:
+        strange_weight+=ss_fac*ssbar_NNLO(self.scalar_mass,self.scalar_mass)/gg_fac/gg_NNLO(self.scalar_mass,self.scalar_mass)
+        if self.is_neutral(m1):
             m1_quark_weight=0
             m2_quark_weight=0
             for a,b,w in zip(self.quark_content(m1.pdgid),self.quark_content(m2.pdgid),[up_weight,down_weight,strange_weight,charm_weight,bottom_weight]):
                 m1_quark_weight+=a*w
                 m2_quark_weight+=b*w
             quark_weight=m1_quark_weight*m2_quark_weight
-            #print(self.quark_content(m1.pdgid),self.quark_content(m2.pdgid))
-            #print(m1_quark_weight,m2_quark_weight)
-            #print(quark_weight)
 
             symmetry_factor=1
         else:
@@ -207,13 +207,13 @@ class ScalarHadronizer:
             return self.neutral_light_meson_quark_content[pdgid]
         else:
             quark_content=[0,0,0,0,0]
-            for i in range(5):
-                if has_up(pdgid): quark_content[0]=1
-                if has_down(pdgid): quark_content[1]=1
-                if has_strange(pdgid): quark_content[2]=1
-                if has_charm(pdgid): quark_content[3]=1
-                if has_bottom(pdgid): quark_content[4]=1
+            if has_up(pdgid): quark_content[0]=1
+            if has_down(pdgid): quark_content[1]=1
+            if has_strange(pdgid): quark_content[2]=1
+            if has_charm(pdgid): quark_content[3]=1
+            if has_bottom(pdgid): quark_content[4]=1
             return quark_content
+
     def all_decays_of_multiparticle_state(self,mesons):
         all_brs=[]
         all_daughters=[]
@@ -311,6 +311,36 @@ class ScalarHadronizer:
         #print('\n')
         #print('Done')
         return weighted_graph
+
+    def initialize_meson_list_for_parameter_fits(self):
+
+        mesons_below_threshold=Particle.findall(lambda p: p.mass<self.scalar_mass and p.pdgid.is_meson==True)
+        meson_pairs=[]
+        for i,m1 in enumerate(mesons_below_threshold):
+            for m2 in mesons_below_threshold[i:]:
+                if self.check_meson_combinations(m1,m2,self.scalar_mass):
+                    if m1.pdgid<m2.pdgid: meson_pairs.append((m1,m2))
+                    else: meson_pairs.append((m2,m1))
+        return meson_pairs
+
+    def parameter_fit_func(self,ws,wv,gg_fac,ss_fac,list_of_meson_pairs):
+        meson_pairs={}
+        total_weight=0
+        for m1,m2 in list_of_meson_pairs:
+            weight=self.initialWeight(m1,m2,self.up_weight,self.down_weight,ws,0,0,wv,gg_fac,ss_fac)
+            meson_pairs[(int(m1.pdgid),int(m2.pdgid))]=weight
+            total_weight+=weight
+        meson_pairs={k:v/total_weight for k,v in meson_pairs.items()}
+        br_pi=meson_pairs[(-211,211)]+meson_pairs[(111,111)]
+        br_K=meson_pairs[(-321,321)]+meson_pairs[(-311,311)]
+        gamma_pi=self.get_decay_width(br_pi,gg_fac,ss_fac)
+        gamma_K=self.get_decay_width(br_K,gg_fac,ss_fac)
+        return br_pi,br_K,gamma_pi,gamma_K 
+
+    def get_decay_width(self,branching_ratio,gg_fac=None,ss_fac=None):
+        if gg_fac is None: gg_fac=self.gg_fac
+        if ss_fac is None: ss_fac=self.ss_fac
+        return branching_ratio*(self.gg_fac*gg_NNLO(self.scalar_mass*1e-3,self.scalar_mass*1e-3)+self.ss_fac*ssbar_NNLO(self.scalar_mass*1e-3,self.scalar_mass*1e-3))
 
     def get_final_states(self,decay_graph):
         final_states= [s for s,d in decay_graph.out_degree() if d==0]
