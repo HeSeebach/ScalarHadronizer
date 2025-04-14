@@ -110,9 +110,6 @@ class ScalarHadronizer:
             branching_ratios={d:b/total_br for d,b in branching_ratios.items()}
         return branching_ratios
     
-    def is_anti_particle(self,p1,p2):
-        return int(p1.pdgid)==-int(p2.pdgid)
-
     def is_neutral(self,p):
         return p.anti_flag.name=='Same'
 
@@ -140,7 +137,7 @@ class ScalarHadronizer:
         if m1.I != m2.I: return False
         return True
 
-    def make_initialMesonPairs(self,mesons_below_threshold=None,exclude_below_threshold=True,up_weight=None,down_weight=None,strange_weight=None,charm_weight=None,bottom_weight=None,spin_suppression=None,gamma_fac=None):
+    def make_initialMesonPairs(self,mesons_below_threshold=None,exclude_below_threshold=True,up_weight=None,down_weight=None,strange_weight=None,charm_weight=None,bottom_weight=None,spin_suppression=None,gamma_fac=None,logging=False):
         if up_weight is None: up_weight=self.up_weight
         if down_weight is None: down_weight=self.down_weight
         if strange_weight is None: strange_weight=self.strange_weight
@@ -165,7 +162,15 @@ class ScalarHadronizer:
         
         gg_BR=gamma_gg(self.scalar_mass*1e-3)/(gamma_gg(self.scalar_mass*1e-3)+gamma_ss(self.scalar_mass*1e-3))
         ss_BR=gamma_ss(self.scalar_mass*1e-3)/(gamma_gg(self.scalar_mass*1e-3)+gamma_ss(self.scalar_mass*1e-3))
+
+        if logging:
+            self.logger.info(f'Gluon channel branching ratio: {gg_BR}, Strange channel branching ratio: {ss_BR}')
+            for k,v in meson_pairs.items():
+                self.logger.info(f'{Particle.from_pdgid(k[0]).name} {Particle.from_pdgid(k[1]).name}') 
+                self.logger.info(f'\t Gluon channel br: {v[0]/total_gluon_initial_weight}')
+                self.logger.info(f'\t Strange channel br: {v[1]/total_strange_initial_weight}')
         meson_pairs={k: (gg_BR*v[0]/total_gluon_initial_weight + ss_BR *v[1]/total_strange_initial_weight) for k,v in meson_pairs.items()}
+        
         if exclude_below_threshold:
             meson_pairs={k:v for k,v in meson_pairs.items() if v>1e-3}
             new_total_weight=np.sum(list(meson_pairs.values()))
@@ -363,7 +368,7 @@ class ScalarHadronizer:
         total_gluon_initial_weight=0
         total_strange_initial_weight=0
         for m1,m2 in list_of_meson_pairs:
-            g_weight,s_weight=self.initialWeight(m1,m2,self.up_weight,self.down_weight,ws,0,0,wv,gamma_fac)
+            g_weight,s_weight=self.initialWeight(m1,m2,self.up_weight,self.down_weight,ws,0,0,wv,gamma_fac,logging=False)
             if m1.pdgid<m2.pdgid: meson_pairs[(int(m1.pdgid),int(m2.pdgid))]=[g_weight,s_weight]
             else: meson_pairs[(int(m2.pdgid),int(m1.pdgid))]=[g_weight,s_weight]
             total_gluon_initial_weight+=g_weight
@@ -381,6 +386,9 @@ class ScalarHadronizer:
     def get_decay_width(self,branching_ratio,gamma_fac=None):
         if gamma_fac is None: gamma_fac=self.gamma_fac
         return branching_ratio*gamma_fac*(gamma_gg(self.scalar_mass*1e-3)+gamma_ss(self.scalar_mass*1e-3))
+
+    def get_initial_states(self):
+        return self.make_initialMesonPairs()
 
     def get_final_states(self,decay_graph=None):
         if decay_graph is None: decay_graph=self.decay_graph
@@ -432,6 +440,12 @@ class ScalarHadronizer:
         attributes=nx.get_node_attributes(decay_graph,'weight')
         return {ancestor: nx.shortest_path_length(decay_graph, ancestor, state) for ancestor in ancestors}
 
+    def get_descendants_of_state(self,state,decay_graph=None):
+        if decay_graph is None: decay_graph=self.decay_graph
+        descendants=nx.descendants(decay_graph,state)
+        attributes=nx.get_node_attributes(decay_graph,'weight')
+        return {descendant: nx.shortest_path_length(decay_graph,state,descendant) for descendant in descendants}
+
     def print_ancestors_of_state(self, state, decay_graph=None):
         if decay_graph is None: decay_graph = self.decay_graph
         ancestors = self.get_ancestors_of_state(state, decay_graph)
@@ -449,43 +463,56 @@ class ScalarHadronizer:
             if ancestor in initial_states: print(' [i]',end='')
             print('')
 
-    def plot_from_initial_state(self,state,decay_graph=None,path=None):
+    def plot_from_initial_state(self,state,decay_graph=None,path=None,figsize=(6,4)):
         if decay_graph is None: decay_graph=self.decay_graph
         descendants=nx.descendants(decay_graph,state)
         subgraph = decay_graph.subgraph(descendants.union({state}))
-        self.plot_from_init_final_state_helper(subgraph,path)
+        self.plot_from_init_final_state_helper(subgraph,figsize=figsize,path=path)
 
-    def plot_from_final_state(self,state,decay_graph=None,path=None):
+    def plot_from_final_state(self,state,decay_graph=None,path=None,figsize=(6,4)):
         if decay_graph is None: decay_graph=self.decay_graph
         ancestors=nx.ancestors(decay_graph,state)
         subgraph = decay_graph.subgraph(ancestors.union({state}))
-        self.plot_from_init_final_state_helper(subgraph,path)
+        self.plot_from_init_final_state_helper(subgraph,figsize=figsize,path=path)
 
-    def plot_from_init_final_state_helper(self,subgraph,path=None):
+    def plot_from_init_final_state_helper(self,subgraph,figsize,path=None):
         import matplotlib.pyplot as plt 
         from matplotlib.patches import FancyArrowPatch
+        from networkx.drawing.nx_agraph import to_agraph, from_agraph, graphviz_layout
 
         round_val=4
 
-        # Identify initial nodes (nodes with no incoming edges)
-        #initial_nodes = [node for node in subgraph.nodes() if subgraph.in_degree(node) == 0]
         final_nodes = [node for node in subgraph.nodes() if subgraph.out_degree(node) == 0]
 
-        # Calculate the distance of each node from the initial nodes
+        """
+        # Calculate the distance of each node from the final nodes
         distances = {node: float('inf') for node in subgraph.nodes()}
         for final_node in final_nodes:
             distances[final_node] = 0
             for node in nx.ancestors(subgraph, final_node):
                 distances[node] = min(distances[node], nx.shortest_path_length(subgraph, node, final_node))
-        for node, distance in distances.items():
-            subgraph.nodes[node]['rank'] = str(distance)
 
-        # Use graphviz_layout with dot and rankdir options
-        pos = nx.drawing.nx_agraph.graphviz_layout(subgraph, prog="dot", args="-Grankdir=LR -Gnodesep=0.5 -Granksep=1.0")
-        #pos = nx.drawing.nx_agraph.graphviz_layout(subgraph, prog="dot", args="-Grankdir=LR")
+        A = to_agraph(subgraph)
+
+        # Add subgraphs for ranks
+        for distance in set(distances.values()):
+            rank_subgraph = A.add_subgraph(
+                [node for node, dist in distances.items() if dist == distance],
+                rank='same'
+            )
+
+        # Convert the AGraph object back to a NetworkX graph
+        subgraph_with_ranks = from_agraph(A)
+
+        # Use Graphviz to layout the graph
+        pos = graphviz_layout(subgraph_with_ranks, prog="dot", args="-Grankdir=TB")
+
+        """
+        #pos = nx.drawing.nx_agraph.graphviz_layout(A, prog="dot", args="-Grankdir=TB")
+        pos = nx.drawing.nx_agraph.graphviz_layout(subgraph, prog="dot", args="-Grankdir=LR")
         edge_labels = {key:round(val,round_val) for key,val in nx.get_edge_attributes(subgraph,'weight').items()}
         node_labels = {key:self.get_latex_id(key)+'\n'+str(round(val,round_val)) for key,val in nx.get_node_attributes(subgraph,'weight').items()}
-        plt.figure(figsize=(8, 6))
+        plt.figure(figsize=figsize)
         nx.draw_networkx_edges(subgraph, pos, edgelist=subgraph.edges(), edge_color='gray',arrows=False)
         nx.draw_networkx_edge_labels(subgraph, pos, edge_labels=edge_labels, font_size=10, label_pos=0.45)
 
@@ -524,39 +551,65 @@ class ScalarHadronizer:
         if not path is None: plt.savefig(path)
         plt.show()
 
-    def plot_final_state_hist(self,decay_graph=None,n=10,show=True):
-        if decay_graph is None: decay_graph=self.decay_graph
-        import matplotlib.pyplot as plt 
-        fig, ax=plt.subplots()
-        final_states=self.get_most_common_final_states(decay_graph)
-        labels=list(final_states.keys())[:n]
-        values=list(final_states.values())[:n]
-        latex_ids=[self.get_latex_id(x) for x in labels]
-        x_axis=range(n)
-        ax.set_xticks(x_axis, [textwrap.fill(label, 10,break_long_words=False) for label in latex_ids], rotation = 20, fontsize=8, horizontalalignment="center")
-        ax.bar(x_axis,values)
-        ax.text(x_axis[-2],values[0], r'$m_\phi=$'+str(self.scalar_mass*1e-3)+'GeV\n', horizontalalignment='center',verticalalignment='top')
-        fig.tight_layout()
-        #plt.title(f'Branching ratios of {n} most common final states')
-        if show: plt.show()
-        return fig,ax
+    def plot_hist_helper(self, values, labels, figsize, show=True, save_path=None):
+        import matplotlib.pyplot as plt
+        fig, ax = plt.subplots(figsize=figsize)
+        y_axis = range(len(values))
+        ax.barh(y_axis, values)
+        ax.text(1, 0, r'$m_\phi=$' + str(self.scalar_mass * 1e-3) + 'GeV\n', horizontalalignment='right', verticalalignment='bottom', transform=ax.transAxes,fontsize=12)
+        ax.set_yticks(y_axis)
+        plt.rcParams['axes.edgecolor'] = '#333F4B'
+        plt.rcParams['axes.linewidth'] = 0.8
+        #plt.rcParams['xtick.color'] = '#333F4B'
+        #plt.rcParams['ytick.color'] = '#333F4B'
+        #plt.rcParams['text.color'] = '#333F4B'
+        ax.set_yticklabels(labels, fontsize=18, horizontalalignment="right")
+        ax.spines['right'].set_visible(False)
 
-    def plot_initial_state_hist(self,n=10):
-        import matplotlib.pyplot as plt 
+        # Enable ticks for both top and bottom axes
+        ax.xaxis.set_ticks_position('both')
+        ax.xaxis.set_ticks_position('top')
+        ax.xaxis.set_label_position('top')
+
+        # Configure tick parameters for both top and bottom axes
+        ax.tick_params(axis='x', which='minor', bottom=False, top=False)
+        ax.tick_params(axis='x', which='major', direction='inout', bottom=True, top=True)  # Enable bottom ticks
+
+        ax.tick_params(axis='y', which='both', right=False)
+        ax.tick_params(axis='y', which='minor', left=False)
+        ax.tick_params(axis='y', which='major', direction='inout')
+        ax.spines['left'].set_position(('outward', 8))
+        ax.spines['top'].set_position(('outward', -10))
+        ax.spines['bottom'].set_position(('outward', -10))
+
+        ax.spines['left'].set_bounds((0, len(values) - 1))
+
+        ax.set_xlabel('branching ratio')
+        plt.tight_layout()
+        if save_path is not None:
+            plt.savefig(save_path)
+        if show:
+            plt.show()
+        return fig, ax
+
+    def plot_final_state_hist(self, decay_graph=None, n=10, figsize=(4,5), show=True, save_path=None):
+        if decay_graph is None: decay_graph = self.decay_graph
+        final_states = self.get_most_common_final_states(decay_graph)
+        labels = list(final_states.keys())[:n][::-1]
+        values = list(final_states.values())[:n][::-1]
+        latex_ids = [self.get_latex_id(x) for x in labels]
+        fig,ax=self.plot_hist_helper(values,latex_ids,figsize=figsize,show=show,save_path=save_path)
+        return fig, ax
+
+    def plot_initial_state_hist(self,n=10,figsize=(4,5),show=True, save_path=None):
         initial_states=self.make_initialMesonPairs()
         sorted_states = dict(sorted(initial_states.items(), key=lambda item: item[1], reverse=True))
         if n>len(initial_states): n=len(initial_states)
-        fig, ax=plt.subplots()
-        labels=list(sorted_states.keys())[:n]
-        values=list(sorted_states.values())[:n]
+        labels=list(sorted_states.keys())[:n][::-1]
+        values=list(sorted_states.values())[:n][::-1]
         latex_ids=[self.get_latex_id(x) for x in labels]
-        x_axis=range(n)
-        ax.set_xticks(x_axis, [textwrap.fill(label, 10,break_long_words=False) for label in latex_ids], rotation = 20, fontsize=8, horizontalalignment="center")
-        ax.bar(x_axis,values)
-        ax.text(x_axis[-2],values[0], 'm='+str(self.scalar_mass*1e-3)+'GeV\n', horizontalalignment='center',verticalalignment='top')
-        fig.tight_layout()
-        plt.title(f'Branching ratios of {n} most common initial states')
-        plt.show()
+        fig,ax=self.plot_hist_helper(values,latex_ids,figsize=figsize,show=show, save_path=save_path)
+        return fig,ax
 
 def brs_consistency_check(hadronizer,decay_graph,scalar_mass):
     for node in decay_graph.nodes:

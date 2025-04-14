@@ -197,7 +197,8 @@ def gamma_mu(m):
     return np.where(m>data_mu_tau1[0,0],mu_interpolation(m),0)
 
 def gamma_tau(m):
-    return np.where(m>data_mu_tau1[0,0],tau_interpolation(m),0)
+    mtau=1.77682
+    return np.where(m>2*mtau,tau_interpolation(m),0)
 
 def gamma_hadrons(m):
     gg=gamma_gg(m)
