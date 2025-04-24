@@ -16,7 +16,7 @@ from os import path,remove
 
 
 class ScalarHadronizer:
-    def __init__(self,scalar_mass,spin_suppression=1,up_weight=1,down_weight=1,strange_weight=1,charm_weight=0,bottom_weight=0,gamma_fac=1,suppression_mode='spin',path_to_decayXML='DECAY.XML'):
+    def __init__(self,scalar_mass,spin_suppression=1,ud_weight=1,strange_weight=1,charm_weight=0,bottom_weight=0,gamma_fac=1,suppression_mode='spin',path_to_decayXML='DECAY.XML'):
 
         if path.exists('log.log'):
             remove('log.log')
@@ -35,8 +35,7 @@ class ScalarHadronizer:
 
         self.scalar_mass=scalar_mass
         self.spin_suppression=spin_suppression
-        self.up_weight=up_weight
-        self.down_weight=down_weight
+        self.ud_weight=ud_weight
         self.strange_weight=strange_weight
         self.charm_weight=charm_weight
         self.bottom_weight=bottom_weight
@@ -68,18 +67,17 @@ class ScalarHadronizer:
         #mixing angles taken from herwig as implemented in the HadronSelector.cc file
         eta_mix=-23*np.pi/180
         phi_mix=36*np.pi/180
-        neutral_light_mesons=   {111: [0.5,0.5,0,0,0],                                                              #pi0 
-                                 221: [0.5*np.cos(eta_mix)**2,0.5*np.cos(eta_mix)**2,np.sin(eta_mix)**2,0,0],       #eta
-                                 331: [0.5*np.sin(eta_mix)**2,0.5*np.sin(eta_mix)**2,np.cos(eta_mix)**2,0,0],       #eta'
-                                 113: [0.5,0.5,0,0,0],                                                              #rho0 
-                                 333: [0.5*np.cos(eta_mix)**2,0.5*np.cos(eta_mix)**2,np.sin(eta_mix)**2,0,0],       #phi
-                                 223: [0.5*np.sin(eta_mix)**2,0.5*np.sin(eta_mix)**2,np.cos(eta_mix)**2,0,0]}       #omega
+        neutral_light_mesons=   {111: [1,0,0,0],                                                              #pi0 
+                                 221: [np.cos(eta_mix)**2,np.sin(eta_mix)**2,0,0],       #eta
+                                 331: [np.sin(eta_mix)**2,np.cos(eta_mix)**2,0,0],       #eta'
+                                 113: [1,0,0,0],                                                              #rho0 
+                                 333: [np.cos(eta_mix)**2,np.sin(eta_mix)**2,0,0],       #phi
+                                 223: [np.sin(eta_mix)**2,np.cos(eta_mix)**2,0,0]}       #omega
         return neutral_light_mesons
 
-    def set_parameters(self,spin_suppression=1,up_weight=1,down_weight=1,strange_weight=1,charm_weight=0,bottom_weight=0,gamma_fac=1):
+    def set_parameters(self,spin_suppression=1,ud_weight=1,strange_weight=1,charm_weight=0,bottom_weight=0,gamma_fac=1):
         self.spin_suppression=spin_suppression
-        self.up_weight=up_weight
-        self.down_weight=down_weight
+        self.ud_weight=ud_weight
         self.strange_weight=strange_weight
         self.charm_weight=charm_weight
         self.bottom_weight=bottom_weight
@@ -137,9 +135,8 @@ class ScalarHadronizer:
         if m1.I != m2.I: return False
         return True
 
-    def make_initialMesonPairs(self,mesons_below_threshold=None,exclude_below_threshold=True,up_weight=None,down_weight=None,strange_weight=None,charm_weight=None,bottom_weight=None,spin_suppression=None,gamma_fac=None,logging=False):
-        if up_weight is None: up_weight=self.up_weight
-        if down_weight is None: down_weight=self.down_weight
+    def make_initialMesonPairs(self,mesons_below_threshold=None,exclude_below_threshold=True,ud_weight=None,strange_weight=None,charm_weight=None,bottom_weight=None,spin_suppression=None,gamma_fac=None,logging=False):
+        if ud_weight is None: ud_weight=self.ud_weight
         if strange_weight is None: strange_weight=self.strange_weight
         if charm_weight is None: charm_weight=self.charm_weight
         if bottom_weight is None: bottom_weight=self.bottom_weight
@@ -154,7 +151,7 @@ class ScalarHadronizer:
         for i,m1 in enumerate(mesons_below_threshold):
             for m2 in mesons_below_threshold[i:]:
                 if self.check_meson_combinations(m1,m2,self.scalar_mass):
-                    g_weight,s_weight=self.initialWeight(m1,m2,up_weight,down_weight,strange_weight,charm_weight,bottom_weight,spin_suppression,gamma_fac)
+                    g_weight,s_weight=self.initialWeight(m1,m2,ud_weight,strange_weight,charm_weight,bottom_weight,spin_suppression,gamma_fac)
                     if m1.pdgid<m2.pdgid: meson_pairs[(int(m1.pdgid),int(m2.pdgid))]=[g_weight,s_weight]
                     else: meson_pairs[(int(m2.pdgid),int(m1.pdgid))]=[g_weight,s_weight]
                     total_gluon_initial_weight+=g_weight
@@ -177,11 +174,11 @@ class ScalarHadronizer:
             meson_pairs={k:v/new_total_weight for k,v in meson_pairs.items()}
         return meson_pairs
 
-    def initialWeight(self,m1,m2,up_weight,down_weight,strange_weight,charm_weight,bottom_weight,spin_suppression,gamma_fac,logging=True):
-        if self.neutral_meson_quark_content(int(m1.pdgid))[2]>0 or self.neutral_meson_quark_content(int(m2.pdgid))[2]>0: ss_channel_quark_weight=self.ss_channel_quark_weight(m1,m2,up_weight,down_weight,strange_weight,charm_weight,bottom_weight,spin_suppression,gamma_fac)
+    def initialWeight(self,m1,m2,ud_weight,strange_weight,charm_weight,bottom_weight,spin_suppression,gamma_fac,logging=True):
+        if self.neutral_meson_quark_content(int(m1.pdgid))[1]>0 or self.neutral_meson_quark_content(int(m2.pdgid))[1]>0: ss_channel_quark_weight=self.ss_channel_quark_weight(m1,m2,ud_weight,strange_weight,charm_weight,bottom_weight,spin_suppression,gamma_fac)
         else: ss_channel_quark_weight=0
-        gluon_channel_quark_weight=self.gg_channel_quark_weight(m1,m2,up_weight,down_weight,strange_weight,charm_weight,bottom_weight,spin_suppression,gamma_fac)
-        p,spin_fac,isospin_fac,sym_fac=self.rest_of_initial_weight(m1,m2,up_weight,down_weight,strange_weight,charm_weight,bottom_weight,spin_suppression,gamma_fac)
+        gluon_channel_quark_weight=self.gg_channel_quark_weight(m1,m2,ud_weight,strange_weight,charm_weight,bottom_weight,spin_suppression,gamma_fac)
+        p,spin_fac,isospin_fac,sym_fac=self.rest_of_initial_weight(m1,m2,ud_weight,strange_weight,charm_weight,bottom_weight,spin_suppression,gamma_fac)
         gluon_initial_weight=p*gluon_channel_quark_weight*spin_fac*isospin_fac*sym_fac
         strange_initial_weight=p*ss_channel_quark_weight*spin_fac*isospin_fac*sym_fac
 
@@ -191,34 +188,33 @@ class ScalarHadronizer:
             self.logger.info(f'\t Strange channel weight: {strange_initial_weight}. p_restframe: {p}, quark_weight: {ss_channel_quark_weight}, spin_factor: {spin_fac}, isospin_factor: {isospin_fac}')
         return gluon_initial_weight,strange_initial_weight
 
-    def ss_channel_quark_weight(self,m1,m2,up_weight,down_weight,strange_weight,charm_weight,bottom_weight,spin_suppression,gamma_fac):
+    def ss_channel_quark_weight(self,m1,m2,ud_weight,strange_weight,charm_weight,bottom_weight,spin_suppression,gamma_fac):
         if self.is_neutral(m1):
             m1_quark_content=self.neutral_meson_quark_content(m1.pdgid)
             m2_quark_content=self.neutral_meson_quark_content(m2.pdgid)
-            quark_weight=m1_quark_content[2]*m2_quark_content[2]*strange_weight
+            quark_weight=m1_quark_content[1]*m2_quark_content[1]*strange_weight
         else:
             quark_weight=1
-            if m1.pdgid.has_up: quark_weight*=up_weight
-            if m1.pdgid.has_down: quark_weight*=down_weight
+            if m1.pdgid.has_up or m1.pdgid.has_down: quark_weight*=ud_weight
             if m1.pdgid.has_charm: quark_weight*=charm_weight
             if m1.pdgid.has_bottom: quark_weight*=bottom_weight
         return quark_weight
 
-    def gg_channel_quark_weight(self,m1,m2,up_weight,down_weight,strange_weight,charm_weight,bottom_weight,spin_suppression,gamma_fac):
+    def gg_channel_quark_weight(self,m1,m2,ud_weight,strange_weight,charm_weight,bottom_weight,spin_suppression,gamma_fac):
         if self.is_neutral(m1):
             quark_weight=0
-            for a,b,w in zip(self.neutral_meson_quark_content(m1.pdgid),self.neutral_meson_quark_content(m2.pdgid),[up_weight,down_weight,strange_weight,charm_weight,bottom_weight]):
+            for a,b,w in zip(self.neutral_meson_quark_content(m1.pdgid),self.neutral_meson_quark_content(m2.pdgid),[ud_weight,strange_weight,charm_weight,bottom_weight]):
                 quark_weight+=a*b*w**2
+                
         else:
             quark_weight=1
-            if m1.pdgid.has_up: quark_weight*=up_weight
-            if m1.pdgid.has_down: quark_weight*=down_weight
+            if m1.pdgid.has_up or m1.pdgid.has_down: quark_weight*=ud_weight
             if m1.pdgid.has_strange: quark_weight*=strange_weight
             if m1.pdgid.has_charm: quark_weight*=charm_weight
             if m1.pdgid.has_bottom: quark_weight*=bottom_weight
         return quark_weight
         
-    def rest_of_initial_weight(self,m1,m2,up_weight,down_weight,strange_weight,charm_weight,bottom_weight,spin_suppression,gamma_fac):
+    def rest_of_initial_weight(self,m1,m2,ud_weight,strange_weight,charm_weight,bottom_weight,spin_suppression,gamma_fac):
         p_restframe=np.sqrt((self.scalar_mass**2-(m1.mass+m2.mass)**2)*(self.scalar_mass**2-(m1.mass-m2.mass)**2))/2/self.scalar_mass
         if np.isnan(p_restframe): print(f'Meson pair {m1.name},{m2.name} too heavy')
 
@@ -227,7 +223,7 @@ class ScalarHadronizer:
             spin_factor=(2*m1.J+1)*(2*m2.J+1)
             if not (m1.J==0 and m2.J==0): spin_factor*=spin_suppression
         if self.suppression_mode=='OAM':
-            if m1.J==m2.J: spin_factor=(2*m1.J+1)+spin_suppression*((2*m1.J+1)*(2*m2.J+1)-(2*m1.J+1))
+            if m1.J==m2.J and m1.P==m2.P: spin_factor=(2*m1.J+1)+spin_suppression*((2*m1.J+1)*(2*m2.J+1)-(2*m1.J+1))
             else: spin_factor=(2*m1.J+1)*(2*m2.J+1)*spin_suppression
 
         #isospin weight
@@ -245,12 +241,11 @@ class ScalarHadronizer:
         if pdgid in self.neutral_light_meson_quark_content:
             return self.neutral_light_meson_quark_content[pdgid]
         else:
-            quark_content=[0,0,0,0,0]
-            if has_up(pdgid): quark_content[0]=1
-            if has_down(pdgid): quark_content[1]=1
-            if has_strange(pdgid): quark_content[2]=1
-            if has_charm(pdgid): quark_content[3]=1
-            if has_bottom(pdgid): quark_content[4]=1
+            quark_content=[0,0,0,0]
+            if has_up(pdgid) or has_down(pdgid): quark_content[0]=1
+            if has_strange(pdgid): quark_content[1]=1
+            if has_charm(pdgid): quark_content[2]=1
+            if has_bottom(pdgid): quark_content[3]=1
             return quark_content
 
     def all_decays_of_multiparticle_state(self,mesons):
@@ -368,7 +363,7 @@ class ScalarHadronizer:
         total_gluon_initial_weight=0
         total_strange_initial_weight=0
         for m1,m2 in list_of_meson_pairs:
-            g_weight,s_weight=self.initialWeight(m1,m2,self.up_weight,self.down_weight,ws,0,0,wv,gamma_fac,logging=False)
+            g_weight,s_weight=self.initialWeight(m1,m2,self.ud_weight,ws,0,0,wv,gamma_fac,logging=False)
             if m1.pdgid<m2.pdgid: meson_pairs[(int(m1.pdgid),int(m2.pdgid))]=[g_weight,s_weight]
             else: meson_pairs[(int(m2.pdgid),int(m1.pdgid))]=[g_weight,s_weight]
             total_gluon_initial_weight+=g_weight
