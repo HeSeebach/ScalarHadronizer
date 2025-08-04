@@ -1,535 +1,535 @@
-2025-04-15 12:16:29,580 - INFO - ScalarHadronizer instance created with scalar_mass=2450
-2025-04-15 12:16:30,054 - INFO - Invalid particle K*BR in DECAY.XML
-2025-04-15 12:16:30,054 - INFO - Invalid particle K*0R in DECAY.XML
-2025-04-15 12:16:30,055 - INFO - Invalid particle D'_1+ in DECAY.XML
-2025-04-15 12:16:30,055 - INFO - Invalid particle D'_1- in DECAY.XML
-2025-04-15 12:16:30,056 - INFO - Invalid particle D(2S)0 in DECAY.XML
-2025-04-15 12:16:30,056 - INFO - Invalid particle anti-D(2S)0 in DECAY.XML
-2025-04-15 12:16:30,057 - INFO - Invalid particle D(2S)+ in DECAY.XML
-2025-04-15 12:16:30,057 - INFO - Invalid particle D(2S)- in DECAY.XML
-2025-04-15 12:16:30,057 - INFO - Invalid particle D*(2S)0 in DECAY.XML
-2025-04-15 12:16:30,058 - INFO - Invalid particle anti-D*(2S)0 in DECAY.XML
-2025-04-15 12:16:30,058 - INFO - Invalid particle D*(2S)+ in DECAY.XML
-2025-04-15 12:16:30,058 - INFO - Invalid particle D*(2S)- in DECAY.XML
-2025-04-15 12:16:30,059 - INFO - Invalid particle K*L in DECAY.XML
-2025-04-15 12:16:30,059 - INFO - Invalid particle K*S in DECAY.XML
-2025-04-15 12:16:30,059 - INFO - Invalid particle K*BL in DECAY.XML
-2025-04-15 12:16:30,060 - INFO - Invalid particle K*BS in DECAY.XML
-2025-04-15 12:16:30,060 - INFO - Invalid particle K*0T in DECAY.XML
-2025-04-15 12:16:30,060 - INFO - Invalid particle anti-K*0T in DECAY.XML
-2025-04-15 12:16:30,060 - INFO - Invalid particle K_0*0N in DECAY.XML
-2025-04-15 12:16:30,061 - INFO - Invalid particle anti-K_0*0N in DECAY.XML
-2025-04-15 12:16:30,062 - INFO - Invalid particle Xsd in DECAY.XML
-2025-04-15 12:16:30,062 - INFO - Invalid particle anti-Xsd in DECAY.XML
-2025-04-15 12:16:30,062 - INFO - Invalid particle Xsu in DECAY.XML
-2025-04-15 12:16:30,063 - INFO - Invalid particle anti-Xsu in DECAY.XML
-2025-04-15 12:16:30,063 - INFO - Invalid particle Xss in DECAY.XML
-2025-04-15 12:16:30,063 - INFO - Invalid particle anti-Xss in DECAY.XML
-2025-04-15 12:16:30,065 - INFO - Invalid particle X_1(3872) in DECAY.XML
-2025-04-15 12:16:30,066 - INFO - Invalid particle chi_b0(3P) in DECAY.XML
-2025-04-15 12:16:30,066 - INFO - Invalid particle Upsilon_1(1D) in DECAY.XML
-2025-04-15 12:16:30,066 - INFO - Invalid particle Upsilon_3(1D) in DECAY.XML
-2025-04-15 12:16:30,067 - INFO - Invalid particle Upsilon_1(2D) in DECAY.XML
-2025-04-15 12:16:30,067 - INFO - Invalid particle Upsilon_2(2D) in DECAY.XML
-2025-04-15 12:16:30,067 - INFO - Invalid particle Upsilon_3(2D) in DECAY.XML
-2025-04-15 12:16:30,068 - INFO - Invalid particle h_b(3P) in DECAY.XML
-2025-04-15 12:16:30,068 - INFO - Invalid particle eta_b2(1D) in DECAY.XML
-2025-04-15 12:16:30,068 - INFO - Invalid particle eta_b2(2D) in DECAY.XML
-2025-04-15 12:16:30,069 - INFO - Invalid particle c-hadron in DECAY.XML
-2025-04-15 12:16:30,072 - INFO - Invalid particle Xu0 in DECAY.XML
-2025-04-15 12:16:30,073 - INFO - Invalid particle Xu+ in DECAY.XML
-2025-04-15 12:16:30,074 - INFO - Invalid particle Sigma_b0 in DECAY.XML
-2025-04-15 12:16:30,074 - INFO - Invalid particle anti-Sigma_b0 in DECAY.XML
-2025-04-15 12:16:30,074 - INFO - Invalid particle Xi'_b- in DECAY.XML
-2025-04-15 12:16:30,075 - INFO - Invalid particle anti-Xi'_b+ in DECAY.XML
-2025-04-15 12:16:30,075 - INFO - Invalid particle Xi'_b0 in DECAY.XML
-2025-04-15 12:16:30,075 - INFO - Invalid particle anti-Xi'_b0 in DECAY.XML
-2025-04-15 12:16:30,076 - INFO - Invalid particle B_0*+ in DECAY.XML
-2025-04-15 12:16:30,076 - INFO - Invalid particle B_0*- in DECAY.XML
-2025-04-15 12:16:30,076 - INFO - Invalid particle B'_1+ in DECAY.XML
-2025-04-15 12:16:30,077 - INFO - Invalid particle B'_1- in DECAY.XML
-2025-04-15 12:16:30,077 - INFO - Invalid particle B_1+ in DECAY.XML
-2025-04-15 12:16:30,077 - INFO - Invalid particle B_1- in DECAY.XML
-2025-04-15 12:16:30,078 - INFO - Invalid particle B_0*0 in DECAY.XML
-2025-04-15 12:16:30,078 - INFO - Invalid particle anti-B_0*0 in DECAY.XML
-2025-04-15 12:16:30,078 - INFO - Invalid particle B'_10 in DECAY.XML
-2025-04-15 12:16:30,079 - INFO - Invalid particle anti-B'_10 in DECAY.XML
-2025-04-15 12:16:30,079 - INFO - Invalid particle B_10 in DECAY.XML
-2025-04-15 12:16:30,079 - INFO - Invalid particle anti-B_10 in DECAY.XML
-2025-04-15 12:16:30,080 - INFO - Invalid particle B_s0*0 in DECAY.XML
-2025-04-15 12:16:30,080 - INFO - Invalid particle anti-B_s0*0 in DECAY.XML
-2025-04-15 12:16:30,080 - INFO - Invalid particle B'_s10 in DECAY.XML
-2025-04-15 12:16:30,081 - INFO - Invalid particle anti-B'_s10 in DECAY.XML
-2025-04-15 12:16:30,081 - INFO - Invalid particle B_s10 in DECAY.XML
-2025-04-15 12:16:30,081 - INFO - Invalid particle anti-B_s10 in DECAY.XML
-2025-04-15 12:16:30,082 - INFO - Invalid particle B_c*+ in DECAY.XML
-2025-04-15 12:16:30,082 - INFO - Invalid particle B_c*- in DECAY.XML
-2025-04-15 12:16:30,083 - INFO - Invalid particle B_c2*+ in DECAY.XML
-2025-04-15 12:16:30,083 - INFO - Invalid particle B_c2*- in DECAY.XML
-2025-04-15 12:16:30,083 - INFO - Invalid particle Sigma_b*0 in DECAY.XML
-2025-04-15 12:16:30,084 - INFO - Invalid particle anti-Sigma_b*0 in DECAY.XML
-2025-04-15 12:16:30,084 - INFO - Invalid particle Xi_b*- in DECAY.XML
-2025-04-15 12:16:30,085 - INFO - Invalid particle anti-Xi_b*+ in DECAY.XML
-2025-04-15 12:16:30,085 - INFO - Invalid particle Xi_b*0 in DECAY.XML
-2025-04-15 12:16:30,085 - INFO - Invalid particle anti-Xi_b*0 in DECAY.XML
-2025-04-15 12:16:30,086 - INFO - Invalid particle Omega_b*- in DECAY.XML
-2025-04-15 12:16:30,086 - INFO - Invalid particle anti-Omega_b*+ in DECAY.XML
-2025-04-15 12:16:30,086 - INFO - Invalid particle B_c0*+ in DECAY.XML
-2025-04-15 12:16:30,086 - INFO - Invalid particle B_c0*- in DECAY.XML
-2025-04-15 12:16:30,087 - INFO - Invalid particle B_c1+ in DECAY.XML
-2025-04-15 12:16:30,087 - INFO - Invalid particle B_c1- in DECAY.XML
-2025-04-15 12:16:30,087 - INFO - Invalid particle B'_c1+ in DECAY.XML
-2025-04-15 12:16:30,088 - INFO - Invalid particle B'_c1- in DECAY.XML
-2025-04-15 12:16:30,088 - INFO - Invalid particle Xi_cc*++ in DECAY.XML
-2025-04-15 12:16:30,088 - INFO - Invalid particle anti-Xi_cc*-- in DECAY.XML
-2025-04-15 12:16:30,089 - INFO - Invalid particle Xi_cc++ in DECAY.XML
-2025-04-15 12:16:30,089 - INFO - Invalid particle anti-Xi_cc-- in DECAY.XML
-2025-04-15 12:16:30,089 - INFO - Invalid particle Xi_cc*+ in DECAY.XML
-2025-04-15 12:16:30,090 - INFO - Invalid particle anti-Xi_cc*- in DECAY.XML
-2025-04-15 12:16:30,090 - INFO - Invalid particle Xi_cc+ in DECAY.XML
-2025-04-15 12:16:30,090 - INFO - Invalid particle anti-Xi_cc- in DECAY.XML
-2025-04-15 12:16:30,091 - INFO - Invalid particle Omega_cc+ in DECAY.XML
-2025-04-15 12:16:30,091 - INFO - Invalid particle anti-Omega_cc- in DECAY.XML
-2025-04-15 12:16:30,092 - INFO - Invalid particle Omega_cc*+ in DECAY.XML
-2025-04-15 12:16:30,092 - INFO - Invalid particle anti-Omega_cc*- in DECAY.XML
-2025-04-15 12:16:30,102 - INFO - pi0 pi0:
-2025-04-15 12:16:30,103 - INFO - 	 Gluon channel weight: 401.78855395716005. p_restframe: 1217.5410725974546, quark_weight: 1.0, spin_factor: 1.0, isospin_factor: 0.33
-2025-04-15 12:16:30,103 - INFO - 	 Strange channel weight: 0.0. p_restframe: 1217.5410725974546, quark_weight: 0, spin_factor: 1.0, isospin_factor: 0.33
-2025-04-15 12:16:30,104 - INFO - pi0 a(4)(1970)0:
-2025-04-15 12:16:30,105 - INFO - 	 Gluon channel weight: 644.2649098039656. p_restframe: 417.8482921926524, quark_weight: 1.0, spin_factor: 2.3361563813652406, isospin_factor: 0.33
-2025-04-15 12:16:30,105 - INFO - 	 Strange channel weight: 0.0. p_restframe: 417.8482921926524, quark_weight: 0, spin_factor: 2.3361563813652406, isospin_factor: 0.33
-2025-04-15 12:16:30,108 - INFO - pi0 pi(2)(1670)0:
-2025-04-15 12:16:30,108 - INFO - 	 Gluon channel weight: 552.6533150998539. p_restframe: 645.1778339547069, quark_weight: 1.0, spin_factor: 1.2978646563140226, isospin_factor: 0.33
-2025-04-15 12:16:30,108 - INFO - 	 Strange channel weight: 0.0. p_restframe: 645.1778339547069, quark_weight: 0, spin_factor: 1.2978646563140226, isospin_factor: 0.33
-2025-04-15 12:16:30,110 - INFO - pi0 a(1)(1260)0:
-2025-04-15 12:16:30,110 - INFO - 	 Gluon channel weight: 467.70223470658664. p_restframe: 910.0072519220328, quark_weight: 1.0, spin_factor: 0.7787187937884135, isospin_factor: 0.33
-2025-04-15 12:16:30,110 - INFO - 	 Strange channel weight: 0.0. p_restframe: 910.0072519220328, quark_weight: 0, spin_factor: 0.7787187937884135, isospin_factor: 0.33
-2025-04-15 12:16:30,111 - INFO - pi0 pi(1300)0:
-2025-04-15 12:16:30,111 - INFO - 	 Gluon channel weight: 576.4786695730454. p_restframe: 873.4525296561294, quark_weight: 1.0, spin_factor: 1.0, isospin_factor: 0.33
-2025-04-15 12:16:30,111 - INFO - 	 Strange channel weight: 0.0. p_restframe: 873.4525296561294, quark_weight: 0, spin_factor: 1.0, isospin_factor: 0.33
-2025-04-15 12:16:30,112 - INFO - pi0 pi(1800)0:
-2025-04-15 12:16:30,112 - INFO - 	 Gluon channel weight: 358.78920030414344. p_restframe: 543.6200004608233, quark_weight: 1.0, spin_factor: 1.0, isospin_factor: 0.33
-2025-04-15 12:16:30,113 - INFO - 	 Strange channel weight: 0.0. p_restframe: 543.6200004608233, quark_weight: 0, spin_factor: 1.0, isospin_factor: 0.33
-2025-04-15 12:16:30,113 - INFO - pi0 a(1)(1640)0:
-2025-04-15 12:16:30,114 - INFO - 	 Gluon channel weight: 337.149431786556. p_restframe: 655.9909385501123, quark_weight: 1.0, spin_factor: 0.7787187937884135, isospin_factor: 0.33
-2025-04-15 12:16:30,114 - INFO - 	 Strange channel weight: 0.0. p_restframe: 655.9909385501123, quark_weight: 0, spin_factor: 0.7787187937884135, isospin_factor: 0.33
-2025-04-15 12:16:30,115 - INFO - rho(770)0 rho(770)0:
-2025-04-15 12:16:30,115 - INFO - 	 Gluon channel weight: 1426.4568952586606. p_restframe: 948.4708389824118, quark_weight: 1.0, spin_factor: 4.5574375875768265, isospin_factor: 0.33
-2025-04-15 12:16:30,115 - INFO - 	 Strange channel weight: 0.0. p_restframe: 948.4708389824118, quark_weight: 0, spin_factor: 4.5574375875768265, isospin_factor: 0.33
-2025-04-15 12:16:30,116 - INFO - rho(770)0 b(1)(1235)0:
-2025-04-15 12:16:30,116 - INFO - 	 Gluon channel weight: 1066.9140087204987. p_restframe: 691.9641123958247, quark_weight: 1.0, spin_factor: 2.3361563813652406, isospin_factor: 0.33
-2025-04-15 12:16:30,116 - INFO - 	 Strange channel weight: 0.0. p_restframe: 691.9641123958247, quark_weight: 0, spin_factor: 2.3361563813652406, isospin_factor: 0.33
-2025-04-15 12:16:30,118 - INFO - rho(770)0 rho(1450)0:
-2025-04-15 12:16:30,118 - INFO - 	 Gluon channel weight: 1431.3403992257652. p_restframe: 475.85897401999995, quark_weight: 1.0, spin_factor: 4.5574375875768265, isospin_factor: 0.33
-2025-04-15 12:16:30,118 - INFO - 	 Strange channel weight: 0.0. p_restframe: 475.85897401999995, quark_weight: 0, spin_factor: 4.5574375875768265, isospin_factor: 0.33
-2025-04-15 12:16:30,119 - INFO - a(2)(1320)0 a(0)(980)0:
-2025-04-15 12:16:30,119 - INFO - 	 Gluon channel weight: 360.1355576451449. p_restframe: 420.4289971002592, quark_weight: 1.0, spin_factor: 1.2978646563140226, isospin_factor: 0.33
-2025-04-15 12:16:30,119 - INFO - 	 Strange channel weight: 0.0. p_restframe: 420.4289971002592, quark_weight: 0, spin_factor: 1.2978646563140226, isospin_factor: 0.33
-2025-04-15 12:16:30,120 - INFO - pi+ pi-:
-2025-04-15 12:16:30,120 - INFO - 	 Gluon channel weight: 803.2352135433767. p_restframe: 1217.023050823298, quark_weight: 1, spin_factor: 1.0, isospin_factor: 0.33
-2025-04-15 12:16:30,120 - INFO - 	 Strange channel weight: 0.0. p_restframe: 1217.023050823298, quark_weight: 0, spin_factor: 1.0, isospin_factor: 0.33
-2025-04-15 12:16:30,121 - INFO - rho(770)+ rho(770)-:
-2025-04-15 12:16:30,121 - INFO - 	 Gluon channel weight: 2853.282521165858. p_restframe: 948.5934260261348, quark_weight: 1, spin_factor: 4.5574375875768265, isospin_factor: 0.33
-2025-04-15 12:16:30,122 - INFO - 	 Strange channel weight: 0.0. p_restframe: 948.5934260261348, quark_weight: 0, spin_factor: 4.5574375875768265, isospin_factor: 0.33
-2025-04-15 12:16:30,124 - INFO - eta eta:
-2025-04-15 12:16:30,124 - INFO - 	 Gluon channel weight: 786.6479037896407. p_restframe: 1095.6606358521785, quark_weight: 0.7179667481416862, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,125 - INFO - 	 Strange channel weight: 1.6571445152616632e-09. p_restframe: 1095.6606358521785, quark_weight: 1.5124614876510334e-12, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,126 - INFO - eta eta'(958):
-2025-04-15 12:16:30,126 - INFO - 	 Gluon channel weight: 246.50147854269065. p_restframe: 952.7552359552518, quark_weight: 0.12936243708781262, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,127 - INFO - 	 Strange channel weight: 1.599527852261275e-08. p_restframe: 952.7552359552518, quark_weight: 8.39422231386404e-12, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,129 - INFO - eta eta(2)(1645):
-2025-04-15 12:16:30,129 - INFO - 	 Gluon channel weight: 1135.0518052912805. p_restframe: 516.064656659258, quark_weight: 0.8473291852294987, spin_factor: 1.2978646563140226, isospin_factor: 1
-2025-04-15 12:16:30,129 - INFO - 	 Strange channel weight: 0.0. p_restframe: 516.064656659258, quark_weight: 0.0, spin_factor: 1.2978646563140226, isospin_factor: 1
-2025-04-15 12:16:30,130 - INFO - eta eta(2)(1870):
-2025-04-15 12:16:30,130 - INFO - 	 Gluon channel weight: 3.821939408847852e-19. p_restframe: 229.04658261685347, quark_weight: 6.428365767925668e-22, spin_factor: 1.2978646563140226, isospin_factor: 1
-2025-04-15 12:16:30,130 - INFO - 	 Strange channel weight: 5.889948798638881e-09. p_restframe: 229.04658261685347, quark_weight: 9.906683801515071e-12, spin_factor: 1.2978646563140226, isospin_factor: 1
-2025-04-15 12:16:30,132 - INFO - eta f(1)(1285):
-2025-04-15 12:16:30,132 - INFO - 	 Gluon channel weight: 1025.733297019311. p_restframe: 777.269517982335, quark_weight: 0.8473291852294987, spin_factor: 0.7787187937884135, isospin_factor: 1
-2025-04-15 12:16:30,133 - INFO - 	 Strange channel weight: 0.0. p_restframe: 777.269517982335, quark_weight: 0.0, spin_factor: 0.7787187937884135, isospin_factor: 1
-2025-04-15 12:16:30,134 - INFO - eta f(1)(1420):
-2025-04-15 12:16:30,134 - INFO - 	 Gluon channel weight: 6.764495626495861e-19. p_restframe: 675.653745664953, quark_weight: 6.428365767925668e-22, spin_factor: 0.7787187937884135, isospin_factor: 1
-2025-04-15 12:16:30,134 - INFO - 	 Strange channel weight: 1.0424689830623991e-08. p_restframe: 675.653745664953, quark_weight: 9.906683801515071e-12, spin_factor: 0.7787187937884135, isospin_factor: 1
-2025-04-15 12:16:30,136 - INFO - eta eta(1295):
-2025-04-15 12:16:30,136 - INFO - 	 Gluon channel weight: 1303.8871231942505. p_restframe: 769.4100155662013, quark_weight: 0.8473291852294987, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,136 - INFO - 	 Strange channel weight: 0.0. p_restframe: 769.4100155662013, quark_weight: 0.0, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,138 - INFO - eta eta(1475):
-2025-04-15 12:16:30,138 - INFO - 	 Gluon channel weight: 8.214426516445845e-19. p_restframe: 638.9202802858331, quark_weight: 6.428365767925668e-22, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,138 - INFO - 	 Strange channel weight: 1.2659162382334264e-08. p_restframe: 638.9202802858331, quark_weight: 9.906683801515071e-12, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,141 - INFO - eta eta(1405):
-2025-04-15 12:16:30,141 - INFO - 	 Gluon channel weight: 1169.783175599864. p_restframe: 690.2766929260372, quark_weight: 0.8473291852294987, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,142 - INFO - 	 Strange channel weight: 0.0. p_restframe: 690.2766929260372, quark_weight: 0.0, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,142 - INFO - omega(782) omega(782):
-2025-04-15 12:16:30,143 - INFO - 	 Gluon channel weight: 100.10504530000996. p_restframe: 942.3737710696324, quark_weight: 0.023308377682688723, spin_factor: 4.5574375875768265, isospin_factor: 1
-2025-04-15 12:16:30,143 - INFO - 	 Strange channel weight: 2.000877630297852e-07. p_restframe: 942.3737710696324, quark_weight: 4.658827271298474e-11, spin_factor: 4.5574375875768265, isospin_factor: 1
-2025-04-15 12:16:30,144 - INFO - omega(782) omega(3)(1670):
-2025-04-15 12:16:30,144 - INFO - 	 Gluon channel weight: 31.67705036760599. p_restframe: 19.03180678235011, quark_weight: 0.15267081477050132, spin_factor: 5.4510315565188945, isospin_factor: 1
-2025-04-15 12:16:30,144 - INFO - 	 Strange channel weight: 0.0. p_restframe: 19.03180678235011, quark_weight: 0.0, spin_factor: 5.4510315565188945, isospin_factor: 1
-2025-04-15 12:16:30,145 - INFO - omega(782) phi(1020):
-2025-04-15 12:16:30,145 - INFO - 	 Gluon channel weight: 973.9587785756365. p_restframe: 826.0030712006937, quark_weight: 0.12936243708781262, spin_factor: 4.5574375875768265, isospin_factor: 1
-2025-04-15 12:16:30,146 - INFO - 	 Strange channel weight: 6.31993853544493e-08. p_restframe: 826.0030712006937, quark_weight: 8.39422231386404e-12, spin_factor: 4.5574375875768265, isospin_factor: 1
-2025-04-15 12:16:30,147 - INFO - omega(782) h(1)(1170):
-2025-04-15 12:16:30,147 - INFO - 	 Gluon channel weight: 523.1209204774378. p_restframe: 733.3548333106065, quark_weight: 0.15267081477050132, spin_factor: 2.3361563813652406, isospin_factor: 1
-2025-04-15 12:16:30,147 - INFO - 	 Strange channel weight: 0.0. p_restframe: 733.3548333106065, quark_weight: 0.0, spin_factor: 2.3361563813652406, isospin_factor: 1
-2025-04-15 12:16:30,148 - INFO - omega(782) h(1)(1415):
-2025-04-15 12:16:30,149 - INFO - 	 Gluon channel weight: 8.823769224145125e-18. p_restframe: 529.3287862780251, quark_weight: 3.567768952226816e-21, spin_factor: 2.3361563813652406, isospin_factor: 1
-2025-04-15 12:16:30,149 - INFO - 	 Strange channel weight: 1.3598213729109711e-07. p_restframe: 529.3287862780251, quark_weight: 5.4982495026848777e-11, spin_factor: 2.3361563813652406, isospin_factor: 1
-2025-04-15 12:16:30,151 - INFO - omega(782) omega(1420):
-2025-04-15 12:16:30,151 - INFO - 	 Gluon channel weight: 735.1709357762018. p_restframe: 528.3011797008201, quark_weight: 0.15267081477050132, spin_factor: 4.5574375875768265, isospin_factor: 1
-2025-04-15 12:16:30,151 - INFO - 	 Strange channel weight: 0.0. p_restframe: 528.3011797008201, quark_weight: 0.0, spin_factor: 4.5574375875768265, isospin_factor: 1
-2025-04-15 12:16:30,153 - INFO - f(2)(1270) f(0)(980):
-2025-04-15 12:16:30,153 - INFO - 	 Gluon channel weight: 1202.6456581713214. p_restframe: 463.31705402429014, quark_weight: 1.0, spin_factor: 1.2978646563140226, isospin_factor: 1
-2025-04-15 12:16:30,153 - INFO - 	 Strange channel weight: 0.0. p_restframe: 463.31705402429014, quark_weight: 0, spin_factor: 1.2978646563140226, isospin_factor: 1
-2025-04-15 12:16:30,155 - INFO - K0 K~0:
-2025-04-15 12:16:30,155 - INFO - 	 Gluon channel weight: 7.263555358817975e-08. p_restframe: 1119.3785296667968, quark_weight: 6.488917882836384e-11, spin_factor: 1.0, isospin_factor: 0.5
-2025-04-15 12:16:30,155 - INFO - 	 Strange channel weight: 1119.3785296667968. p_restframe: 1119.3785296667968, quark_weight: 1, spin_factor: 1.0, isospin_factor: 0.5
-2025-04-15 12:16:30,157 - INFO - K*(892)0 K*(892)~0:
-2025-04-15 12:16:30,158 - INFO - 	 Gluon channel weight: 2.47179257049276e-07. p_restframe: 835.8320390485162, quark_weight: 6.488917882836384e-11, spin_factor: 4.5574375875768265, isospin_factor: 0.5
-2025-04-15 12:16:30,158 - INFO - 	 Strange channel weight: 3809.2523516606893. p_restframe: 835.8320390485162, quark_weight: 1, spin_factor: 4.5574375875768265, isospin_factor: 0.5
-2025-04-15 12:16:30,160 - INFO - K+ K-:
-2025-04-15 12:16:30,160 - INFO - 	 Gluon channel weight: 7.274849728410556e-08. p_restframe: 1121.1190925459257, quark_weight: 6.488917882836384e-11, spin_factor: 1.0, isospin_factor: 0.5
-2025-04-15 12:16:30,160 - INFO - 	 Strange channel weight: 1121.1190925459257. p_restframe: 1121.1190925459257, quark_weight: 1, spin_factor: 1.0, isospin_factor: 0.5
-2025-04-15 12:16:30,162 - INFO - K*(892)+ K*(892)-:
-2025-04-15 12:16:30,162 - INFO - 	 Gluon channel weight: 2.4840297134435834e-07. p_restframe: 839.9700060716455, quark_weight: 6.488917882836384e-11, spin_factor: 4.5574375875768265, isospin_factor: 0.5
-2025-04-15 12:16:30,163 - INFO - 	 Strange channel weight: 3828.110878108052. p_restframe: 839.9700060716455, quark_weight: 1, spin_factor: 4.5574375875768265, isospin_factor: 0.5
-2025-04-15 12:16:30,165 - INFO - eta'(958) eta'(958):
-2025-04-15 12:16:30,165 - INFO - 	 Gluon channel weight: 17.80129139780601. p_restframe: 763.7293182797163, quark_weight: 0.023308377682688723, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,165 - INFO - 	 Strange channel weight: 3.558082975891734e-08. p_restframe: 763.7293182797163, quark_weight: 4.658827271298474e-11, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,167 - INFO - eta'(958) f(1)(1285):
-2025-04-15 12:16:30,167 - INFO - 	 Gluon channel weight: 117.06187042144475. p_restframe: 492.32147927631416, quark_weight: 0.15267081477050132, spin_factor: 0.7787187937884135, isospin_factor: 1
-2025-04-15 12:16:30,167 - INFO - 	 Strange channel weight: 0.0. p_restframe: 492.32147927631416, quark_weight: 0.0, spin_factor: 0.7787187937884135, isospin_factor: 1
-2025-04-15 12:16:30,168 - INFO - eta'(958) f(1)(1420):
-2025-04-15 12:16:30,169 - INFO - 	 Gluon channel weight: 1.5147572445110878e-18. p_restframe: 272.6061595816207, quark_weight: 3.567768952226816e-21, spin_factor: 0.7787187937884135, isospin_factor: 1
-2025-04-15 12:16:30,169 - INFO - 	 Strange channel weight: 2.3343757339227863e-08. p_restframe: 272.6061595816207, quark_weight: 5.4982495026848777e-11, spin_factor: 0.7787187937884135, isospin_factor: 1
-2025-04-15 12:16:30,171 - INFO - eta'(958) eta(1295):
-2025-04-15 12:16:30,171 - INFO - 	 Gluon channel weight: 145.9931307469758. p_restframe: 478.1304500353798, quark_weight: 0.15267081477050132, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,171 - INFO - 	 Strange channel weight: 0.0. p_restframe: 478.1304500353798, quark_weight: 0.0, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,172 - INFO - eta'(958) eta(1475):
-2025-04-15 12:16:30,172 - INFO - 	 Gluon channel weight: 9.814337410187657e-19. p_restframe: 137.54166177243707, quark_weight: 3.567768952226816e-21, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,172 - INFO - 	 Strange channel weight: 1.5124767468775075e-08. p_restframe: 137.54166177243707, quark_weight: 5.4982495026848777e-11, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,174 - INFO - eta'(958) eta(1405):
-2025-04-15 12:16:30,174 - INFO - 	 Gluon channel weight: 95.17722223038776. p_restframe: 311.7073239356867, quark_weight: 0.15267081477050132, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,174 - INFO - 	 Strange channel weight: 0.0. p_restframe: 311.7073239356867, quark_weight: 0.0, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,175 - INFO - phi(1020) phi(1020):
-2025-04-15 12:16:30,175 - INFO - 	 Gluon channel weight: 2222.430620116027. p_restframe: 679.2085611054973, quark_weight: 0.7179667481416862, spin_factor: 4.5574375875768265, isospin_factor: 1
-2025-04-15 12:16:30,175 - INFO - 	 Strange channel weight: 4.681749859031851e-09. p_restframe: 679.2085611054973, quark_weight: 1.5124614876510334e-12, spin_factor: 4.5574375875768265, isospin_factor: 1
-2025-04-15 12:16:30,176 - INFO - phi(1020) h(1)(1170):
-2025-04-15 12:16:30,177 - INFO - 	 Gluon channel weight: 2188.1000110043756. p_restframe: 552.691895574519, quark_weight: 0.8473291852294987, spin_factor: 2.3361563813652406, isospin_factor: 1
-2025-04-15 12:16:30,177 - INFO - 	 Strange channel weight: 0.0. p_restframe: 552.691895574519, quark_weight: 0.0, spin_factor: 2.3361563813652406, isospin_factor: 1
-2025-04-15 12:16:30,178 - INFO - phi(1020) h(1)(1415):
-2025-04-15 12:16:30,178 - INFO - 	 Gluon channel weight: 4.806143254267638e-19. p_restframe: 160.0163003643596, quark_weight: 6.428365767925668e-22, spin_factor: 2.3361563813652406, isospin_factor: 1
-2025-04-15 12:16:30,179 - INFO - 	 Strange channel weight: 7.406694522949972e-09. p_restframe: 160.0163003643596, quark_weight: 9.906683801515071e-12, spin_factor: 2.3361563813652406, isospin_factor: 1
-2025-04-15 12:16:30,179 - INFO - phi(1020) omega(1420):
-2025-04-15 12:16:30,180 - INFO - 	 Gluon channel weight: 1206.8673777219967. p_restframe: 156.2631797169333, quark_weight: 0.8473291852294987, spin_factor: 4.5574375875768265, isospin_factor: 1
-2025-04-15 12:16:30,180 - INFO - 	 Strange channel weight: 0.0. p_restframe: 156.2631797169333, quark_weight: 0.0, spin_factor: 4.5574375875768265, isospin_factor: 1
-2025-04-15 12:16:30,181 - INFO - a(0)(1450)0 a(0)(980)0:
-2025-04-15 12:16:30,182 - INFO - 	 Gluon channel weight: 125.9377936125708. p_restframe: 190.81483880692545, quark_weight: 1.0, spin_factor: 1.0, isospin_factor: 0.33
-2025-04-15 12:16:30,182 - INFO - 	 Strange channel weight: 0.0. p_restframe: 190.81483880692545, quark_weight: 0, spin_factor: 1.0, isospin_factor: 0.33
-2025-04-15 12:16:30,183 - INFO - f(0)(1370) f(0)(980):
-2025-04-15 12:16:30,184 - INFO - 	 Gluon channel weight: 717.9997911733317. p_restframe: 358.99989558666584, quark_weight: 1.0, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,184 - INFO - 	 Strange channel weight: 0.0. p_restframe: 358.99989558666584, quark_weight: 0, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,185 - INFO - h(1)(1170) h(1)(1170):
-2025-04-15 12:16:30,185 - INFO - 	 Gluon channel weight: 1711.7349721247595. p_restframe: 375.5915334509019, quark_weight: 1.0, spin_factor: 4.5574375875768265, isospin_factor: 1
-2025-04-15 12:16:30,185 - INFO - 	 Strange channel weight: 0.0. p_restframe: 375.5915334509019, quark_weight: 0, spin_factor: 4.5574375875768265, isospin_factor: 1
-2025-04-15 12:16:30,190 - INFO - a(0)(980)0 a(0)(980)0:
-2025-04-15 12:16:30,190 - INFO - 	 Gluon channel weight: 242.55. p_restframe: 735.0, quark_weight: 1.0, spin_factor: 1.0, isospin_factor: 0.33
-2025-04-15 12:16:30,191 - INFO - 	 Strange channel weight: 0.0. p_restframe: 735.0, quark_weight: 0, spin_factor: 1.0, isospin_factor: 0.33
-2025-04-15 12:16:30,192 - INFO - a(0)(980)+ a(0)(980)-:
-2025-04-15 12:16:30,192 - INFO - 	 Gluon channel weight: 485.1. p_restframe: 735.0, quark_weight: 1, spin_factor: 1.0, isospin_factor: 0.33
-2025-04-15 12:16:30,192 - INFO - 	 Strange channel weight: 0.0. p_restframe: 735.0, quark_weight: 0, spin_factor: 1.0, isospin_factor: 0.33
-2025-04-15 12:16:30,194 - INFO - f(0)(980) f(0)(980):
-2025-04-15 12:16:30,194 - INFO - 	 Gluon channel weight: 721.4741852623696. p_restframe: 721.4741852623696, quark_weight: 1.0, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,195 - INFO - 	 Strange channel weight: 0.0. p_restframe: 721.4741852623696, quark_weight: 0, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,278 - INFO - pi0 pi0:
-2025-04-15 12:16:30,279 - INFO - 	 Gluon channel weight: 401.78855395716005. p_restframe: 1217.5410725974546, quark_weight: 1.0, spin_factor: 1.0, isospin_factor: 0.33
-2025-04-15 12:16:30,279 - INFO - 	 Strange channel weight: 0.0. p_restframe: 1217.5410725974546, quark_weight: 0, spin_factor: 1.0, isospin_factor: 0.33
-2025-04-15 12:16:30,281 - INFO - pi0 a(4)(1970)0:
-2025-04-15 12:16:30,281 - INFO - 	 Gluon channel weight: 644.2649098039656. p_restframe: 417.8482921926524, quark_weight: 1.0, spin_factor: 2.3361563813652406, isospin_factor: 0.33
-2025-04-15 12:16:30,281 - INFO - 	 Strange channel weight: 0.0. p_restframe: 417.8482921926524, quark_weight: 0, spin_factor: 2.3361563813652406, isospin_factor: 0.33
-2025-04-15 12:16:30,284 - INFO - pi0 pi(2)(1670)0:
-2025-04-15 12:16:30,284 - INFO - 	 Gluon channel weight: 552.6533150998539. p_restframe: 645.1778339547069, quark_weight: 1.0, spin_factor: 1.2978646563140226, isospin_factor: 0.33
-2025-04-15 12:16:30,285 - INFO - 	 Strange channel weight: 0.0. p_restframe: 645.1778339547069, quark_weight: 0, spin_factor: 1.2978646563140226, isospin_factor: 0.33
-2025-04-15 12:16:30,287 - INFO - pi0 a(1)(1260)0:
-2025-04-15 12:16:30,287 - INFO - 	 Gluon channel weight: 467.70223470658664. p_restframe: 910.0072519220328, quark_weight: 1.0, spin_factor: 0.7787187937884135, isospin_factor: 0.33
-2025-04-15 12:16:30,288 - INFO - 	 Strange channel weight: 0.0. p_restframe: 910.0072519220328, quark_weight: 0, spin_factor: 0.7787187937884135, isospin_factor: 0.33
-2025-04-15 12:16:30,290 - INFO - pi0 pi(1300)0:
-2025-04-15 12:16:30,290 - INFO - 	 Gluon channel weight: 576.4786695730454. p_restframe: 873.4525296561294, quark_weight: 1.0, spin_factor: 1.0, isospin_factor: 0.33
-2025-04-15 12:16:30,290 - INFO - 	 Strange channel weight: 0.0. p_restframe: 873.4525296561294, quark_weight: 0, spin_factor: 1.0, isospin_factor: 0.33
-2025-04-15 12:16:30,293 - INFO - pi0 pi(1800)0:
-2025-04-15 12:16:30,293 - INFO - 	 Gluon channel weight: 358.78920030414344. p_restframe: 543.6200004608233, quark_weight: 1.0, spin_factor: 1.0, isospin_factor: 0.33
-2025-04-15 12:16:30,293 - INFO - 	 Strange channel weight: 0.0. p_restframe: 543.6200004608233, quark_weight: 0, spin_factor: 1.0, isospin_factor: 0.33
-2025-04-15 12:16:30,295 - INFO - pi0 a(1)(1640)0:
-2025-04-15 12:16:30,295 - INFO - 	 Gluon channel weight: 337.149431786556. p_restframe: 655.9909385501123, quark_weight: 1.0, spin_factor: 0.7787187937884135, isospin_factor: 0.33
-2025-04-15 12:16:30,295 - INFO - 	 Strange channel weight: 0.0. p_restframe: 655.9909385501123, quark_weight: 0, spin_factor: 0.7787187937884135, isospin_factor: 0.33
-2025-04-15 12:16:30,297 - INFO - rho(770)0 rho(770)0:
-2025-04-15 12:16:30,297 - INFO - 	 Gluon channel weight: 1426.4568952586606. p_restframe: 948.4708389824118, quark_weight: 1.0, spin_factor: 4.5574375875768265, isospin_factor: 0.33
-2025-04-15 12:16:30,297 - INFO - 	 Strange channel weight: 0.0. p_restframe: 948.4708389824118, quark_weight: 0, spin_factor: 4.5574375875768265, isospin_factor: 0.33
-2025-04-15 12:16:30,299 - INFO - rho(770)0 b(1)(1235)0:
-2025-04-15 12:16:30,299 - INFO - 	 Gluon channel weight: 1066.9140087204987. p_restframe: 691.9641123958247, quark_weight: 1.0, spin_factor: 2.3361563813652406, isospin_factor: 0.33
-2025-04-15 12:16:30,299 - INFO - 	 Strange channel weight: 0.0. p_restframe: 691.9641123958247, quark_weight: 0, spin_factor: 2.3361563813652406, isospin_factor: 0.33
-2025-04-15 12:16:30,300 - INFO - rho(770)0 rho(1450)0:
-2025-04-15 12:16:30,300 - INFO - 	 Gluon channel weight: 1431.3403992257652. p_restframe: 475.85897401999995, quark_weight: 1.0, spin_factor: 4.5574375875768265, isospin_factor: 0.33
-2025-04-15 12:16:30,300 - INFO - 	 Strange channel weight: 0.0. p_restframe: 475.85897401999995, quark_weight: 0, spin_factor: 4.5574375875768265, isospin_factor: 0.33
-2025-04-15 12:16:30,302 - INFO - a(2)(1320)0 a(0)(980)0:
-2025-04-15 12:16:30,302 - INFO - 	 Gluon channel weight: 360.1355576451449. p_restframe: 420.4289971002592, quark_weight: 1.0, spin_factor: 1.2978646563140226, isospin_factor: 0.33
-2025-04-15 12:16:30,302 - INFO - 	 Strange channel weight: 0.0. p_restframe: 420.4289971002592, quark_weight: 0, spin_factor: 1.2978646563140226, isospin_factor: 0.33
-2025-04-15 12:16:30,303 - INFO - pi+ pi-:
-2025-04-15 12:16:30,303 - INFO - 	 Gluon channel weight: 803.2352135433767. p_restframe: 1217.023050823298, quark_weight: 1, spin_factor: 1.0, isospin_factor: 0.33
-2025-04-15 12:16:30,303 - INFO - 	 Strange channel weight: 0.0. p_restframe: 1217.023050823298, quark_weight: 0, spin_factor: 1.0, isospin_factor: 0.33
-2025-04-15 12:16:30,304 - INFO - rho(770)+ rho(770)-:
-2025-04-15 12:16:30,304 - INFO - 	 Gluon channel weight: 2853.282521165858. p_restframe: 948.5934260261348, quark_weight: 1, spin_factor: 4.5574375875768265, isospin_factor: 0.33
-2025-04-15 12:16:30,305 - INFO - 	 Strange channel weight: 0.0. p_restframe: 948.5934260261348, quark_weight: 0, spin_factor: 4.5574375875768265, isospin_factor: 0.33
-2025-04-15 12:16:30,306 - INFO - eta eta:
-2025-04-15 12:16:30,306 - INFO - 	 Gluon channel weight: 786.6479037896407. p_restframe: 1095.6606358521785, quark_weight: 0.7179667481416862, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,307 - INFO - 	 Strange channel weight: 1.6571445152616632e-09. p_restframe: 1095.6606358521785, quark_weight: 1.5124614876510334e-12, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,308 - INFO - eta eta'(958):
-2025-04-15 12:16:30,308 - INFO - 	 Gluon channel weight: 246.50147854269065. p_restframe: 952.7552359552518, quark_weight: 0.12936243708781262, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,308 - INFO - 	 Strange channel weight: 1.599527852261275e-08. p_restframe: 952.7552359552518, quark_weight: 8.39422231386404e-12, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,309 - INFO - eta eta(2)(1645):
-2025-04-15 12:16:30,309 - INFO - 	 Gluon channel weight: 1135.0518052912805. p_restframe: 516.064656659258, quark_weight: 0.8473291852294987, spin_factor: 1.2978646563140226, isospin_factor: 1
-2025-04-15 12:16:30,309 - INFO - 	 Strange channel weight: 0.0. p_restframe: 516.064656659258, quark_weight: 0.0, spin_factor: 1.2978646563140226, isospin_factor: 1
-2025-04-15 12:16:30,310 - INFO - eta eta(2)(1870):
-2025-04-15 12:16:30,310 - INFO - 	 Gluon channel weight: 3.821939408847852e-19. p_restframe: 229.04658261685347, quark_weight: 6.428365767925668e-22, spin_factor: 1.2978646563140226, isospin_factor: 1
-2025-04-15 12:16:30,310 - INFO - 	 Strange channel weight: 5.889948798638881e-09. p_restframe: 229.04658261685347, quark_weight: 9.906683801515071e-12, spin_factor: 1.2978646563140226, isospin_factor: 1
-2025-04-15 12:16:30,311 - INFO - eta f(1)(1285):
-2025-04-15 12:16:30,311 - INFO - 	 Gluon channel weight: 1025.733297019311. p_restframe: 777.269517982335, quark_weight: 0.8473291852294987, spin_factor: 0.7787187937884135, isospin_factor: 1
-2025-04-15 12:16:30,312 - INFO - 	 Strange channel weight: 0.0. p_restframe: 777.269517982335, quark_weight: 0.0, spin_factor: 0.7787187937884135, isospin_factor: 1
-2025-04-15 12:16:30,313 - INFO - eta f(1)(1420):
-2025-04-15 12:16:30,313 - INFO - 	 Gluon channel weight: 6.764495626495861e-19. p_restframe: 675.653745664953, quark_weight: 6.428365767925668e-22, spin_factor: 0.7787187937884135, isospin_factor: 1
-2025-04-15 12:16:30,314 - INFO - 	 Strange channel weight: 1.0424689830623991e-08. p_restframe: 675.653745664953, quark_weight: 9.906683801515071e-12, spin_factor: 0.7787187937884135, isospin_factor: 1
-2025-04-15 12:16:30,315 - INFO - eta eta(1295):
-2025-04-15 12:16:30,315 - INFO - 	 Gluon channel weight: 1303.8871231942505. p_restframe: 769.4100155662013, quark_weight: 0.8473291852294987, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,316 - INFO - 	 Strange channel weight: 0.0. p_restframe: 769.4100155662013, quark_weight: 0.0, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,316 - INFO - eta eta(1475):
-2025-04-15 12:16:30,317 - INFO - 	 Gluon channel weight: 8.214426516445845e-19. p_restframe: 638.9202802858331, quark_weight: 6.428365767925668e-22, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,317 - INFO - 	 Strange channel weight: 1.2659162382334264e-08. p_restframe: 638.9202802858331, quark_weight: 9.906683801515071e-12, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,320 - INFO - eta eta(1405):
-2025-04-15 12:16:30,320 - INFO - 	 Gluon channel weight: 1169.783175599864. p_restframe: 690.2766929260372, quark_weight: 0.8473291852294987, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,321 - INFO - 	 Strange channel weight: 0.0. p_restframe: 690.2766929260372, quark_weight: 0.0, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,322 - INFO - omega(782) omega(782):
-2025-04-15 12:16:30,322 - INFO - 	 Gluon channel weight: 100.10504530000996. p_restframe: 942.3737710696324, quark_weight: 0.023308377682688723, spin_factor: 4.5574375875768265, isospin_factor: 1
-2025-04-15 12:16:30,322 - INFO - 	 Strange channel weight: 2.000877630297852e-07. p_restframe: 942.3737710696324, quark_weight: 4.658827271298474e-11, spin_factor: 4.5574375875768265, isospin_factor: 1
-2025-04-15 12:16:30,323 - INFO - omega(782) omega(3)(1670):
-2025-04-15 12:16:30,324 - INFO - 	 Gluon channel weight: 31.67705036760599. p_restframe: 19.03180678235011, quark_weight: 0.15267081477050132, spin_factor: 5.4510315565188945, isospin_factor: 1
-2025-04-15 12:16:30,324 - INFO - 	 Strange channel weight: 0.0. p_restframe: 19.03180678235011, quark_weight: 0.0, spin_factor: 5.4510315565188945, isospin_factor: 1
-2025-04-15 12:16:30,324 - INFO - omega(782) phi(1020):
-2025-04-15 12:16:30,325 - INFO - 	 Gluon channel weight: 973.9587785756365. p_restframe: 826.0030712006937, quark_weight: 0.12936243708781262, spin_factor: 4.5574375875768265, isospin_factor: 1
-2025-04-15 12:16:30,325 - INFO - 	 Strange channel weight: 6.31993853544493e-08. p_restframe: 826.0030712006937, quark_weight: 8.39422231386404e-12, spin_factor: 4.5574375875768265, isospin_factor: 1
-2025-04-15 12:16:30,326 - INFO - omega(782) h(1)(1170):
-2025-04-15 12:16:30,326 - INFO - 	 Gluon channel weight: 523.1209204774378. p_restframe: 733.3548333106065, quark_weight: 0.15267081477050132, spin_factor: 2.3361563813652406, isospin_factor: 1
-2025-04-15 12:16:30,327 - INFO - 	 Strange channel weight: 0.0. p_restframe: 733.3548333106065, quark_weight: 0.0, spin_factor: 2.3361563813652406, isospin_factor: 1
-2025-04-15 12:16:30,327 - INFO - omega(782) h(1)(1415):
-2025-04-15 12:16:30,327 - INFO - 	 Gluon channel weight: 8.823769224145125e-18. p_restframe: 529.3287862780251, quark_weight: 3.567768952226816e-21, spin_factor: 2.3361563813652406, isospin_factor: 1
-2025-04-15 12:16:30,327 - INFO - 	 Strange channel weight: 1.3598213729109711e-07. p_restframe: 529.3287862780251, quark_weight: 5.4982495026848777e-11, spin_factor: 2.3361563813652406, isospin_factor: 1
-2025-04-15 12:16:30,328 - INFO - omega(782) omega(1420):
-2025-04-15 12:16:30,328 - INFO - 	 Gluon channel weight: 735.1709357762018. p_restframe: 528.3011797008201, quark_weight: 0.15267081477050132, spin_factor: 4.5574375875768265, isospin_factor: 1
-2025-04-15 12:16:30,328 - INFO - 	 Strange channel weight: 0.0. p_restframe: 528.3011797008201, quark_weight: 0.0, spin_factor: 4.5574375875768265, isospin_factor: 1
-2025-04-15 12:16:30,329 - INFO - f(2)(1270) f(0)(980):
-2025-04-15 12:16:30,330 - INFO - 	 Gluon channel weight: 1202.6456581713214. p_restframe: 463.31705402429014, quark_weight: 1.0, spin_factor: 1.2978646563140226, isospin_factor: 1
-2025-04-15 12:16:30,330 - INFO - 	 Strange channel weight: 0.0. p_restframe: 463.31705402429014, quark_weight: 0, spin_factor: 1.2978646563140226, isospin_factor: 1
-2025-04-15 12:16:30,330 - INFO - K0 K~0:
-2025-04-15 12:16:30,331 - INFO - 	 Gluon channel weight: 7.263555358817975e-08. p_restframe: 1119.3785296667968, quark_weight: 6.488917882836384e-11, spin_factor: 1.0, isospin_factor: 0.5
-2025-04-15 12:16:30,331 - INFO - 	 Strange channel weight: 1119.3785296667968. p_restframe: 1119.3785296667968, quark_weight: 1, spin_factor: 1.0, isospin_factor: 0.5
-2025-04-15 12:16:30,332 - INFO - K*(892)0 K*(892)~0:
-2025-04-15 12:16:30,332 - INFO - 	 Gluon channel weight: 2.47179257049276e-07. p_restframe: 835.8320390485162, quark_weight: 6.488917882836384e-11, spin_factor: 4.5574375875768265, isospin_factor: 0.5
-2025-04-15 12:16:30,332 - INFO - 	 Strange channel weight: 3809.2523516606893. p_restframe: 835.8320390485162, quark_weight: 1, spin_factor: 4.5574375875768265, isospin_factor: 0.5
-2025-04-15 12:16:30,333 - INFO - K+ K-:
-2025-04-15 12:16:30,333 - INFO - 	 Gluon channel weight: 7.274849728410556e-08. p_restframe: 1121.1190925459257, quark_weight: 6.488917882836384e-11, spin_factor: 1.0, isospin_factor: 0.5
-2025-04-15 12:16:30,333 - INFO - 	 Strange channel weight: 1121.1190925459257. p_restframe: 1121.1190925459257, quark_weight: 1, spin_factor: 1.0, isospin_factor: 0.5
-2025-04-15 12:16:30,334 - INFO - K*(892)+ K*(892)-:
-2025-04-15 12:16:30,334 - INFO - 	 Gluon channel weight: 2.4840297134435834e-07. p_restframe: 839.9700060716455, quark_weight: 6.488917882836384e-11, spin_factor: 4.5574375875768265, isospin_factor: 0.5
-2025-04-15 12:16:30,335 - INFO - 	 Strange channel weight: 3828.110878108052. p_restframe: 839.9700060716455, quark_weight: 1, spin_factor: 4.5574375875768265, isospin_factor: 0.5
-2025-04-15 12:16:30,336 - INFO - eta'(958) eta'(958):
-2025-04-15 12:16:30,336 - INFO - 	 Gluon channel weight: 17.80129139780601. p_restframe: 763.7293182797163, quark_weight: 0.023308377682688723, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,336 - INFO - 	 Strange channel weight: 3.558082975891734e-08. p_restframe: 763.7293182797163, quark_weight: 4.658827271298474e-11, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,337 - INFO - eta'(958) f(1)(1285):
-2025-04-15 12:16:30,338 - INFO - 	 Gluon channel weight: 117.06187042144475. p_restframe: 492.32147927631416, quark_weight: 0.15267081477050132, spin_factor: 0.7787187937884135, isospin_factor: 1
-2025-04-15 12:16:30,338 - INFO - 	 Strange channel weight: 0.0. p_restframe: 492.32147927631416, quark_weight: 0.0, spin_factor: 0.7787187937884135, isospin_factor: 1
-2025-04-15 12:16:30,339 - INFO - eta'(958) f(1)(1420):
-2025-04-15 12:16:30,339 - INFO - 	 Gluon channel weight: 1.5147572445110878e-18. p_restframe: 272.6061595816207, quark_weight: 3.567768952226816e-21, spin_factor: 0.7787187937884135, isospin_factor: 1
-2025-04-15 12:16:30,339 - INFO - 	 Strange channel weight: 2.3343757339227863e-08. p_restframe: 272.6061595816207, quark_weight: 5.4982495026848777e-11, spin_factor: 0.7787187937884135, isospin_factor: 1
-2025-04-15 12:16:30,340 - INFO - eta'(958) eta(1295):
-2025-04-15 12:16:30,340 - INFO - 	 Gluon channel weight: 145.9931307469758. p_restframe: 478.1304500353798, quark_weight: 0.15267081477050132, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,341 - INFO - 	 Strange channel weight: 0.0. p_restframe: 478.1304500353798, quark_weight: 0.0, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,341 - INFO - eta'(958) eta(1475):
-2025-04-15 12:16:30,342 - INFO - 	 Gluon channel weight: 9.814337410187657e-19. p_restframe: 137.54166177243707, quark_weight: 3.567768952226816e-21, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,342 - INFO - 	 Strange channel weight: 1.5124767468775075e-08. p_restframe: 137.54166177243707, quark_weight: 5.4982495026848777e-11, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,343 - INFO - eta'(958) eta(1405):
-2025-04-15 12:16:30,343 - INFO - 	 Gluon channel weight: 95.17722223038776. p_restframe: 311.7073239356867, quark_weight: 0.15267081477050132, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,343 - INFO - 	 Strange channel weight: 0.0. p_restframe: 311.7073239356867, quark_weight: 0.0, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,343 - INFO - phi(1020) phi(1020):
-2025-04-15 12:16:30,344 - INFO - 	 Gluon channel weight: 2222.430620116027. p_restframe: 679.2085611054973, quark_weight: 0.7179667481416862, spin_factor: 4.5574375875768265, isospin_factor: 1
-2025-04-15 12:16:30,344 - INFO - 	 Strange channel weight: 4.681749859031851e-09. p_restframe: 679.2085611054973, quark_weight: 1.5124614876510334e-12, spin_factor: 4.5574375875768265, isospin_factor: 1
-2025-04-15 12:16:30,344 - INFO - phi(1020) h(1)(1170):
-2025-04-15 12:16:30,345 - INFO - 	 Gluon channel weight: 2188.1000110043756. p_restframe: 552.691895574519, quark_weight: 0.8473291852294987, spin_factor: 2.3361563813652406, isospin_factor: 1
-2025-04-15 12:16:30,345 - INFO - 	 Strange channel weight: 0.0. p_restframe: 552.691895574519, quark_weight: 0.0, spin_factor: 2.3361563813652406, isospin_factor: 1
-2025-04-15 12:16:30,345 - INFO - phi(1020) h(1)(1415):
-2025-04-15 12:16:30,345 - INFO - 	 Gluon channel weight: 4.806143254267638e-19. p_restframe: 160.0163003643596, quark_weight: 6.428365767925668e-22, spin_factor: 2.3361563813652406, isospin_factor: 1
-2025-04-15 12:16:30,346 - INFO - 	 Strange channel weight: 7.406694522949972e-09. p_restframe: 160.0163003643596, quark_weight: 9.906683801515071e-12, spin_factor: 2.3361563813652406, isospin_factor: 1
-2025-04-15 12:16:30,346 - INFO - phi(1020) omega(1420):
-2025-04-15 12:16:30,347 - INFO - 	 Gluon channel weight: 1206.8673777219967. p_restframe: 156.2631797169333, quark_weight: 0.8473291852294987, spin_factor: 4.5574375875768265, isospin_factor: 1
-2025-04-15 12:16:30,347 - INFO - 	 Strange channel weight: 0.0. p_restframe: 156.2631797169333, quark_weight: 0.0, spin_factor: 4.5574375875768265, isospin_factor: 1
-2025-04-15 12:16:30,348 - INFO - a(0)(1450)0 a(0)(980)0:
-2025-04-15 12:16:30,348 - INFO - 	 Gluon channel weight: 125.9377936125708. p_restframe: 190.81483880692545, quark_weight: 1.0, spin_factor: 1.0, isospin_factor: 0.33
-2025-04-15 12:16:30,349 - INFO - 	 Strange channel weight: 0.0. p_restframe: 190.81483880692545, quark_weight: 0, spin_factor: 1.0, isospin_factor: 0.33
-2025-04-15 12:16:30,350 - INFO - f(0)(1370) f(0)(980):
-2025-04-15 12:16:30,350 - INFO - 	 Gluon channel weight: 717.9997911733317. p_restframe: 358.99989558666584, quark_weight: 1.0, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,350 - INFO - 	 Strange channel weight: 0.0. p_restframe: 358.99989558666584, quark_weight: 0, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,351 - INFO - h(1)(1170) h(1)(1170):
-2025-04-15 12:16:30,351 - INFO - 	 Gluon channel weight: 1711.7349721247595. p_restframe: 375.5915334509019, quark_weight: 1.0, spin_factor: 4.5574375875768265, isospin_factor: 1
-2025-04-15 12:16:30,351 - INFO - 	 Strange channel weight: 0.0. p_restframe: 375.5915334509019, quark_weight: 0, spin_factor: 4.5574375875768265, isospin_factor: 1
-2025-04-15 12:16:30,355 - INFO - a(0)(980)0 a(0)(980)0:
-2025-04-15 12:16:30,355 - INFO - 	 Gluon channel weight: 242.55. p_restframe: 735.0, quark_weight: 1.0, spin_factor: 1.0, isospin_factor: 0.33
-2025-04-15 12:16:30,355 - INFO - 	 Strange channel weight: 0.0. p_restframe: 735.0, quark_weight: 0, spin_factor: 1.0, isospin_factor: 0.33
-2025-04-15 12:16:30,356 - INFO - a(0)(980)+ a(0)(980)-:
-2025-04-15 12:16:30,356 - INFO - 	 Gluon channel weight: 485.1. p_restframe: 735.0, quark_weight: 1, spin_factor: 1.0, isospin_factor: 0.33
-2025-04-15 12:16:30,357 - INFO - 	 Strange channel weight: 0.0. p_restframe: 735.0, quark_weight: 0, spin_factor: 1.0, isospin_factor: 0.33
-2025-04-15 12:16:30,358 - INFO - f(0)(980) f(0)(980):
-2025-04-15 12:16:30,359 - INFO - 	 Gluon channel weight: 721.4741852623696. p_restframe: 721.4741852623696, quark_weight: 1.0, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,359 - INFO - 	 Strange channel weight: 0.0. p_restframe: 721.4741852623696, quark_weight: 0, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,372 - INFO - pi0 pi0:
-2025-04-15 12:16:30,372 - INFO - 	 Gluon channel weight: 401.78855395716005. p_restframe: 1217.5410725974546, quark_weight: 1.0, spin_factor: 1.0, isospin_factor: 0.33
-2025-04-15 12:16:30,372 - INFO - 	 Strange channel weight: 0.0. p_restframe: 1217.5410725974546, quark_weight: 0, spin_factor: 1.0, isospin_factor: 0.33
-2025-04-15 12:16:30,373 - INFO - pi0 a(4)(1970)0:
-2025-04-15 12:16:30,373 - INFO - 	 Gluon channel weight: 644.2649098039656. p_restframe: 417.8482921926524, quark_weight: 1.0, spin_factor: 2.3361563813652406, isospin_factor: 0.33
-2025-04-15 12:16:30,373 - INFO - 	 Strange channel weight: 0.0. p_restframe: 417.8482921926524, quark_weight: 0, spin_factor: 2.3361563813652406, isospin_factor: 0.33
-2025-04-15 12:16:30,375 - INFO - pi0 pi(2)(1670)0:
-2025-04-15 12:16:30,375 - INFO - 	 Gluon channel weight: 552.6533150998539. p_restframe: 645.1778339547069, quark_weight: 1.0, spin_factor: 1.2978646563140226, isospin_factor: 0.33
-2025-04-15 12:16:30,375 - INFO - 	 Strange channel weight: 0.0. p_restframe: 645.1778339547069, quark_weight: 0, spin_factor: 1.2978646563140226, isospin_factor: 0.33
-2025-04-15 12:16:30,377 - INFO - pi0 a(1)(1260)0:
-2025-04-15 12:16:30,377 - INFO - 	 Gluon channel weight: 467.70223470658664. p_restframe: 910.0072519220328, quark_weight: 1.0, spin_factor: 0.7787187937884135, isospin_factor: 0.33
-2025-04-15 12:16:30,377 - INFO - 	 Strange channel weight: 0.0. p_restframe: 910.0072519220328, quark_weight: 0, spin_factor: 0.7787187937884135, isospin_factor: 0.33
-2025-04-15 12:16:30,378 - INFO - pi0 pi(1300)0:
-2025-04-15 12:16:30,378 - INFO - 	 Gluon channel weight: 576.4786695730454. p_restframe: 873.4525296561294, quark_weight: 1.0, spin_factor: 1.0, isospin_factor: 0.33
-2025-04-15 12:16:30,378 - INFO - 	 Strange channel weight: 0.0. p_restframe: 873.4525296561294, quark_weight: 0, spin_factor: 1.0, isospin_factor: 0.33
-2025-04-15 12:16:30,380 - INFO - pi0 pi(1800)0:
-2025-04-15 12:16:30,380 - INFO - 	 Gluon channel weight: 358.78920030414344. p_restframe: 543.6200004608233, quark_weight: 1.0, spin_factor: 1.0, isospin_factor: 0.33
-2025-04-15 12:16:30,380 - INFO - 	 Strange channel weight: 0.0. p_restframe: 543.6200004608233, quark_weight: 0, spin_factor: 1.0, isospin_factor: 0.33
-2025-04-15 12:16:30,381 - INFO - pi0 a(1)(1640)0:
-2025-04-15 12:16:30,381 - INFO - 	 Gluon channel weight: 337.149431786556. p_restframe: 655.9909385501123, quark_weight: 1.0, spin_factor: 0.7787187937884135, isospin_factor: 0.33
-2025-04-15 12:16:30,381 - INFO - 	 Strange channel weight: 0.0. p_restframe: 655.9909385501123, quark_weight: 0, spin_factor: 0.7787187937884135, isospin_factor: 0.33
-2025-04-15 12:16:30,382 - INFO - rho(770)0 rho(770)0:
-2025-04-15 12:16:30,382 - INFO - 	 Gluon channel weight: 1426.4568952586606. p_restframe: 948.4708389824118, quark_weight: 1.0, spin_factor: 4.5574375875768265, isospin_factor: 0.33
-2025-04-15 12:16:30,383 - INFO - 	 Strange channel weight: 0.0. p_restframe: 948.4708389824118, quark_weight: 0, spin_factor: 4.5574375875768265, isospin_factor: 0.33
-2025-04-15 12:16:30,384 - INFO - rho(770)0 b(1)(1235)0:
-2025-04-15 12:16:30,384 - INFO - 	 Gluon channel weight: 1066.9140087204987. p_restframe: 691.9641123958247, quark_weight: 1.0, spin_factor: 2.3361563813652406, isospin_factor: 0.33
-2025-04-15 12:16:30,384 - INFO - 	 Strange channel weight: 0.0. p_restframe: 691.9641123958247, quark_weight: 0, spin_factor: 2.3361563813652406, isospin_factor: 0.33
-2025-04-15 12:16:30,385 - INFO - rho(770)0 rho(1450)0:
-2025-04-15 12:16:30,385 - INFO - 	 Gluon channel weight: 1431.3403992257652. p_restframe: 475.85897401999995, quark_weight: 1.0, spin_factor: 4.5574375875768265, isospin_factor: 0.33
-2025-04-15 12:16:30,385 - INFO - 	 Strange channel weight: 0.0. p_restframe: 475.85897401999995, quark_weight: 0, spin_factor: 4.5574375875768265, isospin_factor: 0.33
-2025-04-15 12:16:30,387 - INFO - a(2)(1320)0 a(0)(980)0:
-2025-04-15 12:16:30,387 - INFO - 	 Gluon channel weight: 360.1355576451449. p_restframe: 420.4289971002592, quark_weight: 1.0, spin_factor: 1.2978646563140226, isospin_factor: 0.33
-2025-04-15 12:16:30,387 - INFO - 	 Strange channel weight: 0.0. p_restframe: 420.4289971002592, quark_weight: 0, spin_factor: 1.2978646563140226, isospin_factor: 0.33
-2025-04-15 12:16:30,388 - INFO - pi+ pi-:
-2025-04-15 12:16:30,388 - INFO - 	 Gluon channel weight: 803.2352135433767. p_restframe: 1217.023050823298, quark_weight: 1, spin_factor: 1.0, isospin_factor: 0.33
-2025-04-15 12:16:30,388 - INFO - 	 Strange channel weight: 0.0. p_restframe: 1217.023050823298, quark_weight: 0, spin_factor: 1.0, isospin_factor: 0.33
-2025-04-15 12:16:30,389 - INFO - rho(770)+ rho(770)-:
-2025-04-15 12:16:30,390 - INFO - 	 Gluon channel weight: 2853.282521165858. p_restframe: 948.5934260261348, quark_weight: 1, spin_factor: 4.5574375875768265, isospin_factor: 0.33
-2025-04-15 12:16:30,390 - INFO - 	 Strange channel weight: 0.0. p_restframe: 948.5934260261348, quark_weight: 0, spin_factor: 4.5574375875768265, isospin_factor: 0.33
-2025-04-15 12:16:30,392 - INFO - eta eta:
-2025-04-15 12:16:30,392 - INFO - 	 Gluon channel weight: 786.6479037896407. p_restframe: 1095.6606358521785, quark_weight: 0.7179667481416862, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,392 - INFO - 	 Strange channel weight: 1.6571445152616632e-09. p_restframe: 1095.6606358521785, quark_weight: 1.5124614876510334e-12, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,393 - INFO - eta eta'(958):
-2025-04-15 12:16:30,394 - INFO - 	 Gluon channel weight: 246.50147854269065. p_restframe: 952.7552359552518, quark_weight: 0.12936243708781262, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,394 - INFO - 	 Strange channel weight: 1.599527852261275e-08. p_restframe: 952.7552359552518, quark_weight: 8.39422231386404e-12, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,396 - INFO - eta eta(2)(1645):
-2025-04-15 12:16:30,396 - INFO - 	 Gluon channel weight: 1135.0518052912805. p_restframe: 516.064656659258, quark_weight: 0.8473291852294987, spin_factor: 1.2978646563140226, isospin_factor: 1
-2025-04-15 12:16:30,396 - INFO - 	 Strange channel weight: 0.0. p_restframe: 516.064656659258, quark_weight: 0.0, spin_factor: 1.2978646563140226, isospin_factor: 1
-2025-04-15 12:16:30,397 - INFO - eta eta(2)(1870):
-2025-04-15 12:16:30,398 - INFO - 	 Gluon channel weight: 3.821939408847852e-19. p_restframe: 229.04658261685347, quark_weight: 6.428365767925668e-22, spin_factor: 1.2978646563140226, isospin_factor: 1
-2025-04-15 12:16:30,398 - INFO - 	 Strange channel weight: 5.889948798638881e-09. p_restframe: 229.04658261685347, quark_weight: 9.906683801515071e-12, spin_factor: 1.2978646563140226, isospin_factor: 1
-2025-04-15 12:16:30,399 - INFO - eta f(1)(1285):
-2025-04-15 12:16:30,400 - INFO - 	 Gluon channel weight: 1025.733297019311. p_restframe: 777.269517982335, quark_weight: 0.8473291852294987, spin_factor: 0.7787187937884135, isospin_factor: 1
-2025-04-15 12:16:30,400 - INFO - 	 Strange channel weight: 0.0. p_restframe: 777.269517982335, quark_weight: 0.0, spin_factor: 0.7787187937884135, isospin_factor: 1
-2025-04-15 12:16:30,401 - INFO - eta f(1)(1420):
-2025-04-15 12:16:30,401 - INFO - 	 Gluon channel weight: 6.764495626495861e-19. p_restframe: 675.653745664953, quark_weight: 6.428365767925668e-22, spin_factor: 0.7787187937884135, isospin_factor: 1
-2025-04-15 12:16:30,402 - INFO - 	 Strange channel weight: 1.0424689830623991e-08. p_restframe: 675.653745664953, quark_weight: 9.906683801515071e-12, spin_factor: 0.7787187937884135, isospin_factor: 1
-2025-04-15 12:16:30,404 - INFO - eta eta(1295):
-2025-04-15 12:16:30,405 - INFO - 	 Gluon channel weight: 1303.8871231942505. p_restframe: 769.4100155662013, quark_weight: 0.8473291852294987, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,405 - INFO - 	 Strange channel weight: 0.0. p_restframe: 769.4100155662013, quark_weight: 0.0, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,406 - INFO - eta eta(1475):
-2025-04-15 12:16:30,407 - INFO - 	 Gluon channel weight: 8.214426516445845e-19. p_restframe: 638.9202802858331, quark_weight: 6.428365767925668e-22, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,407 - INFO - 	 Strange channel weight: 1.2659162382334264e-08. p_restframe: 638.9202802858331, quark_weight: 9.906683801515071e-12, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,409 - INFO - eta eta(1405):
-2025-04-15 12:16:30,409 - INFO - 	 Gluon channel weight: 1169.783175599864. p_restframe: 690.2766929260372, quark_weight: 0.8473291852294987, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,409 - INFO - 	 Strange channel weight: 0.0. p_restframe: 690.2766929260372, quark_weight: 0.0, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,410 - INFO - omega(782) omega(782):
-2025-04-15 12:16:30,410 - INFO - 	 Gluon channel weight: 100.10504530000996. p_restframe: 942.3737710696324, quark_weight: 0.023308377682688723, spin_factor: 4.5574375875768265, isospin_factor: 1
-2025-04-15 12:16:30,410 - INFO - 	 Strange channel weight: 2.000877630297852e-07. p_restframe: 942.3737710696324, quark_weight: 4.658827271298474e-11, spin_factor: 4.5574375875768265, isospin_factor: 1
-2025-04-15 12:16:30,411 - INFO - omega(782) omega(3)(1670):
-2025-04-15 12:16:30,411 - INFO - 	 Gluon channel weight: 31.67705036760599. p_restframe: 19.03180678235011, quark_weight: 0.15267081477050132, spin_factor: 5.4510315565188945, isospin_factor: 1
-2025-04-15 12:16:30,411 - INFO - 	 Strange channel weight: 0.0. p_restframe: 19.03180678235011, quark_weight: 0.0, spin_factor: 5.4510315565188945, isospin_factor: 1
-2025-04-15 12:16:30,412 - INFO - omega(782) phi(1020):
-2025-04-15 12:16:30,412 - INFO - 	 Gluon channel weight: 973.9587785756365. p_restframe: 826.0030712006937, quark_weight: 0.12936243708781262, spin_factor: 4.5574375875768265, isospin_factor: 1
-2025-04-15 12:16:30,412 - INFO - 	 Strange channel weight: 6.31993853544493e-08. p_restframe: 826.0030712006937, quark_weight: 8.39422231386404e-12, spin_factor: 4.5574375875768265, isospin_factor: 1
-2025-04-15 12:16:30,413 - INFO - omega(782) h(1)(1170):
-2025-04-15 12:16:30,413 - INFO - 	 Gluon channel weight: 523.1209204774378. p_restframe: 733.3548333106065, quark_weight: 0.15267081477050132, spin_factor: 2.3361563813652406, isospin_factor: 1
-2025-04-15 12:16:30,413 - INFO - 	 Strange channel weight: 0.0. p_restframe: 733.3548333106065, quark_weight: 0.0, spin_factor: 2.3361563813652406, isospin_factor: 1
-2025-04-15 12:16:30,414 - INFO - omega(782) h(1)(1415):
-2025-04-15 12:16:30,414 - INFO - 	 Gluon channel weight: 8.823769224145125e-18. p_restframe: 529.3287862780251, quark_weight: 3.567768952226816e-21, spin_factor: 2.3361563813652406, isospin_factor: 1
-2025-04-15 12:16:30,414 - INFO - 	 Strange channel weight: 1.3598213729109711e-07. p_restframe: 529.3287862780251, quark_weight: 5.4982495026848777e-11, spin_factor: 2.3361563813652406, isospin_factor: 1
-2025-04-15 12:16:30,415 - INFO - omega(782) omega(1420):
-2025-04-15 12:16:30,415 - INFO - 	 Gluon channel weight: 735.1709357762018. p_restframe: 528.3011797008201, quark_weight: 0.15267081477050132, spin_factor: 4.5574375875768265, isospin_factor: 1
-2025-04-15 12:16:30,416 - INFO - 	 Strange channel weight: 0.0. p_restframe: 528.3011797008201, quark_weight: 0.0, spin_factor: 4.5574375875768265, isospin_factor: 1
-2025-04-15 12:16:30,417 - INFO - f(2)(1270) f(0)(980):
-2025-04-15 12:16:30,417 - INFO - 	 Gluon channel weight: 1202.6456581713214. p_restframe: 463.31705402429014, quark_weight: 1.0, spin_factor: 1.2978646563140226, isospin_factor: 1
-2025-04-15 12:16:30,417 - INFO - 	 Strange channel weight: 0.0. p_restframe: 463.31705402429014, quark_weight: 0, spin_factor: 1.2978646563140226, isospin_factor: 1
-2025-04-15 12:16:30,418 - INFO - K0 K~0:
-2025-04-15 12:16:30,419 - INFO - 	 Gluon channel weight: 7.263555358817975e-08. p_restframe: 1119.3785296667968, quark_weight: 6.488917882836384e-11, spin_factor: 1.0, isospin_factor: 0.5
-2025-04-15 12:16:30,419 - INFO - 	 Strange channel weight: 1119.3785296667968. p_restframe: 1119.3785296667968, quark_weight: 1, spin_factor: 1.0, isospin_factor: 0.5
-2025-04-15 12:16:30,421 - INFO - K*(892)0 K*(892)~0:
-2025-04-15 12:16:30,421 - INFO - 	 Gluon channel weight: 2.47179257049276e-07. p_restframe: 835.8320390485162, quark_weight: 6.488917882836384e-11, spin_factor: 4.5574375875768265, isospin_factor: 0.5
-2025-04-15 12:16:30,422 - INFO - 	 Strange channel weight: 3809.2523516606893. p_restframe: 835.8320390485162, quark_weight: 1, spin_factor: 4.5574375875768265, isospin_factor: 0.5
-2025-04-15 12:16:30,423 - INFO - K+ K-:
-2025-04-15 12:16:30,423 - INFO - 	 Gluon channel weight: 7.274849728410556e-08. p_restframe: 1121.1190925459257, quark_weight: 6.488917882836384e-11, spin_factor: 1.0, isospin_factor: 0.5
-2025-04-15 12:16:30,423 - INFO - 	 Strange channel weight: 1121.1190925459257. p_restframe: 1121.1190925459257, quark_weight: 1, spin_factor: 1.0, isospin_factor: 0.5
-2025-04-15 12:16:30,425 - INFO - K*(892)+ K*(892)-:
-2025-04-15 12:16:30,425 - INFO - 	 Gluon channel weight: 2.4840297134435834e-07. p_restframe: 839.9700060716455, quark_weight: 6.488917882836384e-11, spin_factor: 4.5574375875768265, isospin_factor: 0.5
-2025-04-15 12:16:30,425 - INFO - 	 Strange channel weight: 3828.110878108052. p_restframe: 839.9700060716455, quark_weight: 1, spin_factor: 4.5574375875768265, isospin_factor: 0.5
-2025-04-15 12:16:30,427 - INFO - eta'(958) eta'(958):
-2025-04-15 12:16:30,428 - INFO - 	 Gluon channel weight: 17.80129139780601. p_restframe: 763.7293182797163, quark_weight: 0.023308377682688723, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,428 - INFO - 	 Strange channel weight: 3.558082975891734e-08. p_restframe: 763.7293182797163, quark_weight: 4.658827271298474e-11, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,430 - INFO - eta'(958) f(1)(1285):
-2025-04-15 12:16:30,430 - INFO - 	 Gluon channel weight: 117.06187042144475. p_restframe: 492.32147927631416, quark_weight: 0.15267081477050132, spin_factor: 0.7787187937884135, isospin_factor: 1
-2025-04-15 12:16:30,431 - INFO - 	 Strange channel weight: 0.0. p_restframe: 492.32147927631416, quark_weight: 0.0, spin_factor: 0.7787187937884135, isospin_factor: 1
-2025-04-15 12:16:30,431 - INFO - eta'(958) f(1)(1420):
-2025-04-15 12:16:30,432 - INFO - 	 Gluon channel weight: 1.5147572445110878e-18. p_restframe: 272.6061595816207, quark_weight: 3.567768952226816e-21, spin_factor: 0.7787187937884135, isospin_factor: 1
-2025-04-15 12:16:30,432 - INFO - 	 Strange channel weight: 2.3343757339227863e-08. p_restframe: 272.6061595816207, quark_weight: 5.4982495026848777e-11, spin_factor: 0.7787187937884135, isospin_factor: 1
-2025-04-15 12:16:30,434 - INFO - eta'(958) eta(1295):
-2025-04-15 12:16:30,434 - INFO - 	 Gluon channel weight: 145.9931307469758. p_restframe: 478.1304500353798, quark_weight: 0.15267081477050132, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,434 - INFO - 	 Strange channel weight: 0.0. p_restframe: 478.1304500353798, quark_weight: 0.0, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,436 - INFO - eta'(958) eta(1475):
-2025-04-15 12:16:30,436 - INFO - 	 Gluon channel weight: 9.814337410187657e-19. p_restframe: 137.54166177243707, quark_weight: 3.567768952226816e-21, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,436 - INFO - 	 Strange channel weight: 1.5124767468775075e-08. p_restframe: 137.54166177243707, quark_weight: 5.4982495026848777e-11, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,438 - INFO - eta'(958) eta(1405):
-2025-04-15 12:16:30,438 - INFO - 	 Gluon channel weight: 95.17722223038776. p_restframe: 311.7073239356867, quark_weight: 0.15267081477050132, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,439 - INFO - 	 Strange channel weight: 0.0. p_restframe: 311.7073239356867, quark_weight: 0.0, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,439 - INFO - phi(1020) phi(1020):
-2025-04-15 12:16:30,439 - INFO - 	 Gluon channel weight: 2222.430620116027. p_restframe: 679.2085611054973, quark_weight: 0.7179667481416862, spin_factor: 4.5574375875768265, isospin_factor: 1
-2025-04-15 12:16:30,440 - INFO - 	 Strange channel weight: 4.681749859031851e-09. p_restframe: 679.2085611054973, quark_weight: 1.5124614876510334e-12, spin_factor: 4.5574375875768265, isospin_factor: 1
-2025-04-15 12:16:30,440 - INFO - phi(1020) h(1)(1170):
-2025-04-15 12:16:30,441 - INFO - 	 Gluon channel weight: 2188.1000110043756. p_restframe: 552.691895574519, quark_weight: 0.8473291852294987, spin_factor: 2.3361563813652406, isospin_factor: 1
-2025-04-15 12:16:30,441 - INFO - 	 Strange channel weight: 0.0. p_restframe: 552.691895574519, quark_weight: 0.0, spin_factor: 2.3361563813652406, isospin_factor: 1
-2025-04-15 12:16:30,442 - INFO - phi(1020) h(1)(1415):
-2025-04-15 12:16:30,442 - INFO - 	 Gluon channel weight: 4.806143254267638e-19. p_restframe: 160.0163003643596, quark_weight: 6.428365767925668e-22, spin_factor: 2.3361563813652406, isospin_factor: 1
-2025-04-15 12:16:30,442 - INFO - 	 Strange channel weight: 7.406694522949972e-09. p_restframe: 160.0163003643596, quark_weight: 9.906683801515071e-12, spin_factor: 2.3361563813652406, isospin_factor: 1
-2025-04-15 12:16:30,443 - INFO - phi(1020) omega(1420):
-2025-04-15 12:16:30,443 - INFO - 	 Gluon channel weight: 1206.8673777219967. p_restframe: 156.2631797169333, quark_weight: 0.8473291852294987, spin_factor: 4.5574375875768265, isospin_factor: 1
-2025-04-15 12:16:30,443 - INFO - 	 Strange channel weight: 0.0. p_restframe: 156.2631797169333, quark_weight: 0.0, spin_factor: 4.5574375875768265, isospin_factor: 1
-2025-04-15 12:16:30,446 - INFO - a(0)(1450)0 a(0)(980)0:
-2025-04-15 12:16:30,447 - INFO - 	 Gluon channel weight: 125.9377936125708. p_restframe: 190.81483880692545, quark_weight: 1.0, spin_factor: 1.0, isospin_factor: 0.33
-2025-04-15 12:16:30,447 - INFO - 	 Strange channel weight: 0.0. p_restframe: 190.81483880692545, quark_weight: 0, spin_factor: 1.0, isospin_factor: 0.33
-2025-04-15 12:16:30,449 - INFO - f(0)(1370) f(0)(980):
-2025-04-15 12:16:30,450 - INFO - 	 Gluon channel weight: 717.9997911733317. p_restframe: 358.99989558666584, quark_weight: 1.0, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,450 - INFO - 	 Strange channel weight: 0.0. p_restframe: 358.99989558666584, quark_weight: 0, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,450 - INFO - h(1)(1170) h(1)(1170):
-2025-04-15 12:16:30,451 - INFO - 	 Gluon channel weight: 1711.7349721247595. p_restframe: 375.5915334509019, quark_weight: 1.0, spin_factor: 4.5574375875768265, isospin_factor: 1
-2025-04-15 12:16:30,451 - INFO - 	 Strange channel weight: 0.0. p_restframe: 375.5915334509019, quark_weight: 0, spin_factor: 4.5574375875768265, isospin_factor: 1
-2025-04-15 12:16:30,455 - INFO - a(0)(980)0 a(0)(980)0:
-2025-04-15 12:16:30,455 - INFO - 	 Gluon channel weight: 242.55. p_restframe: 735.0, quark_weight: 1.0, spin_factor: 1.0, isospin_factor: 0.33
-2025-04-15 12:16:30,456 - INFO - 	 Strange channel weight: 0.0. p_restframe: 735.0, quark_weight: 0, spin_factor: 1.0, isospin_factor: 0.33
-2025-04-15 12:16:30,457 - INFO - a(0)(980)+ a(0)(980)-:
-2025-04-15 12:16:30,457 - INFO - 	 Gluon channel weight: 485.1. p_restframe: 735.0, quark_weight: 1, spin_factor: 1.0, isospin_factor: 0.33
-2025-04-15 12:16:30,458 - INFO - 	 Strange channel weight: 0.0. p_restframe: 735.0, quark_weight: 0, spin_factor: 1.0, isospin_factor: 0.33
-2025-04-15 12:16:30,459 - INFO - f(0)(980) f(0)(980):
-2025-04-15 12:16:30,460 - INFO - 	 Gluon channel weight: 721.4741852623696. p_restframe: 721.4741852623696, quark_weight: 1.0, spin_factor: 1.0, isospin_factor: 1
-2025-04-15 12:16:30,460 - INFO - 	 Strange channel weight: 0.0. p_restframe: 721.4741852623696, quark_weight: 0, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:51,664 - INFO - ScalarHadronizer instance created with scalar_mass=2450
+2025-05-05 01:24:51,901 - INFO - Invalid particle K*BR in DECAY.XML
+2025-05-05 01:24:51,902 - INFO - Invalid particle K*0R in DECAY.XML
+2025-05-05 01:24:51,903 - INFO - Invalid particle D'_1+ in DECAY.XML
+2025-05-05 01:24:51,904 - INFO - Invalid particle D'_1- in DECAY.XML
+2025-05-05 01:24:51,906 - INFO - Invalid particle D(2S)0 in DECAY.XML
+2025-05-05 01:24:51,907 - INFO - Invalid particle anti-D(2S)0 in DECAY.XML
+2025-05-05 01:24:51,908 - INFO - Invalid particle D(2S)+ in DECAY.XML
+2025-05-05 01:24:51,908 - INFO - Invalid particle D(2S)- in DECAY.XML
+2025-05-05 01:24:51,909 - INFO - Invalid particle D*(2S)0 in DECAY.XML
+2025-05-05 01:24:51,910 - INFO - Invalid particle anti-D*(2S)0 in DECAY.XML
+2025-05-05 01:24:51,911 - INFO - Invalid particle D*(2S)+ in DECAY.XML
+2025-05-05 01:24:51,912 - INFO - Invalid particle D*(2S)- in DECAY.XML
+2025-05-05 01:24:51,913 - INFO - Invalid particle K*L in DECAY.XML
+2025-05-05 01:24:51,914 - INFO - Invalid particle K*S in DECAY.XML
+2025-05-05 01:24:51,914 - INFO - Invalid particle K*BL in DECAY.XML
+2025-05-05 01:24:51,915 - INFO - Invalid particle K*BS in DECAY.XML
+2025-05-05 01:24:51,916 - INFO - Invalid particle K*0T in DECAY.XML
+2025-05-05 01:24:51,917 - INFO - Invalid particle anti-K*0T in DECAY.XML
+2025-05-05 01:24:51,918 - INFO - Invalid particle K_0*0N in DECAY.XML
+2025-05-05 01:24:51,918 - INFO - Invalid particle anti-K_0*0N in DECAY.XML
+2025-05-05 01:24:51,920 - INFO - Invalid particle Xsd in DECAY.XML
+2025-05-05 01:24:51,921 - INFO - Invalid particle anti-Xsd in DECAY.XML
+2025-05-05 01:24:51,922 - INFO - Invalid particle Xsu in DECAY.XML
+2025-05-05 01:24:51,923 - INFO - Invalid particle anti-Xsu in DECAY.XML
+2025-05-05 01:24:51,924 - INFO - Invalid particle Xss in DECAY.XML
+2025-05-05 01:24:51,925 - INFO - Invalid particle anti-Xss in DECAY.XML
+2025-05-05 01:24:51,927 - INFO - Invalid particle X_1(3872) in DECAY.XML
+2025-05-05 01:24:51,928 - INFO - Invalid particle chi_b0(3P) in DECAY.XML
+2025-05-05 01:24:51,929 - INFO - Invalid particle Upsilon_1(1D) in DECAY.XML
+2025-05-05 01:24:51,930 - INFO - Invalid particle Upsilon_3(1D) in DECAY.XML
+2025-05-05 01:24:51,931 - INFO - Invalid particle Upsilon_1(2D) in DECAY.XML
+2025-05-05 01:24:51,932 - INFO - Invalid particle Upsilon_2(2D) in DECAY.XML
+2025-05-05 01:24:51,933 - INFO - Invalid particle Upsilon_3(2D) in DECAY.XML
+2025-05-05 01:24:51,934 - INFO - Invalid particle h_b(3P) in DECAY.XML
+2025-05-05 01:24:51,935 - INFO - Invalid particle eta_b2(1D) in DECAY.XML
+2025-05-05 01:24:51,935 - INFO - Invalid particle eta_b2(2D) in DECAY.XML
+2025-05-05 01:24:51,936 - INFO - Invalid particle c-hadron in DECAY.XML
+2025-05-05 01:24:51,940 - INFO - Invalid particle Xu0 in DECAY.XML
+2025-05-05 01:24:51,941 - INFO - Invalid particle Xu+ in DECAY.XML
+2025-05-05 01:24:51,942 - INFO - Invalid particle Sigma_b0 in DECAY.XML
+2025-05-05 01:24:51,943 - INFO - Invalid particle anti-Sigma_b0 in DECAY.XML
+2025-05-05 01:24:51,944 - INFO - Invalid particle Xi'_b- in DECAY.XML
+2025-05-05 01:24:51,945 - INFO - Invalid particle anti-Xi'_b+ in DECAY.XML
+2025-05-05 01:24:51,945 - INFO - Invalid particle Xi'_b0 in DECAY.XML
+2025-05-05 01:24:51,946 - INFO - Invalid particle anti-Xi'_b0 in DECAY.XML
+2025-05-05 01:24:51,947 - INFO - Invalid particle B_0*+ in DECAY.XML
+2025-05-05 01:24:51,948 - INFO - Invalid particle B_0*- in DECAY.XML
+2025-05-05 01:24:51,949 - INFO - Invalid particle B'_1+ in DECAY.XML
+2025-05-05 01:24:51,950 - INFO - Invalid particle B'_1- in DECAY.XML
+2025-05-05 01:24:51,950 - INFO - Invalid particle B_1+ in DECAY.XML
+2025-05-05 01:24:51,951 - INFO - Invalid particle B_1- in DECAY.XML
+2025-05-05 01:24:51,952 - INFO - Invalid particle B_0*0 in DECAY.XML
+2025-05-05 01:24:51,953 - INFO - Invalid particle anti-B_0*0 in DECAY.XML
+2025-05-05 01:24:51,954 - INFO - Invalid particle B'_10 in DECAY.XML
+2025-05-05 01:24:51,955 - INFO - Invalid particle anti-B'_10 in DECAY.XML
+2025-05-05 01:24:51,956 - INFO - Invalid particle B_10 in DECAY.XML
+2025-05-05 01:24:51,957 - INFO - Invalid particle anti-B_10 in DECAY.XML
+2025-05-05 01:24:51,958 - INFO - Invalid particle B_s0*0 in DECAY.XML
+2025-05-05 01:24:51,958 - INFO - Invalid particle anti-B_s0*0 in DECAY.XML
+2025-05-05 01:24:51,959 - INFO - Invalid particle B'_s10 in DECAY.XML
+2025-05-05 01:24:51,960 - INFO - Invalid particle anti-B'_s10 in DECAY.XML
+2025-05-05 01:24:51,961 - INFO - Invalid particle B_s10 in DECAY.XML
+2025-05-05 01:24:51,962 - INFO - Invalid particle anti-B_s10 in DECAY.XML
+2025-05-05 01:24:51,963 - INFO - Invalid particle B_c*+ in DECAY.XML
+2025-05-05 01:24:51,964 - INFO - Invalid particle B_c*- in DECAY.XML
+2025-05-05 01:24:51,965 - INFO - Invalid particle B_c2*+ in DECAY.XML
+2025-05-05 01:24:51,966 - INFO - Invalid particle B_c2*- in DECAY.XML
+2025-05-05 01:24:51,967 - INFO - Invalid particle Sigma_b*0 in DECAY.XML
+2025-05-05 01:24:51,968 - INFO - Invalid particle anti-Sigma_b*0 in DECAY.XML
+2025-05-05 01:24:51,969 - INFO - Invalid particle Xi_b*- in DECAY.XML
+2025-05-05 01:24:51,970 - INFO - Invalid particle anti-Xi_b*+ in DECAY.XML
+2025-05-05 01:24:51,971 - INFO - Invalid particle Xi_b*0 in DECAY.XML
+2025-05-05 01:24:51,972 - INFO - Invalid particle anti-Xi_b*0 in DECAY.XML
+2025-05-05 01:24:51,973 - INFO - Invalid particle Omega_b*- in DECAY.XML
+2025-05-05 01:24:51,974 - INFO - Invalid particle anti-Omega_b*+ in DECAY.XML
+2025-05-05 01:24:51,975 - INFO - Invalid particle B_c0*+ in DECAY.XML
+2025-05-05 01:24:51,976 - INFO - Invalid particle B_c0*- in DECAY.XML
+2025-05-05 01:24:51,977 - INFO - Invalid particle B_c1+ in DECAY.XML
+2025-05-05 01:24:51,978 - INFO - Invalid particle B_c1- in DECAY.XML
+2025-05-05 01:24:51,979 - INFO - Invalid particle B'_c1+ in DECAY.XML
+2025-05-05 01:24:51,980 - INFO - Invalid particle B'_c1- in DECAY.XML
+2025-05-05 01:24:51,981 - INFO - Invalid particle Xi_cc*++ in DECAY.XML
+2025-05-05 01:24:51,982 - INFO - Invalid particle anti-Xi_cc*-- in DECAY.XML
+2025-05-05 01:24:51,983 - INFO - Invalid particle Xi_cc++ in DECAY.XML
+2025-05-05 01:24:51,984 - INFO - Invalid particle anti-Xi_cc-- in DECAY.XML
+2025-05-05 01:24:51,985 - INFO - Invalid particle Xi_cc*+ in DECAY.XML
+2025-05-05 01:24:51,986 - INFO - Invalid particle anti-Xi_cc*- in DECAY.XML
+2025-05-05 01:24:51,987 - INFO - Invalid particle Xi_cc+ in DECAY.XML
+2025-05-05 01:24:51,989 - INFO - Invalid particle anti-Xi_cc- in DECAY.XML
+2025-05-05 01:24:51,990 - INFO - Invalid particle Omega_cc+ in DECAY.XML
+2025-05-05 01:24:51,991 - INFO - Invalid particle anti-Omega_cc- in DECAY.XML
+2025-05-05 01:24:51,992 - INFO - Invalid particle Omega_cc*+ in DECAY.XML
+2025-05-05 01:24:51,993 - INFO - Invalid particle anti-Omega_cc*- in DECAY.XML
+2025-05-05 01:24:52,005 - INFO - pi0 pi0:
+2025-05-05 01:24:52,007 - INFO - 	 Gluon channel weight: 401.78855395716005. p_restframe: 1217.5410725974546, quark_weight: 1.0, spin_factor: 1.0, isospin_factor: 0.33
+2025-05-05 01:24:52,008 - INFO - 	 Strange channel weight: 0.0. p_restframe: 1217.5410725974546, quark_weight: 0, spin_factor: 1.0, isospin_factor: 0.33
+2025-05-05 01:24:52,010 - INFO - pi0 a(4)(1970)0:
+2025-05-05 01:24:52,011 - INFO - 	 Gluon channel weight: 0.05863708461463469. p_restframe: 417.8482921926524, quark_weight: 1.0, spin_factor: 0.00021262278501061588, isospin_factor: 0.33
+2025-05-05 01:24:52,012 - INFO - 	 Strange channel weight: 0.0. p_restframe: 417.8482921926524, quark_weight: 0, spin_factor: 0.00021262278501061588, isospin_factor: 0.33
+2025-05-05 01:24:52,016 - INFO - pi0 pi(2)(1670)0:
+2025-05-05 01:24:52,017 - INFO - 	 Gluon channel weight: 0.05029915289027438. p_restframe: 645.1778339547069, quark_weight: 1.0, spin_factor: 0.00011812376945034215, isospin_factor: 0.33
+2025-05-05 01:24:52,018 - INFO - 	 Strange channel weight: 0.0. p_restframe: 645.1778339547069, quark_weight: 0, spin_factor: 0.00011812376945034215, isospin_factor: 0.33
+2025-05-05 01:24:52,021 - INFO - pi0 a(1)(1260)0:
+2025-05-05 01:24:52,022 - INFO - 	 Gluon channel weight: 0.04256742078237434. p_restframe: 910.0072519220328, quark_weight: 1.0, spin_factor: 7.087426167020529e-05, isospin_factor: 0.33
+2025-05-05 01:24:52,023 - INFO - 	 Strange channel weight: 0.0. p_restframe: 910.0072519220328, quark_weight: 0, spin_factor: 7.087426167020529e-05, isospin_factor: 0.33
+2025-05-05 01:24:52,026 - INFO - pi0 pi(1300)0:
+2025-05-05 01:24:52,027 - INFO - 	 Gluon channel weight: 576.4786695730454. p_restframe: 873.4525296561294, quark_weight: 1.0, spin_factor: 1.0, isospin_factor: 0.33
+2025-05-05 01:24:52,028 - INFO - 	 Strange channel weight: 0.0. p_restframe: 873.4525296561294, quark_weight: 0, spin_factor: 1.0, isospin_factor: 0.33
+2025-05-05 01:24:52,031 - INFO - pi0 pi(1800)0:
+2025-05-05 01:24:52,032 - INFO - 	 Gluon channel weight: 358.78920030414344. p_restframe: 543.6200004608233, quark_weight: 1.0, spin_factor: 1.0, isospin_factor: 0.33
+2025-05-05 01:24:52,033 - INFO - 	 Strange channel weight: 0.0. p_restframe: 543.6200004608233, quark_weight: 0, spin_factor: 1.0, isospin_factor: 0.33
+2025-05-05 01:24:52,035 - INFO - pi0 a(1)(1640)0:
+2025-05-05 01:24:52,036 - INFO - 	 Gluon channel weight: 0.030685296465175586. p_restframe: 655.9909385501123, quark_weight: 1.0, spin_factor: 7.087426167020529e-05, isospin_factor: 0.33
+2025-05-05 01:24:52,037 - INFO - 	 Strange channel weight: 0.0. p_restframe: 655.9909385501123, quark_weight: 0, spin_factor: 7.087426167020529e-05, isospin_factor: 0.33
+2025-05-05 01:24:52,040 - INFO - rho(770)0 rho(770)0:
+2025-05-05 01:24:52,042 - INFO - 	 Gluon channel weight: 939.0304972250706. p_restframe: 948.4708389824118, quark_weight: 1.0, spin_factor: 3.0001417485233404, isospin_factor: 0.33
+2025-05-05 01:24:52,043 - INFO - 	 Strange channel weight: 0.0. p_restframe: 948.4708389824118, quark_weight: 0, spin_factor: 3.0001417485233404, isospin_factor: 0.33
+2025-05-05 01:24:52,046 - INFO - rho(770)0 b(1)(1235)0:
+2025-05-05 01:24:52,047 - INFO - 	 Gluon channel weight: 0.0971040422252994. p_restframe: 691.9641123958247, quark_weight: 1.0, spin_factor: 0.00021262278501061588, isospin_factor: 0.33
+2025-05-05 01:24:52,048 - INFO - 	 Strange channel weight: 0.0. p_restframe: 691.9641123958247, quark_weight: 0, spin_factor: 0.00021262278501061588, isospin_factor: 0.33
+2025-05-05 01:24:52,050 - INFO - rho(770)0 rho(1450)0:
+2025-05-05 01:24:52,051 - INFO - 	 Gluon channel weight: 942.2452870821444. p_restframe: 475.85897401999995, quark_weight: 1.0, spin_factor: 3.0001417485233404, isospin_factor: 0.33
+2025-05-05 01:24:52,052 - INFO - 	 Strange channel weight: 0.0. p_restframe: 475.85897401999995, quark_weight: 0, spin_factor: 3.0001417485233404, isospin_factor: 0.33
+2025-05-05 01:24:52,055 - INFO - a(2)(1320)0 a(0)(980)0:
+2025-05-05 01:24:52,056 - INFO - 	 Gluon channel weight: 0.03277735422964833. p_restframe: 420.4289971002592, quark_weight: 1.0, spin_factor: 0.00011812376945034215, isospin_factor: 0.33
+2025-05-05 01:24:52,057 - INFO - 	 Strange channel weight: 0.0. p_restframe: 420.4289971002592, quark_weight: 0, spin_factor: 0.00011812376945034215, isospin_factor: 0.33
+2025-05-05 01:24:52,059 - INFO - pi+ pi-:
+2025-05-05 01:24:52,060 - INFO - 	 Gluon channel weight: 803.2352135433767. p_restframe: 1217.023050823298, quark_weight: 1, spin_factor: 1.0, isospin_factor: 0.33
+2025-05-05 01:24:52,061 - INFO - 	 Strange channel weight: 0.0. p_restframe: 1217.023050823298, quark_weight: 0, spin_factor: 1.0, isospin_factor: 0.33
+2025-05-05 01:24:52,064 - INFO - rho(770)+ rho(770)-:
+2025-05-05 01:24:52,065 - INFO - 	 Gluon channel weight: 1878.3037282652242. p_restframe: 948.5934260261348, quark_weight: 1, spin_factor: 3.0001417485233404, isospin_factor: 0.33
+2025-05-05 01:24:52,066 - INFO - 	 Strange channel weight: 0.0. p_restframe: 948.5934260261348, quark_weight: 0, spin_factor: 3.0001417485233404, isospin_factor: 0.33
+2025-05-05 01:24:52,069 - INFO - eta eta:
+2025-05-05 01:24:52,070 - INFO - 	 Gluon channel weight: 789.288645545931. p_restframe: 1095.6606358521785, quark_weight: 0.7203769303366834, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,071 - INFO - 	 Strange channel weight: 8.212152755183922. p_restframe: 1095.6606358521785, quark_weight: 0.007495160897878481, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,073 - INFO - eta eta'(958):
+2025-05-05 01:24:52,074 - INFO - 	 Gluon channel weight: 271.99074608040223. p_restframe: 952.7552359552518, quark_weight: 0.14273904556803552, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,075 - INFO - 	 Strange channel weight: 79.26627362892813. p_restframe: 952.7552359552518, quark_weight: 0.04159844555955347, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,078 - INFO - eta eta(2)(1645):
+2025-05-05 01:24:52,079 - INFO - 	 Gluon channel weight: 0.1033055312124792. p_restframe: 516.064656659258, quark_weight: 0.8473291852294987, spin_factor: 0.00011812376945034215, isospin_factor: 1
+2025-05-05 01:24:52,080 - INFO - 	 Strange channel weight: 0.0. p_restframe: 516.064656659258, quark_weight: 0.0, spin_factor: 0.00011812376945034215, isospin_factor: 1
+2025-05-05 01:24:52,082 - INFO - eta eta(2)(1870):
+2025-05-05 01:24:52,082 - INFO - 	 Gluon channel weight: 0.0008542499457955539. p_restframe: 229.04658261685347, quark_weight: 0.01578679067522009, spin_factor: 0.00011812376945034215, isospin_factor: 1
+2025-05-05 01:24:52,083 - INFO - 	 Strange channel weight: 0.002656538084146404. p_restframe: 229.04658261685347, quark_weight: 0.049093606457431944, spin_factor: 0.00011812376945034215, isospin_factor: 1
+2025-05-05 01:24:52,085 - INFO - eta f(1)(1285):
+2025-05-05 01:24:52,086 - INFO - 	 Gluon channel weight: 0.09335602360785186. p_restframe: 777.269517982335, quark_weight: 0.8473291852294987, spin_factor: 7.087426167020529e-05, isospin_factor: 1
+2025-05-05 01:24:52,087 - INFO - 	 Strange channel weight: 0.0. p_restframe: 777.269517982335, quark_weight: 0.0, spin_factor: 7.087426167020529e-05, isospin_factor: 1
+2025-05-05 01:24:52,089 - INFO - eta f(1)(1420):
+2025-05-05 01:24:52,090 - INFO - 	 Gluon channel weight: 0.0015119470520361647. p_restframe: 675.653745664953, quark_weight: 0.01578679067522009, spin_factor: 7.087426167020529e-05, isospin_factor: 1
+2025-05-05 01:24:52,091 - INFO - 	 Strange channel weight: 0.004701838079961938. p_restframe: 675.653745664953, quark_weight: 0.049093606457431944, spin_factor: 7.087426167020529e-05, isospin_factor: 1
+2025-05-05 01:24:52,093 - INFO - eta eta(1295):
+2025-05-05 01:24:52,094 - INFO - 	 Gluon channel weight: 1303.8871231942505. p_restframe: 769.4100155662013, quark_weight: 0.8473291852294987, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,095 - INFO - 	 Strange channel weight: 0.0. p_restframe: 769.4100155662013, quark_weight: 0.0, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,097 - INFO - eta eta(1475):
+2025-05-05 01:24:52,098 - INFO - 	 Gluon channel weight: 20.173001446050794. p_restframe: 638.9202802858331, quark_weight: 0.01578679067522009, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,099 - INFO - 	 Strange channel weight: 62.73380159604961. p_restframe: 638.9202802858331, quark_weight: 0.049093606457431944, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,102 - INFO - eta eta(1405):
+2025-05-05 01:24:52,103 - INFO - 	 Gluon channel weight: 1169.783175599864. p_restframe: 690.2766929260372, quark_weight: 0.8473291852294987, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,104 - INFO - 	 Strange channel weight: 0.0. p_restframe: 690.2766929260372, quark_weight: 0.0, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,105 - INFO - omega(782) omega(782):
+2025-05-05 01:24:52,106 - INFO - 	 Gluon channel weight: 275.79615548494746. p_restframe: 942.3737710696324, quark_weight: 0.09754909475568926, spin_factor: 3.0001417485233404, isospin_factor: 1
+2025-05-05 01:24:52,107 - INFO - 	 Strange channel weight: 652.7369664682947. p_restframe: 942.3737710696324, quark_weight: 0.23087305216635648, spin_factor: 3.0001417485233404, isospin_factor: 1
+2025-05-05 01:24:52,109 - INFO - omega(782) omega(3)(1670):
+2025-05-05 01:24:52,110 - INFO - 	 Gluon channel weight: 0.0028830530027043303. p_restframe: 19.03180678235011, quark_weight: 0.15267081477050132, spin_factor: 0.000496119831691437, isospin_factor: 1
+2025-05-05 01:24:52,111 - INFO - 	 Strange channel weight: 0.0. p_restframe: 19.03180678235011, quark_weight: 0.0, spin_factor: 0.000496119831691437, isospin_factor: 1
+2025-05-05 01:24:52,112 - INFO - omega(782) phi(1020):
+2025-05-05 01:24:52,113 - INFO - 	 Gluon channel weight: 707.4507652378343. p_restframe: 826.0030712006937, quark_weight: 0.14273904556803552, spin_factor: 3.0001417485233404, isospin_factor: 1
+2025-05-05 01:24:52,114 - INFO - 	 Strange channel weight: 206.1724038205331. p_restframe: 826.0030712006937, quark_weight: 0.04159844555955347, spin_factor: 3.0001417485233404, isospin_factor: 1
+2025-05-05 01:24:52,116 - INFO - omega(782) h(1)(1170):
+2025-05-05 01:24:52,117 - INFO - 	 Gluon channel weight: 0.04761129344613004. p_restframe: 733.3548333106065, quark_weight: 0.15267081477050132, spin_factor: 0.00021262278501061588, isospin_factor: 1
+2025-05-05 01:24:52,118 - INFO - 	 Strange channel weight: 0.0. p_restframe: 733.3548333106065, quark_weight: 0.0, spin_factor: 0.00021262278501061588, isospin_factor: 1
+2025-05-05 01:24:52,119 - INFO - omega(782) h(1)(1415):
+2025-05-05 01:24:52,120 - INFO - 	 Gluon channel weight: 0.019722197489548215. p_restframe: 529.3287862780251, quark_weight: 0.08761732555322344, spin_factor: 0.00021262278501061588, isospin_factor: 1
+2025-05-05 01:24:52,121 - INFO - 	 Strange channel weight: 0.06133189588352693. p_restframe: 529.3287862780251, quark_weight: 0.27247149772590995, spin_factor: 0.00021262278501061588, isospin_factor: 1
+2025-05-05 01:24:52,123 - INFO - omega(782) omega(1420):
+2025-05-05 01:24:52,124 - INFO - 	 Gluon channel weight: 483.95989508127815. p_restframe: 528.3011797008201, quark_weight: 0.15267081477050132, spin_factor: 3.0001417485233404, isospin_factor: 1
+2025-05-05 01:24:52,125 - INFO - 	 Strange channel weight: 0.0. p_restframe: 528.3011797008201, quark_weight: 0.0, spin_factor: 3.0001417485233404, isospin_factor: 1
+2025-05-05 01:24:52,128 - INFO - f(2)(1270) f(0)(980):
+2025-05-05 01:24:52,129 - INFO - 	 Gluon channel weight: 0.10945751374395393. p_restframe: 463.31705402429014, quark_weight: 1.0, spin_factor: 0.00011812376945034215, isospin_factor: 1
+2025-05-05 01:24:52,130 - INFO - 	 Strange channel weight: 0.0. p_restframe: 463.31705402429014, quark_weight: 0, spin_factor: 0.00011812376945034215, isospin_factor: 1
+2025-05-05 01:24:52,132 - INFO - K0 K~0:
+2025-05-05 01:24:52,133 - INFO - 	 Gluon channel weight: 359.95307351289955. p_restframe: 1119.3785296667968, quark_weight: 0.3215651041833419, spin_factor: 1.0, isospin_factor: 0.5
+2025-05-05 01:24:52,134 - INFO - 	 Strange channel weight: 1119.3785296667968. p_restframe: 1119.3785296667968, quark_weight: 1, spin_factor: 1.0, isospin_factor: 0.5
+2025-05-05 01:24:52,136 - INFO - K*(892)0 K*(892)~0:
+2025-05-05 01:24:52,137 - INFO - 	 Gluon channel weight: 806.3613485259149. p_restframe: 835.8320390485162, quark_weight: 0.3215651041833419, spin_factor: 3.0001417485233404, isospin_factor: 0.5
+2025-05-05 01:24:52,138 - INFO - 	 Strange channel weight: 2507.6145951028443. p_restframe: 835.8320390485162, quark_weight: 1, spin_factor: 3.0001417485233404, isospin_factor: 0.5
+2025-05-05 01:24:52,141 - INFO - K+ K-:
+2025-05-05 01:24:52,142 - INFO - 	 Gluon channel weight: 360.5127777964643. p_restframe: 1121.1190925459257, quark_weight: 0.3215651041833419, spin_factor: 1.0, isospin_factor: 0.5
+2025-05-05 01:24:52,143 - INFO - 	 Strange channel weight: 1121.1190925459257. p_restframe: 1121.1190925459257, quark_weight: 1, spin_factor: 1.0, isospin_factor: 0.5
+2025-05-05 01:24:52,145 - INFO - K*(892)+ K*(892)-:
+2025-05-05 01:24:52,146 - INFO - 	 Gluon channel weight: 810.3534145308561. p_restframe: 839.9700060716455, quark_weight: 0.3215651041833419, spin_factor: 3.0001417485233404, isospin_factor: 0.5
+2025-05-05 01:24:52,147 - INFO - 	 Strange channel weight: 2520.0290827229474. p_restframe: 839.9700060716455, quark_weight: 1, spin_factor: 3.0001417485233404, isospin_factor: 0.5
+2025-05-05 01:24:52,149 - INFO - eta'(958) eta'(958):
+2025-05-05 01:24:52,150 - INFO - 	 Gluon channel weight: 74.501103636566. p_restframe: 763.7293182797163, quark_weight: 0.09754909475568926, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,151 - INFO - 	 Strange channel weight: 176.3245187401688. p_restframe: 763.7293182797163, quark_weight: 0.23087305216635648, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,153 - INFO - eta'(958) f(1)(1285):
+2025-05-05 01:24:52,154 - INFO - 	 Gluon channel weight: 0.010654261463872463. p_restframe: 492.32147927631416, quark_weight: 0.15267081477050132, spin_factor: 7.087426167020529e-05, isospin_factor: 1
+2025-05-05 01:24:52,155 - INFO - 	 Strange channel weight: 0.0. p_restframe: 492.32147927631416, quark_weight: 0.0, spin_factor: 7.087426167020529e-05, isospin_factor: 1
+2025-05-05 01:24:52,157 - INFO - eta'(958) f(1)(1420):
+2025-05-05 01:24:52,158 - INFO - 	 Gluon channel weight: 0.00338566668802083. p_restframe: 272.6061595816207, quark_weight: 0.08761732555322344, spin_factor: 7.087426167020529e-05, isospin_factor: 1
+2025-05-05 01:24:52,159 - INFO - 	 Strange channel weight: 0.01052871298525749. p_restframe: 272.6061595816207, quark_weight: 0.27247149772590995, spin_factor: 7.087426167020529e-05, isospin_factor: 1
+2025-05-05 01:24:52,161 - INFO - eta'(958) eta(1295):
+2025-05-05 01:24:52,162 - INFO - 	 Gluon channel weight: 145.9931307469758. p_restframe: 478.1304500353798, quark_weight: 0.15267081477050132, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,163 - INFO - 	 Strange channel weight: 0.0. p_restframe: 478.1304500353798, quark_weight: 0.0, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,165 - INFO - eta'(958) eta(1475):
+2025-05-05 01:24:52,166 - INFO - 	 Gluon channel weight: 24.10206511329393. p_restframe: 137.54166177243707, quark_weight: 0.08761732555322344, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,167 - INFO - 	 Strange channel weight: 74.95236516569292. p_restframe: 137.54166177243707, quark_weight: 0.27247149772590995, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,169 - INFO - eta'(958) eta(1405):
+2025-05-05 01:24:52,170 - INFO - 	 Gluon channel weight: 95.17722223038776. p_restframe: 311.7073239356867, quark_weight: 0.15267081477050132, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,171 - INFO - 	 Strange channel weight: 0.0. p_restframe: 311.7073239356867, quark_weight: 0.0, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,172 - INFO - phi(1020) phi(1020):
+2025-05-05 01:24:52,173 - INFO - 	 Gluon channel weight: 1467.9278905159872. p_restframe: 679.2085611054973, quark_weight: 0.7203769303366834, spin_factor: 3.0001417485233404, isospin_factor: 1
+2025-05-05 01:24:52,174 - INFO - 	 Strange channel weight: 15.2730539562927. p_restframe: 679.2085611054973, quark_weight: 0.007495160897878481, spin_factor: 3.0001417485233404, isospin_factor: 1
+2025-05-05 01:24:52,177 - INFO - phi(1020) h(1)(1170):
+2025-05-05 01:24:52,178 - INFO - 	 Gluon channel weight: 0.1991475921443346. p_restframe: 552.691895574519, quark_weight: 0.8473291852294987, spin_factor: 0.00021262278501061588, isospin_factor: 1
+2025-05-05 01:24:52,179 - INFO - 	 Strange channel weight: 0.0. p_restframe: 552.691895574519, quark_weight: 0.0, spin_factor: 0.00021262278501061588, isospin_factor: 1
+2025-05-05 01:24:52,180 - INFO - phi(1020) h(1)(1415):
+2025-05-05 01:24:52,181 - INFO - 	 Gluon channel weight: 0.0010742314765480468. p_restframe: 160.0163003643596, quark_weight: 0.01578679067522009, spin_factor: 0.00021262278501061588, isospin_factor: 1
+2025-05-05 01:24:52,182 - INFO - 	 Strange channel weight: 0.0033406344860590614. p_restframe: 160.0163003643596, quark_weight: 0.049093606457431944, spin_factor: 0.00021262278501061588, isospin_factor: 1
+2025-05-05 01:24:52,184 - INFO - phi(1020) omega(1420):
+2025-05-05 01:24:52,185 - INFO - 	 Gluon channel weight: 794.4756533154857. p_restframe: 156.2631797169333, quark_weight: 0.8473291852294987, spin_factor: 3.0001417485233404, isospin_factor: 1
+2025-05-05 01:24:52,186 - INFO - 	 Strange channel weight: 0.0. p_restframe: 156.2631797169333, quark_weight: 0.0, spin_factor: 3.0001417485233404, isospin_factor: 1
+2025-05-05 01:24:52,190 - INFO - a(0)(1450)0 a(0)(980)0:
+2025-05-05 01:24:52,192 - INFO - 	 Gluon channel weight: 125.9377936125708. p_restframe: 190.81483880692545, quark_weight: 1.0, spin_factor: 1.0, isospin_factor: 0.33
+2025-05-05 01:24:52,193 - INFO - 	 Strange channel weight: 0.0. p_restframe: 190.81483880692545, quark_weight: 0, spin_factor: 1.0, isospin_factor: 0.33
+2025-05-05 01:24:52,197 - INFO - f(0)(1370) f(0)(980):
+2025-05-05 01:24:52,197 - INFO - 	 Gluon channel weight: 717.9997911733317. p_restframe: 358.99989558666584, quark_weight: 1.0, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,198 - INFO - 	 Strange channel weight: 0.0. p_restframe: 358.99989558666584, quark_weight: 0, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,200 - INFO - h(1)(1170) h(1)(1170):
+2025-05-05 01:24:52,201 - INFO - 	 Gluon channel weight: 1126.8278398979517. p_restframe: 375.5915334509019, quark_weight: 1.0, spin_factor: 3.0001417485233404, isospin_factor: 1
+2025-05-05 01:24:52,202 - INFO - 	 Strange channel weight: 0.0. p_restframe: 375.5915334509019, quark_weight: 0, spin_factor: 3.0001417485233404, isospin_factor: 1
+2025-05-05 01:24:52,209 - INFO - a(0)(980)0 a(0)(980)0:
+2025-05-05 01:24:52,210 - INFO - 	 Gluon channel weight: 242.55. p_restframe: 735.0, quark_weight: 1.0, spin_factor: 1.0, isospin_factor: 0.33
+2025-05-05 01:24:52,211 - INFO - 	 Strange channel weight: 0.0. p_restframe: 735.0, quark_weight: 0, spin_factor: 1.0, isospin_factor: 0.33
+2025-05-05 01:24:52,213 - INFO - a(0)(980)+ a(0)(980)-:
+2025-05-05 01:24:52,214 - INFO - 	 Gluon channel weight: 485.1. p_restframe: 735.0, quark_weight: 1, spin_factor: 1.0, isospin_factor: 0.33
+2025-05-05 01:24:52,215 - INFO - 	 Strange channel weight: 0.0. p_restframe: 735.0, quark_weight: 0, spin_factor: 1.0, isospin_factor: 0.33
+2025-05-05 01:24:52,217 - INFO - f(0)(980) f(0)(980):
+2025-05-05 01:24:52,218 - INFO - 	 Gluon channel weight: 721.4741852623696. p_restframe: 721.4741852623696, quark_weight: 1.0, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,218 - INFO - 	 Strange channel weight: 0.0. p_restframe: 721.4741852623696, quark_weight: 0, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,278 - INFO - pi0 pi0:
+2025-05-05 01:24:52,279 - INFO - 	 Gluon channel weight: 401.78855395716005. p_restframe: 1217.5410725974546, quark_weight: 1.0, spin_factor: 1.0, isospin_factor: 0.33
+2025-05-05 01:24:52,280 - INFO - 	 Strange channel weight: 0.0. p_restframe: 1217.5410725974546, quark_weight: 0, spin_factor: 1.0, isospin_factor: 0.33
+2025-05-05 01:24:52,282 - INFO - pi0 a(4)(1970)0:
+2025-05-05 01:24:52,283 - INFO - 	 Gluon channel weight: 0.05863708461463469. p_restframe: 417.8482921926524, quark_weight: 1.0, spin_factor: 0.00021262278501061588, isospin_factor: 0.33
+2025-05-05 01:24:52,284 - INFO - 	 Strange channel weight: 0.0. p_restframe: 417.8482921926524, quark_weight: 0, spin_factor: 0.00021262278501061588, isospin_factor: 0.33
+2025-05-05 01:24:52,287 - INFO - pi0 pi(2)(1670)0:
+2025-05-05 01:24:52,288 - INFO - 	 Gluon channel weight: 0.05029915289027438. p_restframe: 645.1778339547069, quark_weight: 1.0, spin_factor: 0.00011812376945034215, isospin_factor: 0.33
+2025-05-05 01:24:52,289 - INFO - 	 Strange channel weight: 0.0. p_restframe: 645.1778339547069, quark_weight: 0, spin_factor: 0.00011812376945034215, isospin_factor: 0.33
+2025-05-05 01:24:52,292 - INFO - pi0 a(1)(1260)0:
+2025-05-05 01:24:52,293 - INFO - 	 Gluon channel weight: 0.04256742078237434. p_restframe: 910.0072519220328, quark_weight: 1.0, spin_factor: 7.087426167020529e-05, isospin_factor: 0.33
+2025-05-05 01:24:52,294 - INFO - 	 Strange channel weight: 0.0. p_restframe: 910.0072519220328, quark_weight: 0, spin_factor: 7.087426167020529e-05, isospin_factor: 0.33
+2025-05-05 01:24:52,297 - INFO - pi0 pi(1300)0:
+2025-05-05 01:24:52,298 - INFO - 	 Gluon channel weight: 576.4786695730454. p_restframe: 873.4525296561294, quark_weight: 1.0, spin_factor: 1.0, isospin_factor: 0.33
+2025-05-05 01:24:52,299 - INFO - 	 Strange channel weight: 0.0. p_restframe: 873.4525296561294, quark_weight: 0, spin_factor: 1.0, isospin_factor: 0.33
+2025-05-05 01:24:52,302 - INFO - pi0 pi(1800)0:
+2025-05-05 01:24:52,302 - INFO - 	 Gluon channel weight: 358.78920030414344. p_restframe: 543.6200004608233, quark_weight: 1.0, spin_factor: 1.0, isospin_factor: 0.33
+2025-05-05 01:24:52,303 - INFO - 	 Strange channel weight: 0.0. p_restframe: 543.6200004608233, quark_weight: 0, spin_factor: 1.0, isospin_factor: 0.33
+2025-05-05 01:24:52,305 - INFO - pi0 a(1)(1640)0:
+2025-05-05 01:24:52,306 - INFO - 	 Gluon channel weight: 0.030685296465175586. p_restframe: 655.9909385501123, quark_weight: 1.0, spin_factor: 7.087426167020529e-05, isospin_factor: 0.33
+2025-05-05 01:24:52,307 - INFO - 	 Strange channel weight: 0.0. p_restframe: 655.9909385501123, quark_weight: 0, spin_factor: 7.087426167020529e-05, isospin_factor: 0.33
+2025-05-05 01:24:52,310 - INFO - rho(770)0 rho(770)0:
+2025-05-05 01:24:52,311 - INFO - 	 Gluon channel weight: 939.0304972250706. p_restframe: 948.4708389824118, quark_weight: 1.0, spin_factor: 3.0001417485233404, isospin_factor: 0.33
+2025-05-05 01:24:52,312 - INFO - 	 Strange channel weight: 0.0. p_restframe: 948.4708389824118, quark_weight: 0, spin_factor: 3.0001417485233404, isospin_factor: 0.33
+2025-05-05 01:24:52,314 - INFO - rho(770)0 b(1)(1235)0:
+2025-05-05 01:24:52,315 - INFO - 	 Gluon channel weight: 0.0971040422252994. p_restframe: 691.9641123958247, quark_weight: 1.0, spin_factor: 0.00021262278501061588, isospin_factor: 0.33
+2025-05-05 01:24:52,316 - INFO - 	 Strange channel weight: 0.0. p_restframe: 691.9641123958247, quark_weight: 0, spin_factor: 0.00021262278501061588, isospin_factor: 0.33
+2025-05-05 01:24:52,319 - INFO - rho(770)0 rho(1450)0:
+2025-05-05 01:24:52,320 - INFO - 	 Gluon channel weight: 942.2452870821444. p_restframe: 475.85897401999995, quark_weight: 1.0, spin_factor: 3.0001417485233404, isospin_factor: 0.33
+2025-05-05 01:24:52,321 - INFO - 	 Strange channel weight: 0.0. p_restframe: 475.85897401999995, quark_weight: 0, spin_factor: 3.0001417485233404, isospin_factor: 0.33
+2025-05-05 01:24:52,324 - INFO - a(2)(1320)0 a(0)(980)0:
+2025-05-05 01:24:52,325 - INFO - 	 Gluon channel weight: 0.03277735422964833. p_restframe: 420.4289971002592, quark_weight: 1.0, spin_factor: 0.00011812376945034215, isospin_factor: 0.33
+2025-05-05 01:24:52,326 - INFO - 	 Strange channel weight: 0.0. p_restframe: 420.4289971002592, quark_weight: 0, spin_factor: 0.00011812376945034215, isospin_factor: 0.33
+2025-05-05 01:24:52,329 - INFO - pi+ pi-:
+2025-05-05 01:24:52,330 - INFO - 	 Gluon channel weight: 803.2352135433767. p_restframe: 1217.023050823298, quark_weight: 1, spin_factor: 1.0, isospin_factor: 0.33
+2025-05-05 01:24:52,330 - INFO - 	 Strange channel weight: 0.0. p_restframe: 1217.023050823298, quark_weight: 0, spin_factor: 1.0, isospin_factor: 0.33
+2025-05-05 01:24:52,333 - INFO - rho(770)+ rho(770)-:
+2025-05-05 01:24:52,334 - INFO - 	 Gluon channel weight: 1878.3037282652242. p_restframe: 948.5934260261348, quark_weight: 1, spin_factor: 3.0001417485233404, isospin_factor: 0.33
+2025-05-05 01:24:52,335 - INFO - 	 Strange channel weight: 0.0. p_restframe: 948.5934260261348, quark_weight: 0, spin_factor: 3.0001417485233404, isospin_factor: 0.33
+2025-05-05 01:24:52,338 - INFO - eta eta:
+2025-05-05 01:24:52,339 - INFO - 	 Gluon channel weight: 789.288645545931. p_restframe: 1095.6606358521785, quark_weight: 0.7203769303366834, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,341 - INFO - 	 Strange channel weight: 8.212152755183922. p_restframe: 1095.6606358521785, quark_weight: 0.007495160897878481, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,343 - INFO - eta eta'(958):
+2025-05-05 01:24:52,344 - INFO - 	 Gluon channel weight: 271.99074608040223. p_restframe: 952.7552359552518, quark_weight: 0.14273904556803552, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,345 - INFO - 	 Strange channel weight: 79.26627362892813. p_restframe: 952.7552359552518, quark_weight: 0.04159844555955347, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,347 - INFO - eta eta(2)(1645):
+2025-05-05 01:24:52,348 - INFO - 	 Gluon channel weight: 0.1033055312124792. p_restframe: 516.064656659258, quark_weight: 0.8473291852294987, spin_factor: 0.00011812376945034215, isospin_factor: 1
+2025-05-05 01:24:52,349 - INFO - 	 Strange channel weight: 0.0. p_restframe: 516.064656659258, quark_weight: 0.0, spin_factor: 0.00011812376945034215, isospin_factor: 1
+2025-05-05 01:24:52,350 - INFO - eta eta(2)(1870):
+2025-05-05 01:24:52,351 - INFO - 	 Gluon channel weight: 0.0008542499457955539. p_restframe: 229.04658261685347, quark_weight: 0.01578679067522009, spin_factor: 0.00011812376945034215, isospin_factor: 1
+2025-05-05 01:24:52,352 - INFO - 	 Strange channel weight: 0.002656538084146404. p_restframe: 229.04658261685347, quark_weight: 0.049093606457431944, spin_factor: 0.00011812376945034215, isospin_factor: 1
+2025-05-05 01:24:52,354 - INFO - eta f(1)(1285):
+2025-05-05 01:24:52,355 - INFO - 	 Gluon channel weight: 0.09335602360785186. p_restframe: 777.269517982335, quark_weight: 0.8473291852294987, spin_factor: 7.087426167020529e-05, isospin_factor: 1
+2025-05-05 01:24:52,356 - INFO - 	 Strange channel weight: 0.0. p_restframe: 777.269517982335, quark_weight: 0.0, spin_factor: 7.087426167020529e-05, isospin_factor: 1
+2025-05-05 01:24:52,357 - INFO - eta f(1)(1420):
+2025-05-05 01:24:52,358 - INFO - 	 Gluon channel weight: 0.0015119470520361647. p_restframe: 675.653745664953, quark_weight: 0.01578679067522009, spin_factor: 7.087426167020529e-05, isospin_factor: 1
+2025-05-05 01:24:52,359 - INFO - 	 Strange channel weight: 0.004701838079961938. p_restframe: 675.653745664953, quark_weight: 0.049093606457431944, spin_factor: 7.087426167020529e-05, isospin_factor: 1
+2025-05-05 01:24:52,362 - INFO - eta eta(1295):
+2025-05-05 01:24:52,363 - INFO - 	 Gluon channel weight: 1303.8871231942505. p_restframe: 769.4100155662013, quark_weight: 0.8473291852294987, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,363 - INFO - 	 Strange channel weight: 0.0. p_restframe: 769.4100155662013, quark_weight: 0.0, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,365 - INFO - eta eta(1475):
+2025-05-05 01:24:52,366 - INFO - 	 Gluon channel weight: 20.173001446050794. p_restframe: 638.9202802858331, quark_weight: 0.01578679067522009, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,367 - INFO - 	 Strange channel weight: 62.73380159604961. p_restframe: 638.9202802858331, quark_weight: 0.049093606457431944, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,370 - INFO - eta eta(1405):
+2025-05-05 01:24:52,371 - INFO - 	 Gluon channel weight: 1169.783175599864. p_restframe: 690.2766929260372, quark_weight: 0.8473291852294987, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,372 - INFO - 	 Strange channel weight: 0.0. p_restframe: 690.2766929260372, quark_weight: 0.0, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,374 - INFO - omega(782) omega(782):
+2025-05-05 01:24:52,375 - INFO - 	 Gluon channel weight: 275.79615548494746. p_restframe: 942.3737710696324, quark_weight: 0.09754909475568926, spin_factor: 3.0001417485233404, isospin_factor: 1
+2025-05-05 01:24:52,376 - INFO - 	 Strange channel weight: 652.7369664682947. p_restframe: 942.3737710696324, quark_weight: 0.23087305216635648, spin_factor: 3.0001417485233404, isospin_factor: 1
+2025-05-05 01:24:52,378 - INFO - omega(782) omega(3)(1670):
+2025-05-05 01:24:52,379 - INFO - 	 Gluon channel weight: 0.0028830530027043303. p_restframe: 19.03180678235011, quark_weight: 0.15267081477050132, spin_factor: 0.000496119831691437, isospin_factor: 1
+2025-05-05 01:24:52,380 - INFO - 	 Strange channel weight: 0.0. p_restframe: 19.03180678235011, quark_weight: 0.0, spin_factor: 0.000496119831691437, isospin_factor: 1
+2025-05-05 01:24:52,381 - INFO - omega(782) phi(1020):
+2025-05-05 01:24:52,382 - INFO - 	 Gluon channel weight: 707.4507652378343. p_restframe: 826.0030712006937, quark_weight: 0.14273904556803552, spin_factor: 3.0001417485233404, isospin_factor: 1
+2025-05-05 01:24:52,383 - INFO - 	 Strange channel weight: 206.1724038205331. p_restframe: 826.0030712006937, quark_weight: 0.04159844555955347, spin_factor: 3.0001417485233404, isospin_factor: 1
+2025-05-05 01:24:52,385 - INFO - omega(782) h(1)(1170):
+2025-05-05 01:24:52,386 - INFO - 	 Gluon channel weight: 0.04761129344613004. p_restframe: 733.3548333106065, quark_weight: 0.15267081477050132, spin_factor: 0.00021262278501061588, isospin_factor: 1
+2025-05-05 01:24:52,387 - INFO - 	 Strange channel weight: 0.0. p_restframe: 733.3548333106065, quark_weight: 0.0, spin_factor: 0.00021262278501061588, isospin_factor: 1
+2025-05-05 01:24:52,388 - INFO - omega(782) h(1)(1415):
+2025-05-05 01:24:52,389 - INFO - 	 Gluon channel weight: 0.019722197489548215. p_restframe: 529.3287862780251, quark_weight: 0.08761732555322344, spin_factor: 0.00021262278501061588, isospin_factor: 1
+2025-05-05 01:24:52,390 - INFO - 	 Strange channel weight: 0.06133189588352693. p_restframe: 529.3287862780251, quark_weight: 0.27247149772590995, spin_factor: 0.00021262278501061588, isospin_factor: 1
+2025-05-05 01:24:52,393 - INFO - omega(782) omega(1420):
+2025-05-05 01:24:52,394 - INFO - 	 Gluon channel weight: 483.95989508127815. p_restframe: 528.3011797008201, quark_weight: 0.15267081477050132, spin_factor: 3.0001417485233404, isospin_factor: 1
+2025-05-05 01:24:52,394 - INFO - 	 Strange channel weight: 0.0. p_restframe: 528.3011797008201, quark_weight: 0.0, spin_factor: 3.0001417485233404, isospin_factor: 1
+2025-05-05 01:24:52,397 - INFO - f(2)(1270) f(0)(980):
+2025-05-05 01:24:52,398 - INFO - 	 Gluon channel weight: 0.10945751374395393. p_restframe: 463.31705402429014, quark_weight: 1.0, spin_factor: 0.00011812376945034215, isospin_factor: 1
+2025-05-05 01:24:52,399 - INFO - 	 Strange channel weight: 0.0. p_restframe: 463.31705402429014, quark_weight: 0, spin_factor: 0.00011812376945034215, isospin_factor: 1
+2025-05-05 01:24:52,401 - INFO - K0 K~0:
+2025-05-05 01:24:52,402 - INFO - 	 Gluon channel weight: 359.95307351289955. p_restframe: 1119.3785296667968, quark_weight: 0.3215651041833419, spin_factor: 1.0, isospin_factor: 0.5
+2025-05-05 01:24:52,403 - INFO - 	 Strange channel weight: 1119.3785296667968. p_restframe: 1119.3785296667968, quark_weight: 1, spin_factor: 1.0, isospin_factor: 0.5
+2025-05-05 01:24:52,405 - INFO - K*(892)0 K*(892)~0:
+2025-05-05 01:24:52,406 - INFO - 	 Gluon channel weight: 806.3613485259149. p_restframe: 835.8320390485162, quark_weight: 0.3215651041833419, spin_factor: 3.0001417485233404, isospin_factor: 0.5
+2025-05-05 01:24:52,407 - INFO - 	 Strange channel weight: 2507.6145951028443. p_restframe: 835.8320390485162, quark_weight: 1, spin_factor: 3.0001417485233404, isospin_factor: 0.5
+2025-05-05 01:24:52,410 - INFO - K+ K-:
+2025-05-05 01:24:52,411 - INFO - 	 Gluon channel weight: 360.5127777964643. p_restframe: 1121.1190925459257, quark_weight: 0.3215651041833419, spin_factor: 1.0, isospin_factor: 0.5
+2025-05-05 01:24:52,412 - INFO - 	 Strange channel weight: 1121.1190925459257. p_restframe: 1121.1190925459257, quark_weight: 1, spin_factor: 1.0, isospin_factor: 0.5
+2025-05-05 01:24:52,415 - INFO - K*(892)+ K*(892)-:
+2025-05-05 01:24:52,415 - INFO - 	 Gluon channel weight: 810.3534145308561. p_restframe: 839.9700060716455, quark_weight: 0.3215651041833419, spin_factor: 3.0001417485233404, isospin_factor: 0.5
+2025-05-05 01:24:52,416 - INFO - 	 Strange channel weight: 2520.0290827229474. p_restframe: 839.9700060716455, quark_weight: 1, spin_factor: 3.0001417485233404, isospin_factor: 0.5
+2025-05-05 01:24:52,420 - INFO - eta'(958) eta'(958):
+2025-05-05 01:24:52,420 - INFO - 	 Gluon channel weight: 74.501103636566. p_restframe: 763.7293182797163, quark_weight: 0.09754909475568926, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,421 - INFO - 	 Strange channel weight: 176.3245187401688. p_restframe: 763.7293182797163, quark_weight: 0.23087305216635648, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,424 - INFO - eta'(958) f(1)(1285):
+2025-05-05 01:24:52,425 - INFO - 	 Gluon channel weight: 0.010654261463872463. p_restframe: 492.32147927631416, quark_weight: 0.15267081477050132, spin_factor: 7.087426167020529e-05, isospin_factor: 1
+2025-05-05 01:24:52,426 - INFO - 	 Strange channel weight: 0.0. p_restframe: 492.32147927631416, quark_weight: 0.0, spin_factor: 7.087426167020529e-05, isospin_factor: 1
+2025-05-05 01:24:52,428 - INFO - eta'(958) f(1)(1420):
+2025-05-05 01:24:52,429 - INFO - 	 Gluon channel weight: 0.00338566668802083. p_restframe: 272.6061595816207, quark_weight: 0.08761732555322344, spin_factor: 7.087426167020529e-05, isospin_factor: 1
+2025-05-05 01:24:52,430 - INFO - 	 Strange channel weight: 0.01052871298525749. p_restframe: 272.6061595816207, quark_weight: 0.27247149772590995, spin_factor: 7.087426167020529e-05, isospin_factor: 1
+2025-05-05 01:24:52,433 - INFO - eta'(958) eta(1295):
+2025-05-05 01:24:52,434 - INFO - 	 Gluon channel weight: 145.9931307469758. p_restframe: 478.1304500353798, quark_weight: 0.15267081477050132, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,435 - INFO - 	 Strange channel weight: 0.0. p_restframe: 478.1304500353798, quark_weight: 0.0, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,437 - INFO - eta'(958) eta(1475):
+2025-05-05 01:24:52,437 - INFO - 	 Gluon channel weight: 24.10206511329393. p_restframe: 137.54166177243707, quark_weight: 0.08761732555322344, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,438 - INFO - 	 Strange channel weight: 74.95236516569292. p_restframe: 137.54166177243707, quark_weight: 0.27247149772590995, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,440 - INFO - eta'(958) eta(1405):
+2025-05-05 01:24:52,441 - INFO - 	 Gluon channel weight: 95.17722223038776. p_restframe: 311.7073239356867, quark_weight: 0.15267081477050132, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,443 - INFO - 	 Strange channel weight: 0.0. p_restframe: 311.7073239356867, quark_weight: 0.0, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,444 - INFO - phi(1020) phi(1020):
+2025-05-05 01:24:52,445 - INFO - 	 Gluon channel weight: 1467.9278905159872. p_restframe: 679.2085611054973, quark_weight: 0.7203769303366834, spin_factor: 3.0001417485233404, isospin_factor: 1
+2025-05-05 01:24:52,446 - INFO - 	 Strange channel weight: 15.2730539562927. p_restframe: 679.2085611054973, quark_weight: 0.007495160897878481, spin_factor: 3.0001417485233404, isospin_factor: 1
+2025-05-05 01:24:52,448 - INFO - phi(1020) h(1)(1170):
+2025-05-05 01:24:52,449 - INFO - 	 Gluon channel weight: 0.1991475921443346. p_restframe: 552.691895574519, quark_weight: 0.8473291852294987, spin_factor: 0.00021262278501061588, isospin_factor: 1
+2025-05-05 01:24:52,450 - INFO - 	 Strange channel weight: 0.0. p_restframe: 552.691895574519, quark_weight: 0.0, spin_factor: 0.00021262278501061588, isospin_factor: 1
+2025-05-05 01:24:52,452 - INFO - phi(1020) h(1)(1415):
+2025-05-05 01:24:52,453 - INFO - 	 Gluon channel weight: 0.0010742314765480468. p_restframe: 160.0163003643596, quark_weight: 0.01578679067522009, spin_factor: 0.00021262278501061588, isospin_factor: 1
+2025-05-05 01:24:52,454 - INFO - 	 Strange channel weight: 0.0033406344860590614. p_restframe: 160.0163003643596, quark_weight: 0.049093606457431944, spin_factor: 0.00021262278501061588, isospin_factor: 1
+2025-05-05 01:24:52,456 - INFO - phi(1020) omega(1420):
+2025-05-05 01:24:52,457 - INFO - 	 Gluon channel weight: 794.4756533154857. p_restframe: 156.2631797169333, quark_weight: 0.8473291852294987, spin_factor: 3.0001417485233404, isospin_factor: 1
+2025-05-05 01:24:52,458 - INFO - 	 Strange channel weight: 0.0. p_restframe: 156.2631797169333, quark_weight: 0.0, spin_factor: 3.0001417485233404, isospin_factor: 1
+2025-05-05 01:24:52,462 - INFO - a(0)(1450)0 a(0)(980)0:
+2025-05-05 01:24:52,464 - INFO - 	 Gluon channel weight: 125.9377936125708. p_restframe: 190.81483880692545, quark_weight: 1.0, spin_factor: 1.0, isospin_factor: 0.33
+2025-05-05 01:24:52,465 - INFO - 	 Strange channel weight: 0.0. p_restframe: 190.81483880692545, quark_weight: 0, spin_factor: 1.0, isospin_factor: 0.33
+2025-05-05 01:24:52,469 - INFO - f(0)(1370) f(0)(980):
+2025-05-05 01:24:52,470 - INFO - 	 Gluon channel weight: 717.9997911733317. p_restframe: 358.99989558666584, quark_weight: 1.0, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,471 - INFO - 	 Strange channel weight: 0.0. p_restframe: 358.99989558666584, quark_weight: 0, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,474 - INFO - h(1)(1170) h(1)(1170):
+2025-05-05 01:24:52,475 - INFO - 	 Gluon channel weight: 1126.8278398979517. p_restframe: 375.5915334509019, quark_weight: 1.0, spin_factor: 3.0001417485233404, isospin_factor: 1
+2025-05-05 01:24:52,476 - INFO - 	 Strange channel weight: 0.0. p_restframe: 375.5915334509019, quark_weight: 0, spin_factor: 3.0001417485233404, isospin_factor: 1
+2025-05-05 01:24:52,483 - INFO - a(0)(980)0 a(0)(980)0:
+2025-05-05 01:24:52,484 - INFO - 	 Gluon channel weight: 242.55. p_restframe: 735.0, quark_weight: 1.0, spin_factor: 1.0, isospin_factor: 0.33
+2025-05-05 01:24:52,485 - INFO - 	 Strange channel weight: 0.0. p_restframe: 735.0, quark_weight: 0, spin_factor: 1.0, isospin_factor: 0.33
+2025-05-05 01:24:52,488 - INFO - a(0)(980)+ a(0)(980)-:
+2025-05-05 01:24:52,489 - INFO - 	 Gluon channel weight: 485.1. p_restframe: 735.0, quark_weight: 1, spin_factor: 1.0, isospin_factor: 0.33
+2025-05-05 01:24:52,490 - INFO - 	 Strange channel weight: 0.0. p_restframe: 735.0, quark_weight: 0, spin_factor: 1.0, isospin_factor: 0.33
+2025-05-05 01:24:52,493 - INFO - f(0)(980) f(0)(980):
+2025-05-05 01:24:52,494 - INFO - 	 Gluon channel weight: 721.4741852623696. p_restframe: 721.4741852623696, quark_weight: 1.0, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,495 - INFO - 	 Strange channel weight: 0.0. p_restframe: 721.4741852623696, quark_weight: 0, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,514 - INFO - pi0 pi0:
+2025-05-05 01:24:52,516 - INFO - 	 Gluon channel weight: 401.78855395716005. p_restframe: 1217.5410725974546, quark_weight: 1.0, spin_factor: 1.0, isospin_factor: 0.33
+2025-05-05 01:24:52,517 - INFO - 	 Strange channel weight: 0.0. p_restframe: 1217.5410725974546, quark_weight: 0, spin_factor: 1.0, isospin_factor: 0.33
+2025-05-05 01:24:52,519 - INFO - pi0 a(4)(1970)0:
+2025-05-05 01:24:52,521 - INFO - 	 Gluon channel weight: 0.05863708461463469. p_restframe: 417.8482921926524, quark_weight: 1.0, spin_factor: 0.00021262278501061588, isospin_factor: 0.33
+2025-05-05 01:24:52,522 - INFO - 	 Strange channel weight: 0.0. p_restframe: 417.8482921926524, quark_weight: 0, spin_factor: 0.00021262278501061588, isospin_factor: 0.33
+2025-05-05 01:24:52,526 - INFO - pi0 pi(2)(1670)0:
+2025-05-05 01:24:52,527 - INFO - 	 Gluon channel weight: 0.05029915289027438. p_restframe: 645.1778339547069, quark_weight: 1.0, spin_factor: 0.00011812376945034215, isospin_factor: 0.33
+2025-05-05 01:24:52,529 - INFO - 	 Strange channel weight: 0.0. p_restframe: 645.1778339547069, quark_weight: 0, spin_factor: 0.00011812376945034215, isospin_factor: 0.33
+2025-05-05 01:24:52,532 - INFO - pi0 a(1)(1260)0:
+2025-05-05 01:24:52,533 - INFO - 	 Gluon channel weight: 0.04256742078237434. p_restframe: 910.0072519220328, quark_weight: 1.0, spin_factor: 7.087426167020529e-05, isospin_factor: 0.33
+2025-05-05 01:24:52,534 - INFO - 	 Strange channel weight: 0.0. p_restframe: 910.0072519220328, quark_weight: 0, spin_factor: 7.087426167020529e-05, isospin_factor: 0.33
+2025-05-05 01:24:52,537 - INFO - pi0 pi(1300)0:
+2025-05-05 01:24:52,539 - INFO - 	 Gluon channel weight: 576.4786695730454. p_restframe: 873.4525296561294, quark_weight: 1.0, spin_factor: 1.0, isospin_factor: 0.33
+2025-05-05 01:24:52,540 - INFO - 	 Strange channel weight: 0.0. p_restframe: 873.4525296561294, quark_weight: 0, spin_factor: 1.0, isospin_factor: 0.33
+2025-05-05 01:24:52,544 - INFO - pi0 pi(1800)0:
+2025-05-05 01:24:52,545 - INFO - 	 Gluon channel weight: 358.78920030414344. p_restframe: 543.6200004608233, quark_weight: 1.0, spin_factor: 1.0, isospin_factor: 0.33
+2025-05-05 01:24:52,547 - INFO - 	 Strange channel weight: 0.0. p_restframe: 543.6200004608233, quark_weight: 0, spin_factor: 1.0, isospin_factor: 0.33
+2025-05-05 01:24:52,549 - INFO - pi0 a(1)(1640)0:
+2025-05-05 01:24:52,551 - INFO - 	 Gluon channel weight: 0.030685296465175586. p_restframe: 655.9909385501123, quark_weight: 1.0, spin_factor: 7.087426167020529e-05, isospin_factor: 0.33
+2025-05-05 01:24:52,552 - INFO - 	 Strange channel weight: 0.0. p_restframe: 655.9909385501123, quark_weight: 0, spin_factor: 7.087426167020529e-05, isospin_factor: 0.33
+2025-05-05 01:24:52,555 - INFO - rho(770)0 rho(770)0:
+2025-05-05 01:24:52,556 - INFO - 	 Gluon channel weight: 939.0304972250706. p_restframe: 948.4708389824118, quark_weight: 1.0, spin_factor: 3.0001417485233404, isospin_factor: 0.33
+2025-05-05 01:24:52,557 - INFO - 	 Strange channel weight: 0.0. p_restframe: 948.4708389824118, quark_weight: 0, spin_factor: 3.0001417485233404, isospin_factor: 0.33
+2025-05-05 01:24:52,560 - INFO - rho(770)0 b(1)(1235)0:
+2025-05-05 01:24:52,561 - INFO - 	 Gluon channel weight: 0.0971040422252994. p_restframe: 691.9641123958247, quark_weight: 1.0, spin_factor: 0.00021262278501061588, isospin_factor: 0.33
+2025-05-05 01:24:52,563 - INFO - 	 Strange channel weight: 0.0. p_restframe: 691.9641123958247, quark_weight: 0, spin_factor: 0.00021262278501061588, isospin_factor: 0.33
+2025-05-05 01:24:52,566 - INFO - rho(770)0 rho(1450)0:
+2025-05-05 01:24:52,567 - INFO - 	 Gluon channel weight: 942.2452870821444. p_restframe: 475.85897401999995, quark_weight: 1.0, spin_factor: 3.0001417485233404, isospin_factor: 0.33
+2025-05-05 01:24:52,568 - INFO - 	 Strange channel weight: 0.0. p_restframe: 475.85897401999995, quark_weight: 0, spin_factor: 3.0001417485233404, isospin_factor: 0.33
+2025-05-05 01:24:52,571 - INFO - a(2)(1320)0 a(0)(980)0:
+2025-05-05 01:24:52,573 - INFO - 	 Gluon channel weight: 0.03277735422964833. p_restframe: 420.4289971002592, quark_weight: 1.0, spin_factor: 0.00011812376945034215, isospin_factor: 0.33
+2025-05-05 01:24:52,574 - INFO - 	 Strange channel weight: 0.0. p_restframe: 420.4289971002592, quark_weight: 0, spin_factor: 0.00011812376945034215, isospin_factor: 0.33
+2025-05-05 01:24:52,576 - INFO - pi+ pi-:
+2025-05-05 01:24:52,578 - INFO - 	 Gluon channel weight: 803.2352135433767. p_restframe: 1217.023050823298, quark_weight: 1, spin_factor: 1.0, isospin_factor: 0.33
+2025-05-05 01:24:52,579 - INFO - 	 Strange channel weight: 0.0. p_restframe: 1217.023050823298, quark_weight: 0, spin_factor: 1.0, isospin_factor: 0.33
+2025-05-05 01:24:52,582 - INFO - rho(770)+ rho(770)-:
+2025-05-05 01:24:52,583 - INFO - 	 Gluon channel weight: 1878.3037282652242. p_restframe: 948.5934260261348, quark_weight: 1, spin_factor: 3.0001417485233404, isospin_factor: 0.33
+2025-05-05 01:24:52,584 - INFO - 	 Strange channel weight: 0.0. p_restframe: 948.5934260261348, quark_weight: 0, spin_factor: 3.0001417485233404, isospin_factor: 0.33
+2025-05-05 01:24:52,588 - INFO - eta eta:
+2025-05-05 01:24:52,589 - INFO - 	 Gluon channel weight: 789.288645545931. p_restframe: 1095.6606358521785, quark_weight: 0.7203769303366834, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,591 - INFO - 	 Strange channel weight: 8.212152755183922. p_restframe: 1095.6606358521785, quark_weight: 0.007495160897878481, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,593 - INFO - eta eta'(958):
+2025-05-05 01:24:52,594 - INFO - 	 Gluon channel weight: 271.99074608040223. p_restframe: 952.7552359552518, quark_weight: 0.14273904556803552, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,595 - INFO - 	 Strange channel weight: 79.26627362892813. p_restframe: 952.7552359552518, quark_weight: 0.04159844555955347, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,599 - INFO - eta eta(2)(1645):
+2025-05-05 01:24:52,600 - INFO - 	 Gluon channel weight: 0.1033055312124792. p_restframe: 516.064656659258, quark_weight: 0.8473291852294987, spin_factor: 0.00011812376945034215, isospin_factor: 1
+2025-05-05 01:24:52,601 - INFO - 	 Strange channel weight: 0.0. p_restframe: 516.064656659258, quark_weight: 0.0, spin_factor: 0.00011812376945034215, isospin_factor: 1
+2025-05-05 01:24:52,603 - INFO - eta eta(2)(1870):
+2025-05-05 01:24:52,604 - INFO - 	 Gluon channel weight: 0.0008542499457955539. p_restframe: 229.04658261685347, quark_weight: 0.01578679067522009, spin_factor: 0.00011812376945034215, isospin_factor: 1
+2025-05-05 01:24:52,605 - INFO - 	 Strange channel weight: 0.002656538084146404. p_restframe: 229.04658261685347, quark_weight: 0.049093606457431944, spin_factor: 0.00011812376945034215, isospin_factor: 1
+2025-05-05 01:24:52,608 - INFO - eta f(1)(1285):
+2025-05-05 01:24:52,609 - INFO - 	 Gluon channel weight: 0.09335602360785186. p_restframe: 777.269517982335, quark_weight: 0.8473291852294987, spin_factor: 7.087426167020529e-05, isospin_factor: 1
+2025-05-05 01:24:52,610 - INFO - 	 Strange channel weight: 0.0. p_restframe: 777.269517982335, quark_weight: 0.0, spin_factor: 7.087426167020529e-05, isospin_factor: 1
+2025-05-05 01:24:52,613 - INFO - eta f(1)(1420):
+2025-05-05 01:24:52,614 - INFO - 	 Gluon channel weight: 0.0015119470520361647. p_restframe: 675.653745664953, quark_weight: 0.01578679067522009, spin_factor: 7.087426167020529e-05, isospin_factor: 1
+2025-05-05 01:24:52,615 - INFO - 	 Strange channel weight: 0.004701838079961938. p_restframe: 675.653745664953, quark_weight: 0.049093606457431944, spin_factor: 7.087426167020529e-05, isospin_factor: 1
+2025-05-05 01:24:52,618 - INFO - eta eta(1295):
+2025-05-05 01:24:52,619 - INFO - 	 Gluon channel weight: 1303.8871231942505. p_restframe: 769.4100155662013, quark_weight: 0.8473291852294987, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,620 - INFO - 	 Strange channel weight: 0.0. p_restframe: 769.4100155662013, quark_weight: 0.0, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,622 - INFO - eta eta(1475):
+2025-05-05 01:24:52,623 - INFO - 	 Gluon channel weight: 20.173001446050794. p_restframe: 638.9202802858331, quark_weight: 0.01578679067522009, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,625 - INFO - 	 Strange channel weight: 62.73380159604961. p_restframe: 638.9202802858331, quark_weight: 0.049093606457431944, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,629 - INFO - eta eta(1405):
+2025-05-05 01:24:52,630 - INFO - 	 Gluon channel weight: 1169.783175599864. p_restframe: 690.2766929260372, quark_weight: 0.8473291852294987, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,631 - INFO - 	 Strange channel weight: 0.0. p_restframe: 690.2766929260372, quark_weight: 0.0, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,633 - INFO - omega(782) omega(782):
+2025-05-05 01:24:52,634 - INFO - 	 Gluon channel weight: 275.79615548494746. p_restframe: 942.3737710696324, quark_weight: 0.09754909475568926, spin_factor: 3.0001417485233404, isospin_factor: 1
+2025-05-05 01:24:52,635 - INFO - 	 Strange channel weight: 652.7369664682947. p_restframe: 942.3737710696324, quark_weight: 0.23087305216635648, spin_factor: 3.0001417485233404, isospin_factor: 1
+2025-05-05 01:24:52,637 - INFO - omega(782) omega(3)(1670):
+2025-05-05 01:24:52,638 - INFO - 	 Gluon channel weight: 0.0028830530027043303. p_restframe: 19.03180678235011, quark_weight: 0.15267081477050132, spin_factor: 0.000496119831691437, isospin_factor: 1
+2025-05-05 01:24:52,639 - INFO - 	 Strange channel weight: 0.0. p_restframe: 19.03180678235011, quark_weight: 0.0, spin_factor: 0.000496119831691437, isospin_factor: 1
+2025-05-05 01:24:52,641 - INFO - omega(782) phi(1020):
+2025-05-05 01:24:52,643 - INFO - 	 Gluon channel weight: 707.4507652378343. p_restframe: 826.0030712006937, quark_weight: 0.14273904556803552, spin_factor: 3.0001417485233404, isospin_factor: 1
+2025-05-05 01:24:52,644 - INFO - 	 Strange channel weight: 206.1724038205331. p_restframe: 826.0030712006937, quark_weight: 0.04159844555955347, spin_factor: 3.0001417485233404, isospin_factor: 1
+2025-05-05 01:24:52,646 - INFO - omega(782) h(1)(1170):
+2025-05-05 01:24:52,648 - INFO - 	 Gluon channel weight: 0.04761129344613004. p_restframe: 733.3548333106065, quark_weight: 0.15267081477050132, spin_factor: 0.00021262278501061588, isospin_factor: 1
+2025-05-05 01:24:52,649 - INFO - 	 Strange channel weight: 0.0. p_restframe: 733.3548333106065, quark_weight: 0.0, spin_factor: 0.00021262278501061588, isospin_factor: 1
+2025-05-05 01:24:52,651 - INFO - omega(782) h(1)(1415):
+2025-05-05 01:24:52,652 - INFO - 	 Gluon channel weight: 0.019722197489548215. p_restframe: 529.3287862780251, quark_weight: 0.08761732555322344, spin_factor: 0.00021262278501061588, isospin_factor: 1
+2025-05-05 01:24:52,653 - INFO - 	 Strange channel weight: 0.06133189588352693. p_restframe: 529.3287862780251, quark_weight: 0.27247149772590995, spin_factor: 0.00021262278501061588, isospin_factor: 1
+2025-05-05 01:24:52,656 - INFO - omega(782) omega(1420):
+2025-05-05 01:24:52,657 - INFO - 	 Gluon channel weight: 483.95989508127815. p_restframe: 528.3011797008201, quark_weight: 0.15267081477050132, spin_factor: 3.0001417485233404, isospin_factor: 1
+2025-05-05 01:24:52,658 - INFO - 	 Strange channel weight: 0.0. p_restframe: 528.3011797008201, quark_weight: 0.0, spin_factor: 3.0001417485233404, isospin_factor: 1
+2025-05-05 01:24:52,661 - INFO - f(2)(1270) f(0)(980):
+2025-05-05 01:24:52,663 - INFO - 	 Gluon channel weight: 0.10945751374395393. p_restframe: 463.31705402429014, quark_weight: 1.0, spin_factor: 0.00011812376945034215, isospin_factor: 1
+2025-05-05 01:24:52,664 - INFO - 	 Strange channel weight: 0.0. p_restframe: 463.31705402429014, quark_weight: 0, spin_factor: 0.00011812376945034215, isospin_factor: 1
+2025-05-05 01:24:52,666 - INFO - K0 K~0:
+2025-05-05 01:24:52,668 - INFO - 	 Gluon channel weight: 359.95307351289955. p_restframe: 1119.3785296667968, quark_weight: 0.3215651041833419, spin_factor: 1.0, isospin_factor: 0.5
+2025-05-05 01:24:52,669 - INFO - 	 Strange channel weight: 1119.3785296667968. p_restframe: 1119.3785296667968, quark_weight: 1, spin_factor: 1.0, isospin_factor: 0.5
+2025-05-05 01:24:52,672 - INFO - K*(892)0 K*(892)~0:
+2025-05-05 01:24:52,673 - INFO - 	 Gluon channel weight: 806.3613485259149. p_restframe: 835.8320390485162, quark_weight: 0.3215651041833419, spin_factor: 3.0001417485233404, isospin_factor: 0.5
+2025-05-05 01:24:52,674 - INFO - 	 Strange channel weight: 2507.6145951028443. p_restframe: 835.8320390485162, quark_weight: 1, spin_factor: 3.0001417485233404, isospin_factor: 0.5
+2025-05-05 01:24:52,678 - INFO - K+ K-:
+2025-05-05 01:24:52,679 - INFO - 	 Gluon channel weight: 360.5127777964643. p_restframe: 1121.1190925459257, quark_weight: 0.3215651041833419, spin_factor: 1.0, isospin_factor: 0.5
+2025-05-05 01:24:52,680 - INFO - 	 Strange channel weight: 1121.1190925459257. p_restframe: 1121.1190925459257, quark_weight: 1, spin_factor: 1.0, isospin_factor: 0.5
+2025-05-05 01:24:52,683 - INFO - K*(892)+ K*(892)-:
+2025-05-05 01:24:52,684 - INFO - 	 Gluon channel weight: 810.3534145308561. p_restframe: 839.9700060716455, quark_weight: 0.3215651041833419, spin_factor: 3.0001417485233404, isospin_factor: 0.5
+2025-05-05 01:24:52,685 - INFO - 	 Strange channel weight: 2520.0290827229474. p_restframe: 839.9700060716455, quark_weight: 1, spin_factor: 3.0001417485233404, isospin_factor: 0.5
+2025-05-05 01:24:52,689 - INFO - eta'(958) eta'(958):
+2025-05-05 01:24:52,690 - INFO - 	 Gluon channel weight: 74.501103636566. p_restframe: 763.7293182797163, quark_weight: 0.09754909475568926, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,691 - INFO - 	 Strange channel weight: 176.3245187401688. p_restframe: 763.7293182797163, quark_weight: 0.23087305216635648, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,694 - INFO - eta'(958) f(1)(1285):
+2025-05-05 01:24:52,696 - INFO - 	 Gluon channel weight: 0.010654261463872463. p_restframe: 492.32147927631416, quark_weight: 0.15267081477050132, spin_factor: 7.087426167020529e-05, isospin_factor: 1
+2025-05-05 01:24:52,697 - INFO - 	 Strange channel weight: 0.0. p_restframe: 492.32147927631416, quark_weight: 0.0, spin_factor: 7.087426167020529e-05, isospin_factor: 1
+2025-05-05 01:24:52,699 - INFO - eta'(958) f(1)(1420):
+2025-05-05 01:24:52,700 - INFO - 	 Gluon channel weight: 0.00338566668802083. p_restframe: 272.6061595816207, quark_weight: 0.08761732555322344, spin_factor: 7.087426167020529e-05, isospin_factor: 1
+2025-05-05 01:24:52,701 - INFO - 	 Strange channel weight: 0.01052871298525749. p_restframe: 272.6061595816207, quark_weight: 0.27247149772590995, spin_factor: 7.087426167020529e-05, isospin_factor: 1
+2025-05-05 01:24:52,704 - INFO - eta'(958) eta(1295):
+2025-05-05 01:24:52,705 - INFO - 	 Gluon channel weight: 145.9931307469758. p_restframe: 478.1304500353798, quark_weight: 0.15267081477050132, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,706 - INFO - 	 Strange channel weight: 0.0. p_restframe: 478.1304500353798, quark_weight: 0.0, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,709 - INFO - eta'(958) eta(1475):
+2025-05-05 01:24:52,710 - INFO - 	 Gluon channel weight: 24.10206511329393. p_restframe: 137.54166177243707, quark_weight: 0.08761732555322344, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,711 - INFO - 	 Strange channel weight: 74.95236516569292. p_restframe: 137.54166177243707, quark_weight: 0.27247149772590995, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,714 - INFO - eta'(958) eta(1405):
+2025-05-05 01:24:52,715 - INFO - 	 Gluon channel weight: 95.17722223038776. p_restframe: 311.7073239356867, quark_weight: 0.15267081477050132, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,716 - INFO - 	 Strange channel weight: 0.0. p_restframe: 311.7073239356867, quark_weight: 0.0, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,718 - INFO - phi(1020) phi(1020):
+2025-05-05 01:24:52,719 - INFO - 	 Gluon channel weight: 1467.9278905159872. p_restframe: 679.2085611054973, quark_weight: 0.7203769303366834, spin_factor: 3.0001417485233404, isospin_factor: 1
+2025-05-05 01:24:52,720 - INFO - 	 Strange channel weight: 15.2730539562927. p_restframe: 679.2085611054973, quark_weight: 0.007495160897878481, spin_factor: 3.0001417485233404, isospin_factor: 1
+2025-05-05 01:24:52,723 - INFO - phi(1020) h(1)(1170):
+2025-05-05 01:24:52,724 - INFO - 	 Gluon channel weight: 0.1991475921443346. p_restframe: 552.691895574519, quark_weight: 0.8473291852294987, spin_factor: 0.00021262278501061588, isospin_factor: 1
+2025-05-05 01:24:52,725 - INFO - 	 Strange channel weight: 0.0. p_restframe: 552.691895574519, quark_weight: 0.0, spin_factor: 0.00021262278501061588, isospin_factor: 1
+2025-05-05 01:24:52,727 - INFO - phi(1020) h(1)(1415):
+2025-05-05 01:24:52,729 - INFO - 	 Gluon channel weight: 0.0010742314765480468. p_restframe: 160.0163003643596, quark_weight: 0.01578679067522009, spin_factor: 0.00021262278501061588, isospin_factor: 1
+2025-05-05 01:24:52,730 - INFO - 	 Strange channel weight: 0.0033406344860590614. p_restframe: 160.0163003643596, quark_weight: 0.049093606457431944, spin_factor: 0.00021262278501061588, isospin_factor: 1
+2025-05-05 01:24:52,733 - INFO - phi(1020) omega(1420):
+2025-05-05 01:24:52,734 - INFO - 	 Gluon channel weight: 794.4756533154857. p_restframe: 156.2631797169333, quark_weight: 0.8473291852294987, spin_factor: 3.0001417485233404, isospin_factor: 1
+2025-05-05 01:24:52,734 - INFO - 	 Strange channel weight: 0.0. p_restframe: 156.2631797169333, quark_weight: 0.0, spin_factor: 3.0001417485233404, isospin_factor: 1
+2025-05-05 01:24:52,739 - INFO - a(0)(1450)0 a(0)(980)0:
+2025-05-05 01:24:52,740 - INFO - 	 Gluon channel weight: 125.9377936125708. p_restframe: 190.81483880692545, quark_weight: 1.0, spin_factor: 1.0, isospin_factor: 0.33
+2025-05-05 01:24:52,741 - INFO - 	 Strange channel weight: 0.0. p_restframe: 190.81483880692545, quark_weight: 0, spin_factor: 1.0, isospin_factor: 0.33
+2025-05-05 01:24:52,747 - INFO - f(0)(1370) f(0)(980):
+2025-05-05 01:24:52,748 - INFO - 	 Gluon channel weight: 717.9997911733317. p_restframe: 358.99989558666584, quark_weight: 1.0, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,749 - INFO - 	 Strange channel weight: 0.0. p_restframe: 358.99989558666584, quark_weight: 0, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,752 - INFO - h(1)(1170) h(1)(1170):
+2025-05-05 01:24:52,753 - INFO - 	 Gluon channel weight: 1126.8278398979517. p_restframe: 375.5915334509019, quark_weight: 1.0, spin_factor: 3.0001417485233404, isospin_factor: 1
+2025-05-05 01:24:52,754 - INFO - 	 Strange channel weight: 0.0. p_restframe: 375.5915334509019, quark_weight: 0, spin_factor: 3.0001417485233404, isospin_factor: 1
+2025-05-05 01:24:52,761 - INFO - a(0)(980)0 a(0)(980)0:
+2025-05-05 01:24:52,762 - INFO - 	 Gluon channel weight: 242.55. p_restframe: 735.0, quark_weight: 1.0, spin_factor: 1.0, isospin_factor: 0.33
+2025-05-05 01:24:52,763 - INFO - 	 Strange channel weight: 0.0. p_restframe: 735.0, quark_weight: 0, spin_factor: 1.0, isospin_factor: 0.33
+2025-05-05 01:24:52,766 - INFO - a(0)(980)+ a(0)(980)-:
+2025-05-05 01:24:52,767 - INFO - 	 Gluon channel weight: 485.1. p_restframe: 735.0, quark_weight: 1, spin_factor: 1.0, isospin_factor: 0.33
+2025-05-05 01:24:52,769 - INFO - 	 Strange channel weight: 0.0. p_restframe: 735.0, quark_weight: 0, spin_factor: 1.0, isospin_factor: 0.33
+2025-05-05 01:24:52,772 - INFO - f(0)(980) f(0)(980):
+2025-05-05 01:24:52,773 - INFO - 	 Gluon channel weight: 721.4741852623696. p_restframe: 721.4741852623696, quark_weight: 1.0, spin_factor: 1.0, isospin_factor: 1
+2025-05-05 01:24:52,775 - INFO - 	 Strange channel weight: 0.0. p_restframe: 721.4741852623696, quark_weight: 0, spin_factor: 1.0, isospin_factor: 1
